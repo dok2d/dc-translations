@@ -3,7 +3,7 @@
 #### DEF CON 22 Conference
 #### Deviant Ollam & Howard Payne
 
-https://www.youtube.com/watch?v=oHf1vD5_b5I
+[![](http://img.youtube.com/vi/oHf1vD5_b5I/0.jpg)](https://www.youtube.com/watch?v=oHf1vD5_b5I)
 
 Статус:
 - [x] Перевод названия
@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=oHf1vD5_b5I
 #### DEF CON 27 Conference
 #### Patrick Wardle
 
-https://www.youtube.com/watch?v=InL3YA_6P6s
+[![](http://img.youtube.com/vi/InL3YA_6P6s/0.jpg)](https://www.youtube.com/watch?v=InL3YA_6P6s)
 
 Статус:
 - [x] Перевод названия
@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=InL3YA_6P6s
 #### DEF CON 27 Conference
 #### Brent Stone
 
-https://www.youtube.com/watch?v=KkgxFplsTnM
+[![](http://img.youtube.com/vi/KkgxFplsTnM/0.jpg)](https://www.youtube.com/watch?v=KkgxFplsTnM)
 
 Статус:
 - [x] Перевод названия
@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=KkgxFplsTnM
 #### DEF CON 27 Conference
 #### WillC
 
-https://www.youtube.com/watch?v=NoZ7ujJhb3k
+[![](http://img.youtube.com/vi/NoZ7ujJhb3k/0.jpg)](https://www.youtube.com/watch?v=NoZ7ujJhb3k)
 
 Статус:
 - [x] Перевод названия
