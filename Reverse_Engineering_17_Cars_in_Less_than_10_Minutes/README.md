@@ -17,3 +17,6 @@ Brent provides a live demonstration reversing engineering 17 or more unknown pas
 
 Brent Stone
 Dr. Brent Stone is a Cyber officer with the U.S. Military. His professional experience includes 10 years of IT and cyber work in North America, the Middle East, and Asia. The focus of his PhD research was developing AI methods to help security researchers overcome the 'security through obscurity' used in the automotive industry. He presented initial findings at the 2018 IEEE Connected and Automated Vehicles Symposium and is an active member of the Open Garage's car hacking group. He holds a B.S. in Computer Science from West Point, M.S. in IT security from Carnegie-Mellon, and PhD in Computer Science from the Air Force Institute of Technology.
+
+## TODO
+Добавить английские субтитры
