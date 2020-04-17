@@ -9,9 +9,9 @@
 В этом же репозитории опубликована диссертация, объясняющая как работает код.
 
 Брент Стоун
-Доктор Брент Стоун является офицером информационной безопасности Вооружённых Сил США. Его опыт включает в себя 10 лет работы в сфере IT и информационной безопасности в Северой Америке, Среднем Востоке и Азии. 
+Доктор Брент Стоун является офицером информационной безопасности Вооружённых Сил США. Его опыт включает в себя 10 лет работы в сфере IT и информационной безопасности в Северой Америке, Среднем Востоке и Азии.
 
-Темой его PhD была разработка методов машинного обучения, которые помогли бы исследователям безопасности преодолевать защиту вида "security through obscurity" (безопасность через неясность), используемую в автомобильной индустрии. 
+Темой его PhD была разработка методов машинного обучения, которые помогли бы исследователям безопасности преодолевать защиту вида "security through obscurity" (безопасность через неясность), используемую в автомобильной индустрии.
 Он презентовал первые результаты 2018 году на симпозиуме IEEE Connected and Automated Vehicles, а также является активным членом хакерской группы Open Garage. Получил степень бакавра компьютерных наук в Военной академии США в Вест Пойнте, магистерскую степень по информационной безопасности в университете Карнеги-Меллона и PhD по компьютерным наукам в Военно-воздушном технологическом институте.
 
 ---
@@ -24,6 +24,3 @@ Brent provides a live demonstration reversing engineering 17 or more unknown pas
 
 Brent Stone
 Dr. Brent Stone is a Cyber officer with the U.S. Military. His professional experience includes 10 years of IT and cyber work in North America, the Middle East, and Asia. The focus of his PhD research was developing AI methods to help security researchers overcome the 'security through obscurity' used in the automotive industry. He presented initial findings at the 2018 IEEE Connected and Automated Vehicles Symposium and is an active member of the Open Garage's car hacking group. He holds a B.S. in Computer Science from West Point, M.S. in IT security from Carnegie-Mellon, and PhD in Computer Science from the Air Force Institute of Technology.
-
-## TODO
-Добавить английские субтитры
