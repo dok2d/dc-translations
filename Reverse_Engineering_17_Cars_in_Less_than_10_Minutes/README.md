@@ -5,7 +5,7 @@
 
 [![](http://img.youtube.com/vi/KkgxFplsTnM/0.jpg)](https://www.youtube.com/watch?v=KkgxFplsTnM)
 
-Статус:
+Статус: Готово!
 - [x] Перевод названия
 - [x] Прогон описания через онлайн-перевод
 - [x] Перевод описания
