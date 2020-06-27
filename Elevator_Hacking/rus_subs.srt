@@ -1,566 +1,527 @@
-1
+﻿1
 00:00:00,000 --> 00:00:07,667
->>All right. DEF CON 22,
-elevator hacking. I'm blown away
-people are in here right now
+Отлично. DEF CON 22, взлом лифтов. Я просто потрясен.
+Люди здесь и сейчас
 
 2
 00:00:07,667 --> 00:00:20,707
-listening to us. >> [Applause] >> We love
-you too. And we love that DEF CON
-allowed us to do this, even
+слушают нас. [аплодисменты] Мы вас тоже любим.
+И нам очень нравится что DEF CON
+позволил нам выступить,
 
 3
 00:00:20,708 --> 00:00:26,667
-though we were told it had to be
-the last talk on the last day.
-'Cause you know, breaking
+хоть нам и сказали, что это будет
+последний доклад в последний день.
+Ну вы же понимаете, взламывание вещей
 
 4
 00:00:26,667 --> 00:00:31,583
-things. So why are we here? What
-are we talking about? Why do we
-do this? Some of you know me.
+Итак, почему мы здесь? О чем мы расскажем?
+Почему мы занимаемся этим? Кто-то из вас знает меня.
 
 5
 00:00:31,583 --> 00:00:37,750
-I'm deviant. I own a pen testing
-FRM. We break into buildings. We
-do the physical side, many
+Я Дэвиант. У меня есть своя пентест-фирма. Мы вламываемся в здания. То есть мы работаем на физическом уромене
 
 6
 00:00:37,750 --> 00:00:41,833
-buildings, leverage their
-elevators as part of the
-security model. They should not
+Многие здания используют лифты
+как часть модели защиты.
+Они не должны этого делать.
 
 7
 00:00:41,833 --> 00:00:48,573
-do that. >> My name's Howard.
-I'm not here representing pain
-elevators despite the name. And
+Меня зовут Говард. Я не представляю
+Payne Elevators, несмотря на мою фамалию.
 
 8
 00:00:48,580 --> 00:00:57,040
-I do have an employer who's
-views and opinions I do not
-express.   ‑ ‑ I drink bourbon,
+Я не представляю взгляды и мнение
+своего работодателя. Я пью бурбон,
 
 9
 00:00:57,040 --> 00:01:05,880
-he drinks cheep beer. There are
-a lot of thing that is can go
-wrong with elevator hacking.
+он пьет дешёвое пиво. При взломе лифта
+многое может пойти не так.
 
 10
 00:01:05,880 --> 00:01:11,500
->> Elevators are regarded as the
-safest form of travel, based on
-miles traveled. They virtually
+Лифты считаются самой безопасной формой передвижения,
+если исходнить из количества пройденных километров.
 
 11
 00:01:11,500 --> 00:01:15,220
-always work the way they're
-expected to. Most people have
-never been injured by an
+Они практически всегда работают в соответсвии
+с ожиданиями. Большинство людей никогда
+не травмировались лифтами
 
 12
 00:01:15,220 --> 00:01:20,800
-elevator. Probably entrapped but
-not injured. Most injuries that 
-happen are people who are 
+Они могли застревать, но никто не пострадал.
+Большинство травмируемых это люди,
 
 13
 00:01:20,805 --> 00:01:26,875
-working in the mechanical
-spaces such as the hoist way
-or the shaftway, machine room. Pit.
+работающие в механизированной зоне, такой как
+шахта, машинное отделение, яма.
 
 14
 00:01:26,875 --> 00:01:32,333
-For guys like me. You can do
-really bad things to yourself
-with an elevator if you're a
+Это касается парней, вроде меня. Вы можете сделать
+с собой действительно плохие вещи, если вы полный идиот.
 
 15
 00:01:32,333 --> 00:01:38,292
-jack wagon. That leg was saved
-though. >> Yeah this leg was
-survived. Our concern is not
+Эта нога была спасена.
+- Да, эта нога была спасена.
+Нас не беспокоит,
 
 16
 00:01:38,292 --> 00:01:42,892
-that you're dumb enough to kill
-yourselves, but that you're
-going to break shit cause it's fun
+что вы достаточно глупы, чтобы убить себя,
+скорее на беспокоит, что вы сломаете что-то,
+потому что это весело.
 
 17
 00:01:49,000 --> 00:01:54,760
-(Audio muffled) So yeah the
-helicopter right? >> Escalator
-helicopter, youtube. >> It's all
+Так что да.
+Вертолет, да?
+Вертолет на эскалаторе
 
 18
 00:01:54,833 --> 00:02:04,292
-fun until you cause a felony
-criminal mischief. Thousands of
-dollars in damage.
+Это все весело, пока ты не станешь виновным в уголовном преступлении с ущербом на тысячи долларов
 
 19
 00:02:05,600 --> 00:02:14,240
-Plus criminal penalties.
->> Don't do that. In
-general, like you're going to
+Плюс само уголовное наказание.
+Не делайте этого. В целом, после этого доклада
+вы будете смотреть на лифты иначе
 
 20
 00:02:14,250 --> 00:02:18,583
-look at elevators differently
-after this talk. You're going to
-spot little things in elevators.
+Вы начнёте замечать всякие мелочи в лифтах
 
 21
 00:02:18,583 --> 00:02:23,250
-They'll tell you, if she doesn't
-want to be touched don't touch
-her. Leave it alone F. You don't
+Как говорится, "если она не хочет,
+чтобы её трогали, не трогай её"
 
 22
 00:02:23,250 --> 00:02:30,740
-know what something is, do not
-turnkey, don't do it. We're
-professionals. I'm just up here
+Если не знаешь, что произойдёт,
+не поворачивай ключ, не нужно.
+Я просто говорю смешные вещи,
 
 23
 00:02:30,740 --> 00:02:35,700
-talking silly. The things you
-see in this talk, we want you to
-learn, we don't want you to try
+но мы профессионалы. Мы хотим,
+чтобы вы знали об этих вещах,
+но мы не хотим, что вы пробовали их.
 
 24
 00:02:35,708 --> 00:02:44,000
-all of it unless you have a
-really good scoping document
-that legal prepared. >> So
+Если, конечно, у вас нет
+действительно хорошего документа,
+подготовленный юристом.
 
 25
 00:02:44,000 --> 00:02:50,500
-elevators broadly speaking fall
-into two types of categories.
-Some are hydraulic, piston
+Итак, лифты в целом делятся на два типа
+Некоторые из них гидравлические.
+Их поршень толкает снизу
 
 26
 00:02:50,500 --> 00:02:58,960
-driven from below. The other type
-are traction. They are actually steel
-cables. Traction elevator is usually
+Другой тип - тяговый. При этом используются стальные
+тросы. Тяговый лифт, как правило,
 
 27
 00:02:58,960 --> 00:03:02,700
-propelled by a motor in the
-motor room that's above the
-cab and it's
+приводимый в движение мотором в машинном отделении,
+которое находится над кабиной
 
 28
 00:03:02,700 --> 00:03:08,700
-gaining traction on the ropes
-and moving the cab and the
-counterweight system. So
+Мотор тянет тросы и двигает
+кабину с противовесом
 
 29
 00:03:08,700 --> 00:03:14,700
-elevators generally ride on two
-rails with guide rollers like
-this that you're seeing in this
+Лифты обычно ездят на двух
+рельсах с направляющими роликами типа
+тех, что вы видите на слайде
 
 30
 00:03:14,700 --> 00:03:18,658
-slide. They're not anchored in.
-Sometimes you'll see shoes
-instead of rollers like this
+Они не фиксированы.
+Иногда вы увидите направляющие башмаки
+вместо таких роликов, как здесь,
 
 31
 00:03:18,660 --> 00:03:27,800
-but the principle is the
-elevator is just guided up and
-down on these rails. The lifting
+но принцип такой:
+лифт просто движется вверх и
+вниз по этим рельсам
 
 32
 00:03:27,800 --> 00:03:33,833
-mechanism is just doing the
-work, this is just the way it's
-guided smoothly. Just think of
+Подъёмный механизм делает основную работу,
+а ролики это способ аккуратно направлять
+кабину. Думайте об этом,
 
 33
 00:03:33,833 --> 00:03:38,542
-it as sliding up and down a
-track. Most people in this room,
-their interaction to elevators
+как о скольжении вверх и вниз по
+рельсам. Большинство людей в этой комнате,
+взаимодействую с лифтами
 
 34
 00:03:38,542 --> 00:03:47,662
-is fixtures. Like you see here.
-Left is a car operating
-panel. When you push a button,
+через панели вроде этой.
+Слева работающая панель.
+Когда вы нажимаете на кнопку,
 
 35
 00:03:47,667 --> 00:03:51,917
-you're doing what's registering
-a cab call. You're telling the
-elevator exactly where you
+происходит регистрация вызова кабины.
+Вы говорите лифту, куда конкретно
+вы ходите попасть
 
 36
 00:03:51,917 --> 00:03:57,125
-want to go. Opposed to when
-you're in a hallway, you press
-the up and down button. You're
+И наоборот, когда вы в коридоре,
+вы нажимаете кнопки вверх и вниз,
 
 37
 00:03:57,125 --> 00:04:00,700
-registering a directional command
-but you're not actually telling the
-elevator where to go. That's
+вы регистрируете команды направления,
+но на самом деле вы не говорите лифту, куда ехать
 
 38
 00:04:00,700 --> 00:04:07,160
-called a hall call. There's
-direction indicators that keep
-you from being a jack wagon  ‑ ‑
+Это называется вызов из коридора.
+Кнопки указывающие направления нужны,
+чтобы вы не были говнюками
 
 39
 00:04:07,167 --> 00:04:13,500
-  ‑ ‑ please don't do that.
->> But again, all the power is
-coming from the motor room above
+Пожалуйста, не делайте этого.
+Опять же, вся мощь находится
+в моторном отсеке наверху
 
 40
 00:04:13,500 --> 00:04:21,833
-or below. So what you're seeing
-here is gear lifts tractions. I
-believe these are DC powered.
+или внизу, не в самой кабине. Итак, это
+тяговые двигатели без редуктора. Я думаю,
+эти работают от постоянного тока.
 
 41
 00:04:21,833 --> 00:04:27,733
-They are usually used in higher
-rised buildings to achieve the
-speed that's necessary to travel
+Они обычно используются в более высоких
+зданиях, чтобы достигать
+скоростей, необходимых для эффективного
 
 42
 00:04:27,740 --> 00:04:33,460
-effectively inside a high‑ rise.
-On the other end of a spectrum,
-you'll see motors that look like
+перемещения внутри высотки.
+На другом конце спектра находятся моторы
+типа этого
 
 43
 00:04:33,460 --> 00:04:38,780
-this. This is hydraulic. This is
-a very simple system. There's a
-programmer on the right side and
+Он гидравлический. Система очень простая.
+Там есть контроллер с правой стороны и
 
 44
 00:04:38,780 --> 00:04:44,980
-there's a hydraulic pump which
-lift it is elevators, you're
-never going to see hydros taller
+гидравлический насос, который
+поднимает лифты. Вы никогда не увидите
+гидравлический лифт в здании выше
 
 45
 00:04:44,980 --> 00:04:55,900
-than eight stories. >> No that
-was actually a Dover hydraulic
-HIGH (indiscernible). >> So he
+восьми этажей. - Самый высокий, что я видел,
+обслуживал 8 этажей. - Он был с тросами или без?
+- Не, это был Dover HIGHdraulic
 
 46
 00:04:55,900 --> 00:05:02,792
-mention it had controller on the
-wall. This is the brain of the
-entire unit. So what you're
+Он сказал про контроллер на
+стене. Это и есть его мозг всей системы
 
 47
 00:05:02,792 --> 00:05:07,072
-going to learn throughout this
-talk is elevators have
-varieties of sensors that  ‑ ‑  
+У лифтов есть можество разных датчиков,
+которые
 
 48
 00:05:07,080 --> 00:05:12,760
-provide input such as things
-about its current velocity, current
-position, doors open or closed.
+говорят о его текущей скорости,
+текущем положении, открыты или закрыты двери.
 
 49
 00:05:12,760 --> 00:05:18,600
-A myriad of things. Those inputs
-all feedback to the controller
-and the controller makes decisions--
+Множество параметров. Эти данные
+попадают в контроллер, и на их основании
+он принимает решения:
 
 50
 00:05:18,600 --> 00:05:24,420
-should I be driving the door
-motor. Should I be driving hoist
-motor up and down. >> We know
+Должен ли он запустить двигатель дверей?
+Должен ли он основной двигатель поднимать кабину или опускать?
 
 51
 00:05:24,420 --> 00:05:31,480
-we're talking really fast and
-we're better speakers than this
-but we want to get to all this stuff
+Мы знаем, что говорим очень быстро.
+На самом деле, мы может выступать лучше,
+но мы хотим показать всё, что у нас есть,
 
 52
 00:05:31,480 --> 00:05:36,432
-we're chattering through. The if
-you're (indiscernible) and you
-want to learn this stuff,
+поэтому мы болтаем без умолку. Если вы
+хотите разобраться в этом подробнее,
 
 53
 00:05:36,440 --> 00:05:40,960
-download the slides later. But
-we want to show you keys and
-stuff. So one. >> One of the
+скачайте слайды позже. Но
+мы хотим показать вам ключи и
+кое-что еще. Итак, номер один
 
 54
 00:05:40,960 --> 00:05:46,958
-most primitive forms of input is
-the limit switch. That's the top
-and bottom of the voice wagon.
+наиболее примитивными формами датчиков являются
+концевые выключатели или просто концевики.
+Они находятся в верхней и нижней частях шахты.
 
 55
 00:05:46,958 --> 00:05:53,738
-And they're there to indicate
-when the elevator is reaching
-the end of its rung. The fourth
+Они нужны для определения,
+когда лифт подъезжает к концу направляющей.
+Здесь вы видите три штуки рядом и четвёртый еще выше.
 
 56
 00:05:53,740 --> 00:06:02,120
-roller mounted on that. As the
-elevator is approaching the |top
-floor, it'll trip the first slow
+Два нижних - замедлители. Когда лифт приближается
+к верхнему этажу, он замыкает первый, а затем второй концевики,
 
 57
 00:06:02,120 --> 00:06:07,920
-down  ‑ ‑   ‑ ‑ the Ped speed of
-the motor until it hit that is
-third one, which is called the
+лифт начинает замедляться, скорость падает,
+пока не замкнётся третий, который называется
 
 58
 00:06:07,920 --> 00:06:12,333
-normal limit. When the
-elevator's on the normal limit,
-it's levelled on the |top floor.
+нормальный предел. Когда
+лифт на нормальном пределе,
+он находится ровно на верхнем этаже.
 
 59
 00:06:12,340 --> 00:06:18,917
-So now you're probably wondering
-(speaking simultaneously).
->> That's to basically indicate
+Вам, наверное, интересно,
+а зачем нужен четвёртый?
+Он срабатывает,
 
 60
 00:06:18,917 --> 00:06:23,837
-when the elevator's about to run
-off the rails. There's literally
-New Orleans for it to go.
+когда лифт вот-вот сойдёт с рельсов.
+То есть ему буквально больше некуда ехать.
+Это последний предел.
 
 61
 00:06:24,540 --> 00:06:30,160
->> Yeah if if the elevator hit
-that, it's not an easy fix.
-Although we saw people trying to
+Если он срабатывает, это не так просто исправить.
+Его нельзя просто выключить и включить.
+Хотя мы видели, как люди пытались это сделать
 
 62
 00:06:30,167 --> 00:06:43,833
-do that in a mall. >> This is a
-device that's called a motor
-encoder. It also spins the
+в торговом центре. - Да, видели.
+Это устройство называется энкодер.
+Двигатель при работе вращает его индикатор,
 
 63
 00:06:43,833 --> 00:06:49,750
-indicator of the motor encoder
-which allows the encoder to 
-revolutions it's made in a
+что позволяет контроллеру знать,
+сколько оборотов сделал мотор за
+определенное количество времени.
 
 64
 00:06:49,750 --> 00:06:55,083
-certain amount of time. It will
-then be able to determine how
-fast it should travel. It'll
+Благодаря ему можно вычислить скорость,
+с которой движется кабина. Она должна
 
 65
 00:06:55,083 --> 00:07:00,958
-match it up with other types of
-information. Such as. >> The
-position indicator, the elevator
+сопоставляться с данными от
+других датчиков, например,
+указателем положения, лифт
 
 66
 00:07:00,958 --> 00:07:06,125
-on the hoist way is magnetically
-or on the means actually telling
-where it is on the hoist way.
+в шахте магнитным или каким-ли другим образом
+сообщает контроллеру, где он находится
 
 67
 00:07:06,125 --> 00:07:13,760
-It's a really funny freak out of
-where it happens. If the
-elevator gets lost  ‑ ‑ relearn
+Забавно как лифт иногда сходит с ума. Если лифт потерялся
+в шахте, ему нужен способ узнать, где он находится,
+поэтому он полностью проедет шахту сверху вниз,
 
 68
 00:07:13,760 --> 00:07:18,500
-where it went wrong so if you've
-ever been in an elevator that
-didn't go you were going. And
+чтобы исправить ошибки. Возможно вы
+когда-нибудь были в лифте, который
+вдруг поехал не туда, куда вы ему сказали,
 
 69
 00:07:18,500 --> 00:07:24,740
-went all the way up and down.
-And you're like okay, it was
-not, it didn't match up with
+а просто прошел всю шахту вверх и вниз,
+и сделал вид, что всё в порядке?
+Всё дело в том, что данные с датчиков
+были несогласованы
 
 70
 00:07:24,740 --> 00:07:29,620
-what the controller thought. So
-all these inputs come together
-and if the inputs don't match,
+с тем, что думал контролер.
+Все они обрабатываются в нём и,
+если что-то не согласуется,
 
 71
 00:07:29,625 --> 00:07:35,208
-if the elevator panics, it'll
-hit the breaks and all kinds of
-things. So there are driving
+лифт паникует, он может
+остановится или сделает что-нибудь ещё.
+- В машинном отделении есть тормоза,
 
 72
 00:07:35,208 --> 00:07:40,000
-machine breaks which is sort of
-the normal breaks that when the
-elevator is at rest, the breaks
+которые держат кабину,
+когда лифт спокойно стоит в шахте
 
 73
 00:07:40,000 --> 00:07:44,667
-will be applied. When the
-elevator's moving, the breaks
-will be dropped. There are other
+Когда лифт движется,
+они отпускаются. Есть и другие
 
 74
 00:07:44,667 --> 00:07:50,583
-types of breaks. The safety.
-People probably heard a elevator
-can't free fall. That's
+виды тормозов. Экстренные.
+Люди, наверное, слышали, что лифт
+не может упасть. Это
 
 75
 00:07:50,583 --> 00:07:55,542
-generally true. Devices like
-this on the left, it's something
-called a governor. And it's a
+в целом верно. Устройства слева
+называются гувернёры
 
 76
 00:07:55,542 --> 00:08:00,542
-centrifugal device as the
-elevator speeds up, that fly
-wheel will spin faster and
+Это центробежное устройство, когда
+лифт ускоряется, маховик на оси
+будет вращаться быстрее и быстрее.
 
 77
 00:08:00,542 --> 00:08:06,833
-faster and eventually jaws will
-fly out and trip and grab the
-governor rope. That will stop
+в конце концов кулачки
+вылетят, механизм сработает, и
+кабель будет зафиксирован. Это остановит
 
 78
 00:08:06,833 --> 00:08:14,753
-the car. The device on the right is
-called a rope gripper. It prevents
-unexpected upward movement.
+кабину. Устройство справа более современное.
+Оно называется веревочный захват. Оно предотвращает
+неожиданное движение вверх.
 
 79
 00:08:14,760 --> 00:08:20,120
-People are afraid the elevator's
-free fall you should be afraid
-that it falls up. Because the
+Люди обычно боятся, что лифт упадёт вниз.
+На самом деле вы должны бояться, что он "упадёт" вверх.
 
 80
 00:08:20,125 --> 00:08:28,665
-counterweight  ‑ ‑ >> And didn't
-stop and it crashed into the
-over head. >> Yes, I believe it
+Дело в том, что противовес тяжелее кабины.
+Недавно было видео, где лифт ехал вверх не останавливаясь,
+пока не врезался в потолок.
+Да, кажется, это было
 
 81
 00:08:28,667 --> 00:08:37,480
-was from Chile This would
-have stopped that. Chile. >> Is
-understand that these mechanisms
+в Чили. Эта штука бы предотвратила это.
+В целом, мы хотим сказать, что эти механизмы
+очень простые.
 
 82
 00:08:37,480 --> 00:08:42,417
-are easy to really just figure
-out. You can see how they work
-and you can see that they're
+Вы можете посмотреть и понять, как они работают.
+вы можете видеть, что они действительно безопасны.
 
 83
 00:08:42,417 --> 00:08:48,167
-really safe. This is a demo of
-one of the rail gripper safety
-mechanism. This is what made
+Это демонстрация оригинального рельсового захвата
 
 84
 00:08:48,167 --> 00:08:56,387
-Elijah Graves Otis famous. If the
-ropes are cut the elevator won't
-plummet into free fall and this
+Это то, что сделало Элайджа Грейвс Отиса знаменитым
+Если канаты перерезать, лифт не рухнет вниз.
 
 85
 00:08:56,387 --> 00:09:03,500
-not on an American show, on
-British TV, this man is hoisted
-very very high and cutting rope.
+И это не американском шоу, это Британское телевидение,
+этот человек был поднят
+очень высоко, а потом они перерезали веревку.
 
 86
 00:09:03,500 --> 00:09:11,540
-This man doesn't fall. The cab is fine.
-Yeah. And that was a demo that
-Otis would do at world fairs.
+Этот человек не упал. Кабина в порядке.
+И это была демонстрация того, что
+Отис показывал на Всемирных ярмарках.
 
 87
 00:09:11,542 --> 00:09:15,458
-Because until he came along,
-elevatorses were unsafe. But
-nowadays they're very, very
+Потому что до него лифты действительно
+были небезопасны. Но в наши дни
+они очень безопасны.
 
 88
 00:09:15,458 --> 00:09:21,750
-safe. >> The principle behind
-the elevator existed the last
-2000  years. But there was no
+Верно. Принцип работы лифта известен уже
+около 2000 лет.
 
 89
 00:09:21,750 --> 00:09:28,917
-way to be safe. >> Your modern
-system that you saw earlier with
-the governor and such is, there
+Но у него не было систем, гарантирующих безопасность.
+Именно это изобрёл Отис. - Касательно современных системы
+типа тех, что вы видели на слайде с гувернёром.
 
 90
 00:09:28,917 --> 00:09:34,833
-are separate ropes as we called
-them. There are metal cables.
-There are separate roping
+В шахте также есть, несколько веревок, как мы их
+называем. На самом деле это металлические тросы.
+Есть отдельные системы
 
 91
 00:09:34,833 --> 00:09:40,113
-systems traveling with
-the car at all times, if that
-governor jams and grabs, it'll
+веревок, путешествующие вместе с кабиной постоянно,
+если что гувернёр захватывает трос,
 
 92
 00:09:40,120 --> 00:09:46,740
-pull up on breaking gripper
-levels and plant levers. There's
-all kinds of break shoes that
+они тянут за рычаг тормоза на кабине, будь они
+зажимными или какими-то еще.
+В системе есть масса стопоров,
 
 93
 00:09:46,740 --> 00:09:55,620
-keep you from dying If all else
-fails, the pit has buffers in it
-too. And the breaks don't work,
+чья задача - не дать вам умереть. И лифты делают это
+действительно хорошо. Если всё остальное
+откажет, в яме есть буферные пружины.
+Если кабина едет вниз, тормоза не работают,
 
 94
 00:09:55,625 --> 00:10:00,125
-if you're sliding through the
-breaks, the pit will have spring
-or oil piston buffers designed
+или зажатые тормоза проскальзывают, в яме есть пружины
+или масляные поршни, предназначенные
 
 95
 00:10:00,125 --> 00:10:05,917
@@ -589,7 +550,7 @@ you're riding like a
 99
 00:10:34,042 --> 00:10:40,042
 >> Turn that light on.
-(Inaudible) 
+(Inaudible)
 
 100
 00:10:41,420 --> 00:10:46,960
@@ -598,7 +559,7 @@ you're riding like a
 101
 00:10:51,000 --> 00:10:55,080
 People used to call it elevator
-surfing. >> 
+surfing. >>
 
 102
 00:10:57,580 --> 00:11:03,160
@@ -2295,7 +2256,7 @@ expect and pop out on another floor
 
 385
 00:40:43,020 --> 00:40:47,600
-  ‑ ‑ the culture of this office
+‑ ‑ the culture of this office
 environment such no one
 questioned us once we were in.
 
@@ -2585,7 +2546,7 @@ Indiana key. Some states aren't
 00:45:54,260 --> 00:46:00,320
 using systems that are quite so
 unrestricted. Kentucky. How many
-people go to Derbycon. I should 
+people go to Derbycon. I should
 
 434
 00:46:00,330 --> 00:46:08,800
@@ -3389,5 +3350,5 @@ wanted to keep you alive. We
 01:00:05,000 --> 01:00:09,400
 hope you learned something
 today. Thank you for letting us
-talk at DEF CON. (Applause.) 
+talk at DEF CON. (Applause.)
 
