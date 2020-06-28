@@ -1,627 +1,627 @@
-﻿00:00:00.100,00:00:05.172
->>How many people know about uh
-quantum physics? Eh, yeah? So I
-was looking at this uh I was
+00:00:00.100,00:00:05.172
+>>Как много здесь народа, кто разбирается в
+квантовой физике? М? В общем,
+перечитывал я тут конспект этого
 
 00:00:05.172,00:00:11.545
-looking at this this this talk
-synopsis and I’m like maybe this
-is gonna be a good talk. >>Maybe
+доклада и подумал: "Может быть, из
+этого выйдет неплохое выступление. 
+Наверное. Хм,
 
 00:00:11.545,00:00:16.550
-Not >>Maybe it won’t. [laughter]
-I guess I won’t really know
-until I take a look at the talk,
+а может быть, и нет.. [смех]
+Думаю, я никак этого не узнаю, 
+пока сам не увижу выступление,
 
 00:00:19.453,00:00:24.458
-yeah? Learned that from a baby
-book. Yeah. Awesome Alright so
-let’s all give Andreas a big
+так ведь? Логика как в какой-то детской 
+книжке. Ага, зашибись. В общем, давайте 
+начнем с мощных аплодисментов для
 
 00:00:26.526,00:00:31.131
-round of applause for coming all
-the way to Vegas from Sydney
-Australia to talk to us about
+Андреаса за то, что он приехал
+в Вегас аж из Австралии, 
+чтобы поговорить с нами
 
 00:00:31.131,00:00:38.005
-quantum cryptography. [applause]
-Have a good time man. >>Thank
-you very much. Alright. Welcome
+о квантовой криптографии. [аплодисменты]
+Удачи, чувак. 
+> Спасибо большое! Так... Привет 
 
 00:00:38.005,00:00:44.511
-everybody. Yeah after that
-introduction hopefully you walk
-away and learn something in this
+всем вам! Да, надеюсь, что после 
+такого вступления вы вынесете
+для себя что-то новое из этого
 
 00:00:44.511,00:00:50.651
-talk. So, um quantum computing
-if you read whatevers in the
-press you either think we are
+доклада. Так вот, квантовые компьютеры:
+если вы читали что-то об этом в прессе,
+вы наверняка считаете, что мы
 
 00:00:50.651,00:00:55.088
-completely doomed and you know,
-the internets gonna end. Or uh
-nothings gonna end because they
+совершенно обречены и, знаете,
+конец интернетам и всё такое; или же
+вы ничего такого не ожидаете, потому
 
 00:00:55.088,00:00:59.126
-will never exist so I thought I
-would explore this topic a
-little more from an algorithmic
+что их никогда не создадут. Поэтому
+я подумал, что лучше будет осветить
+эту тему скорее с алгоритмических
 
 00:00:59.126,00:01:03.196
-point of view and really see
-where we are. Not so much on the
-hype but more really what are
+позиций и посмотреть, чего мы 
+достигли сейчас. Разговор не столько 
+о хайповом, сколько об тех алгоритмах,
 
 00:01:03.196,00:01:09.436
-the algorithms uh that we talk
-about right now. So um I started
-various companies in the
+что мы сейчас имеем в виду. 
+В общем, я основатель нескольких 
+компаний в области цифровой
 
 00:01:09.436,00:01:15.175
-securities space you know
-starting in 2002 which um makes
-me feel slightly old um right
+безопасности, начиная еще с 2002
+года... а, чёрт, от этих слов
+я начинаю чувствовать себя старовато.
 
 00:01:15.175,00:01:19.580
-now, but first I am speaking at
-Defcon I am very happy about
-this y’know long term attendee
+В любом случае, в первую очередь я рад,
+что выступаю сейчас на DEFCON.
+Ну, вы знаете, я здесь уже многие годы,
 
 00:01:19.580,00:01:25.185
-but never spoke here so let’s
-get right into this. So when you
-talk about cryptography we
+но выступаю впервые, так что давайте 
+перейдем к делу. Итак, когда мы говорим 
+о криптографии, мы 
 
 00:01:25.185,00:01:30.390
-mainly y’know look into two
-different um types of
-cryptography. One is a symmetric
+обычно подразумеваем один из двух
+заметно отличающихся её видов.
+Первый - это симметричные
 
 00:01:30.390,00:01:37.331
-cryptosystem which is a
-symmetric shared key y’know kind
-of AES for example. Both sides
+криптосистемы с общим 
+симметричным ключом - 
+вроде AES. Обе стороны
 
 00:01:37.331,00:01:42.736
-encrypt and talk to each other
-with the same key and with
-asymmetric uh cryptosystems
+осуществляют шифрование и общение
+с использованием одного ключа.
+Второй - асимметричные криптосистемы,
 
 00:01:42.736,00:01:46.974
-which use public key
-infrastructure you would
-basically use a public key to
+которые используют инфраструктуру
+с публичным ключом, который 
+вы используете, чтобы
 
 00:01:46.974,00:01:52.045
-encrypt the message and a
-private key to um decrypt it. Um
-there’s various forms of this uh
+зашифровать сообщение, а затем
+расшифровываете его приватным ключом.
+Существуют, гм, различные формы этой 
 
 00:01:52.045,00:01:57.050
-obviously for the digital
-signatures as well. And um in in
-this realm um virtually every
+схемы, например, используемые 
+для цифровой подписи. И, знаете,
+практически каждая в этом мире
 
 00:01:59.186,00:02:04.291
-cryptosystem right now that is
-deployed anywhere is what we
-call computationally secure.
+криптосистема из используемых 
+прямо сейчас повсюду относится
+к "вычислительно безопасным".
+
 
 00:02:04.291,00:02:10.430
-They are secure in the sense
-that there are known algorithms
-that can break them but all the
+Они безопасны в том смысле, что,
+хотя нам известны алгоритмы, которые
+могут их взломать, но все они
 
 00:02:10.430,00:02:16.737
-algorithms that can break them
-are not easy to in the sense
-that y’know that if I wanna
+не являются легкими - в том смысле,
+что если я, знаете, попробую
 
 00:02:16.737,00:02:21.742
-break in a y’know 2048-bit RSA
-key with a normal computer takes
-me a couple trillion years which
+взломать тот же 2048-битный 
+RSA-ключ, используя обычный ПК,
+это займёт пару триллионов лет,
 
 00:02:24.111,00:02:30.417
-means I am secure even though
-there’s known algorithms that
-can break them. There are
+так что очевидно, что несмотря
+на существование алгоритмов взлома,
+фактически шифр безопасен. Есть
 
 00:02:30.417,00:02:35.722
-information-theoretic algorithms
-out there most notably an
-algorithm called um a
+также информационно-теоретические 
+алгоритмы другого плана, наиболее
+известный из них - это
 
 00:02:35.722,00:02:40.694
-one-time-pad or vernam ciphers
-but they're really tricky and
-not really practically usable
+"одноразовые шифроблокноты" или шифр
+Вернама-Виженера, но они специфичны
+и непригодны для использования на практике;
 
 00:02:40.694,00:02:46.233
-for example a one-time-pad you
-do need to use the same amount
-of keys as you want to transmit
+например, одноразовый шифр-ключ
+должен быть той же длины, что
+и исходное шифруемое сообщение:
 
 00:02:46.233,00:02:49.936
-so for example if you want to
-transmit a one megabyte file you
-need to have a one megabyte key
+так что, к примеру, если вы хотите
+передать одномегабайтный файл,
+вам потребуется одномегабайтный же ключ.
 
 00:02:49.936,00:02:55.142
-basically for every byte you
-need a different um uh for every
-byte data you need uh one byte
+Проще говоря, на каждый байт 
+изначально необходимых вам данных
+вам потребуется еще один байт
 
 00:02:55.142,00:03:00.013
-key so you would have to manage
-massive amount of uh key
-material which is not really uh
+ключа, так что вам придётся управлять
+большими объемами данных ключей,
+что чаще всего совершенно
 
 00:03:00.013,00:03:05.052
-practically but I mean they do
-exist but outside of this
-virtually every uh cryptosystem
+непрактично. То есть такие системы
+существуют, но помимо них 
+практически все криптосистемы только
 
 00:03:05.052,00:03:11.558
-is just computationally secure.
-And um uh when you look at this
-uh quantum algorithm and I’ll go
+вычислительно безопасны.
+И, если вы посмотрите на этот гм,
+квантовый алгоритм... пожалуй, я рассмотрю
 
 00:03:11.558,00:03:17.264
-into quite some detail about
-this for those two different
-types of algorithms. It is much
+несколько подробнее детали в применении
+к этим двум различным видам 
+алгоритмов. Для нас 
 
 00:03:17.264,00:03:22.235
-more interesting to look at the
-asymmetric part of the uh of the
-cryptosystems because in the
+будет гораздо интереснее
+подробнее рассматривать асимметричные 
+криптосистемы, поскольку для 
 
 00:03:22.235,00:03:28.008
-symmetric part there is a
-quantum algorithms as well
-called uh Grover which basically
+симметричных систем существует 
+так называемый алгоритм Гровера,
+который в основном представляет
 
 00:03:28.008,00:03:33.013
-looks into um a provided
-quadratic speed up to the
-classical um uh version.
+собой вариант, позволяющий находить 
+решение, аналогичное классическому,
+но с квадратичным выигрышем в скорости.
 
 00:03:35.148,00:03:38.285
-Basically in the classical
-version if I want to look for
-the shared key I need to
+По сути, в классической версии,
+если я пытаюсь найти общий ключ,
+мне нужно фактически
 
 00:03:38.285,00:03:43.123
-basically brute force every
-combination which obviously
-takes forever. I get a squared
+брутфорсом перебирать каждую
+возможную комбинацию, что занимает 
+неимоверно много времени. Мне удалось
 
 00:03:43.123,00:03:48.662
-root up um a squared speed up in
-the quantum version which is a
-fantastic speed up y’know if I
+получить квадратичное улучшение
+скорости в квантовой версии перебора,
+что, конечно, значительно, но
 
 00:03:48.662,00:03:52.866
-can speed up a hundred fifty
-trillion years but it is
-obviously a hundred fifty
+если я могу ускорить перебор, идущий
+115 триллионов лет, то это всё равно
+займет не меньше чем еще 
 
 00:03:52.866,00:03:57.604
-trillion years uh to break so
-that’s not really that
-interesting. So we want to focus
+несколько триллионов лет, так
+что это не настолько интригующе.
+Так что, пожалуй, есть смысл сосредоточиться
 
 00:03:57.604,00:04:02.843
-here on the asymmetric part
-where um uh the speed ups that
-quantum computers can provide
+на асимметричных реализациях,
+где возможное ускорение с применением
+квантовых вычислений может быть
 
 00:04:02.843,00:04:08.949
-are massive and um we’re going
-to go into quite some detail uh
-why uh their speed up is so big
+огромным, и мы сейчас рассмотрим 
+некоторые подробности того, почему
+же ускорение оказывается именно
 
 00:04:08.949,00:04:15.755
-as it is and uh how they work.
-So let’s revisit just a little
-bit of how RSA encryption works
+настолько велико и как это работает.
+Давайте для начала немного освежим в памяти,
+как именно работает шифрование RSA -
 
 00:04:15.755,00:04:21.194
-and it's really just a basic
-introduction so we can use them
-uh to understand how the quantum
+просто самые основы,
+чтобы было на что опереться
+для понимания того, как работают
 
 00:04:21.194,00:04:26.199
-versions of these algorithms
-works. Basically, I choose two
-prime numbers p and q and um uh
+квантовые версии этих алгоритмов.
+Итак, я выбираю два простых
+числа - p и q; 
 
 00:04:28.201,00:04:33.907
-with those I just multiply them
-get the number n. Now with the
-number n I can calculate this
+перемножив их, я получаю 
+число n. Теперь, используя 
+полученное число n, я могу 
 
 00:04:33.907,00:04:39.012
-lambda function which is a
-carmichael function which just a
-function I can easily calculate
+рассчитать лямбда-функцию -
+если конкретнее, функцию Кармайкла,
+которую я могу легко посчитать
 
 00:04:39.012,00:04:44.818
-this and once I have this I just
-chose another parameter e which
-is smaller than the lambda and
+и после этого я выбираю 
+еще один параметр - e -
+который меньше лямбды и 
 
 00:04:44.818,00:04:51.558
-the value. And then this n
-together with the number e is my
-public key. I can give this to
+значения функции. И затем это число
+n в сочетании с числом e и будут
+моим открытым ключом. Я могу поделиться
 
 00:04:51.558,00:04:57.264
-everybody out there who I wanna
-choose to do um uh the
-asymmetric encryption. And I
+им с кем угодно, если хочу
+заниматься с ним асимметричным
+шифрованием. И я 
 
 00:04:57.264,00:05:03.937
-basically retain my private key
-which is this uh um number d
-here which is just the modular
+при этом владею также своим закрытым
+ключом - числом d, которое
+является просто инверсией по модулю
 
 00:05:03.937,00:05:08.942
-inverse of the number e which is
-the uh public key. Obviously mod
-lambda n. There is always mod
+числа e, находящего в составе моего
+открытого ключа. Очевидное mod
+лямбда n. В этом сценарии у меня
 
 00:05:13.380,00:05:19.286
-lambda n in this uh scenario
-which is a private key that I
-retain. And with this private
+всегда есть модуль лямбда n,
+остающийся у меня закрытый ключ.
+И с этим закрытым ключом
 
 00:05:19.286,00:05:23.890
-key now with this scenario. I
-can now look into hey I can now
-encrypt something and send
+и пониманием сценария его создания
+давайте теперь рассмотрим, как мне
+теперь зашифровать что-либо и отправить,
 
 00:05:23.890,00:05:30.864
-something um from Alice to Bob
-and as everybody knows with
-asymmetric encryption I can only
+гм, как послание от Алисы Бобу.
+Как все понимают, с асимметричным 
+шифрованием я могу только
 
 00:05:30.864,00:05:35.869
-encrypt something that is
-smaller than my key so if I have
-a two four, um 2048 width key I
+зашифровать что-то, что меньше моего 
+ключа, так что с ключом длиной 2048
+я, очевидно, могу зашифровать
 
 00:05:37.971,00:05:44.778
-can only encrypt something that
-is smaller than uh 2048 um so I
-need to pad my plain text into
+только что-нибудь, не превышающее 
+по размеру 2048 бит. Так как мне
+потребуется дополнять мой текст до
 
 00:05:44.778,00:05:51.751
-um a number n so I turn this big
-M into small number m um uh
-there is various way for this
+размеров числа n, я преобразовываю
+это сообщение М в число m,
+что можно сделать различными
 
 00:05:51.751,00:05:55.455
-ways for this. Um I don’t go
-into too much detail but this is
-where the padding scheme uh
+способами. Не буду вдаваться
+в излишние детали, но это тот момент,
+когда используется схема дополнения
 
 00:05:55.455,00:06:01.661
-comes in and then I basically
-end up with this number uh small
-m. In my ciphertext my encrypted
+и затем в конечном счете
+я наконец получаю результирующее число m.
+В этом примере шифротекст создается
 
 00:06:01.661,00:06:08.435
-version’s really I just take uh
-this number m to the power of e.
-Mod n and thats basically my
+просто возведением этого числа m 
+в степень e по модулю n...
+получаем в итоге мой
 
 00:06:08.435,00:06:13.440
-ciphertext. And this is what I
-encrypt with a public key. I can
-now send this number c to uh to
+шифртекст. Именно это я могу
+теперь зашифровать открытым
+ключом. Теперь я отправлю это число c
 
 00:06:15.875,00:06:20.880
-Bob. Uh um receive this and um
-if you have the private key you
-can easily decrypt this as well
+Бобу. Он получит его и, если
+он располагает закрытым ключом,
+то сможет спокойно расшифровать
 
 00:06:23.016,00:06:28.588
-on the other side. And uh you
-can easily see how this works.
-It is really very
+полученное сообщение. В целом,
+довольно прозрачная схема.
+Все довольно-таки прямолинейно:
 
 00:06:28.588,00:06:33.893
-straightforward if someone has
-the c and the ciphertext and the
-d the private key by definition
+если кто-то владеет числом c и 
+и шифротекстом, и 
+закрытым ключом d... по определению
 
 00:06:33.893,00:06:40.300
-c is m to the power of e. So you
-see um uh the definition of d
+c - это m в степени e. So you
+see the definition of d
 was it is actually the inverse
 
 00:06:40.300,00:06:45.305
 of e so this e to the power of d
-just uh equals out. So I end up
-with m mod n so uh if I have the
+just equals out. В итоге я получаю
+m по модулю n, так что, если у меня есть
 
 00:06:47.607,00:06:53.580
-private key, I can easily
-recover um uh the uh the small m
-and obviously by just reversing
+закрытый ключ, я могу легко 
+восстановить значение m 
+и, очевидно, обратив
 
 00:06:53.580,00:06:58.585
-the padding scheme I now have my
-message again. So this basically
-how RSA encryption works into
+схему дополнения, я могу снова
+получить исходное сообщение. Вот 
+вкратце и все основные моменты того,
 
 00:07:00.553,00:07:05.558
-some detail. So my task is now I
-do have a public key because its
-public everybody knows what it
+как работает RSA. Теперь рассмотрим такую
+задачу: как, имея открытый ключ
+(очевидно из названия, доступный всем),
 
 00:07:08.495,00:07:13.933
-is. How do I turn this into
-private key. Now from the
-definitions it is really pretty
+получить из него закрытый. На словах
+это действие может казаться
+
 
 00:07:13.933,00:07:18.938
-straightforward and simple. Um I
-need to find those prime numbers
-that make up this number n. This
+простым и тривиальным. Мне
+необходимо подобрать те простые числа,
+что в сумме дают число n. Это
 
 00:07:22.342,00:07:29.049
-number n is known it is part of
-the public key. And if I can do
-this I can easily calculate
+число n является известной нам частью
+открытого ключа. И если я смогу это
+сделать, можно будет легко рассчитать
 
 00:07:29.049,00:07:35.655
-lambda n which is really uh the
-least common multiplier of
-lambda p and lambda q and from
+лямбда n - то есть, по факту,
+наименьший общий множитель
+лямбда p and лямбда q, откуда
 
 00:07:35.655,00:07:40.660
-there I can easily derive the
-private key d and uh I’m done.
-So all I need to do to basically
+я могу уже легко получить 
+закрытый ключ d, и на этом дело в шляпе.
+То есть все, что мне нужно сделать,
 
 00:07:43.029,00:07:50.003
-go from a public key to private
-key is to find those two prime
-factors p and q and um that I
+чтобы получить закрытый ключ из открытого,
+это найти два простых делителя 
+p и q, которые я выбрал еще
 
 00:07:50.003,00:07:55.141
-chose in the very beginning when
-I set up my key um uh then I
-have everything that I need to
+в самом начале при создании 
+криптографических ключей, и тогда 
+у меня будет достаточно данных
 
 00:07:55.141,00:08:00.080
-do to basically derive a private
-key from a public key. Um while
-that sounds pretty easy and
+для того, что вычислить закрытый
+ключ на основе открытого. Хотя
+это звучит довольно легко и 
 
 00:08:03.283,00:08:09.356
-straightforward actually to do
-this and to factor this number n
-into the uh prime parts p and q
+просто, на самом деле реализовать
+это и разбить число n 
+на простые множители p и q
 
 00:08:09.356,00:08:15.595
-is um is uh really really hard
-and all of the classically known
-algorithms are all from
+невероятно сложно,
+и все известные классические
+классические алгоритмы для этого
 
 00:08:15.595,00:08:21.334
-exponential complexity. Which
-means they are really really
-hard uh to solve even y’know the
+имеют экспоненциальную сложность. Что
+означает, что они крайне, крайне
+сложны для расчета; даже, знаете,
 
 00:08:21.334,00:08:26.773
-GNFS uh algorithms is uh
-slightly sub-exponential but
-still massive in style so that
+алгоритмы GNFS только слегка 
+эффективнее экспоненты, но
+все еще весьма тяжелы. Это 
 
 00:08:26.773,00:08:32.712
-gives you those assurance that
-if you use any of the asymmetric
-algorithms uh people will need
+позволяет нам считать, что 
+при использовании любых подобных
+асимметричных алгоритмов для
 
 00:08:32.712,00:08:39.185
-trillions of years to decrypt
-them so they’re fairly secure
-for generations to come. But in
+их взлома потребовались бы триллионы лет,
+что позволяло считать их вполне надежными
+и для грядущих поколений. Но в
 
 00:08:39.185,00:08:44.657
-1984 a guy called Peter Shor he
-was um uh a theoretical
-physicist came up with this
+1984 году парень по имени Питер Шор,
+физик-теоретик, 
+придумал вот такой
 
 00:08:44.657,00:08:51.297
-algorithm. If we were to use
-quantum computers. Obviously in
-1984 it was all just a theory
+алгоритм, рассчитанный на использование
+квантовых компьютеров. Конечно,
+в 1984 это было всего лишь теорией:
 
 00:08:51.297,00:08:57.737
-quantum computers didn’t exist
-and they hardly exist today um
-but the theory says he came up
+квантовые компьютеры еще не существовали
+(да и сейчас-то едва существуют),
+но на бумаге он изобрел
 
 00:08:57.737,00:09:02.842
-with an algorithm of how to
-factor those numbers in just
-polynomial time. And in just
+алгоритм, который позволял 
+факторизовать эти числа за всего лишь 
+полиномиальное время. Это совершенно
 
 00:09:02.842,00:09:09.416
-polynomial time really is a
-difference that is really almost
-incomprehensible. Because it
+колоссальная разница 
+по сравнению с экспоненциальным 
+временем. То есть, по факту,
 
 00:09:09.416,00:09:14.788
-really means instead of taking a
-trillion years on a classic
-computer with a trillion
+вместо того, чтобы использовать
+классический компьютер и потратить
+триллион лет по триллиону
 
 00:09:14.788,00:09:19.459
-operations per second. Suppose
-we have a quantum computer which
-just does a million operations
+операций в секунду, представим,
+что у нас есть квантовый компьютер,
+проводящий всего миллион операций
 
 00:09:19.459,00:09:25.165
-per second. I can actually do
-the same thing in just ten
-seconds. So the difference
+в секунду. И он может сделать то же 
+самое за всего-то десять секунд.
+Так что различие между
 
 00:09:25.165,00:09:30.570
-between exponential complexity
-and polynomial complexity is
-just out of this world and then
+экспоненциальной и полиномиальной
+сложностями алгоритмов
+просто космическое, поэтому,
 
 00:09:30.570,00:09:35.842
-obviously if we could run this
-algorithm it would pose a big
-threat to um basically the whole
+очевидно, если бы мы могли запустить 
+этот алгоритм, это представляло 
+бы большую угрозу практически любым
 
 00:09:35.842,00:09:40.847
-cryptosystems as it is deployed
-because the base of this whether
-it is um for RSA or elliptic
+развернутым ныне криптосистемам,
+так как они все основаны на асимметричном 
+шифровании, будь то RSA или эллиптические
 
 00:09:44.417,00:09:50.190
-curves or for digital signatures
-ECDSA which is using bitcoin or
-for uh a key exchange like
+кривые, или цифровые
+подписи ECDSA, используемые в bitcoin,
+или протоколы обмена ключами вроде
 
 00:09:50.190,00:09:55.195
-Diffie-Hellman which is mainly
-used in everywhere you go uh on
-SSL or TLS exchanges so the base
+протокола Диффи-Хеллмана, используемые
+повсеместно в тех же SSL или TLS-соединениях,
+так что можно сказать, что
 
 00:09:57.197,00:10:01.835
-foundation of this is used
-virtually everywhere in today’s
-internet. So they would be a big
+это лежит в основе практически
+всего современного интернета.
+Это была бы чертовски масштабная
 
 00:10:01.835,00:10:08.808
-threat. So let’s explore a
-little bit um how Peter Shor
-came up with his algorithms.
+угроза. Теперь давайте немного
+разберемся в том, как Питер Шор
+пришел к придуманным им алгоритмам.
 
 00:10:08.808,00:10:15.248
-What is actually needed and how
-they work in uh in reality. So
-now we need to a did a little
+Что для них нужно и как они 
+работают в реальной жизни. Сейчас
+нам придется немного разобраться с тем,
 
 00:10:15.248,00:10:21.187
-bit of an introduction into
-quantum computing and it only
-gets as deep as I thought we
+как вообще работают квантовые
+вычисления, и чем больше я об этом 
+сейчас думаю, тем глубже мне, кажется,
 
 00:10:21.187,00:10:26.759
-need to go to understand how
-Shor’s algorithm works and uh
-what we need to understand and
+придется погрузиться в эту тему, чтобы 
+иметь возможность понять, как вообще
+работает алгоритм Шора, 
 
 00:10:26.759,00:10:31.798
-um uh so hopefully it-its not
-its not too bad. So basically
-there are two main types of
+так что, надеюсь, это 
+не будет чересчур для вас. В общем,
+сейчас существует два основных
 
 00:10:31.798,00:10:37.604
-quantum computers right now. One
-is called gate based quantum
-computers. That’s a big chunk
+типа квантовых компьютеров. Первый - это 
+компьютеры на основе квантовых вентилей.
+Это заметная доля от того,
 
 00:10:37.604,00:10:42.909
-what everybody’s working on. All
-the big guys IBM, Intel,
-Microsoft, Alibaba they all
+над чем сейчас все работают. Все 
+большие шишки вроде IBM, Intel,
+Microsoft, Alibaba заняты
 
 00:10:42.909,00:10:47.714
-working on gate based quantum
-computing which is called
-universal quantum computing
+именно компьютерами на квантовых
+вентилях, которые еще называют
+универсальными квантовыми компьютерами,
 
 00:10:47.714,00:10:52.452
-because I can solve virtually
-any problem similar to a
-classical computing on this
+поскольку они должны быть способны
+решать практически любые задачи, 
+подобно классическим
 
 00:10:52.452,00:10:58.958
-computer. There is a different
-computer um uh called quantum
-annealers or Adiabatic quantum
+компьютерам. Другой возможный подход - 
+это так называемый "квантовый отжиг",
+или адиабатические квантовые
 
 00:10:58.958,00:11:03.997
-computing which is was the first
-quantum computer that was
-available was from D-wave. And
+вычисления - таким был первый
+рабочий квантовый компьютер,
+созданный проектом D-wave. И
 
 00:11:03.997,00:11:09.002
-D-wave computer this adiabatic
-quantum computer is not a
-general quantum computer. You
+компьютер D-wave - это именно
+адиабатический, а не универсальный
+квантовый компьютер. Вы 
 
 00:11:09.002,00:11:15.008
-cannot solve every problem on
-this quantum computer. It is
-only specialized to solve a
+не можете решать произвольные
+задачи с его использованием;
+он заточен исключительно на 
 
 00:11:15.008,00:11:21.447
-particular optimization problem
-so it’s very much um you can
-look at this basically as a
+определенные задачи оптимизации.
+По большей части можно 
+рассматривать его как 
 
 00:11:21.447,00:11:27.186
-physical system and physical
-systems tend to always end up in
-the lowest energy state which we
+физическую систему; как и любая такая
+система, она стремится к наименьшему 
+возможному энергетическому уровню,
 
 00:11:27.186,00:11:34.060
-call the ground state in this
-system. So if I can now define a
-function that I want to solve
+которое мы называем основным состоянием
+системы. Итак, если мы определим функцию,
+которую я хочу вычислить,
 
 00:11:34.060,00:11:39.065
-and I basically define those
-function in a way that the
-lowest energy state is basically
+и определим таким образом,
+что наименьшее энергетическое состояние
+системы будет соответствовать
 
 00:11:42.001,00:11:48.207
-the same as the solution to the
-optimization problem I can use
-this physical system to solve
+решению задачи оптимизации,
+то можно будет воспользоваться
+этой системой для ее решения,
 
 00:11:48.207,00:11:52.812
-the problem that I have because
-I know this physical system will
-end up in the lowest energy
+потому что мы знаем, что конечным
+состоянием этой физической системы
+будет наименьшее по энергетическому
 
 00:11:52.812,00:11:59.252
-state in the ground state. And I
+уровню - основное состояние. And I
 know then this also tends this
 also represents the state when
 
 00:11:59.252,00:12:05.525
 my optimization problem reaches
-the lowest state. And there is
-this really cool um theorem
+the lowest state. А еще есть 
+вот это весьма клевая теорема,
 
 00:12:05.525,00:12:10.997
-which actually guarantees to me
-that I end up in the lowest
-state that there is. You can
+которая гарантирует, что 
+мы в итоге действительно окажемся в 
+наименьшем возможном состоянии. Можно
 
 00:12:10.997,00:12:15.568
-really this of this kind of like
-mountains and valleys. And you
-can end up in a valley that is
+представить это метафорически в виде
+гор и низин. Спускаясь, ты можешь
+оказаться в низине, которая будет
 
 00:12:15.568,00:12:20.640
-just halfway through and you are
-not really in the lowest state.
-But there is a theorem um uh we
+только на полпути вниз,
+не являясь наиболее низкой возможной точкой.
+Но по этой теореме мы
 
 00:12:20.640,00:12:23.977
 are gonna explore that’s a
@@ -631,7 +631,7 @@ which gives me a way how we can
 00:12:23.977,00:12:29.215
 really be at the lowest state so
 we can solve or I can find the
-optimum solution to this
+optimsolution to this
 
 00:12:29.215,00:12:34.053
 optimization problem. But it is
@@ -640,8 +640,8 @@ problems. The gate based quantum
 
 00:12:34.053,00:12:40.426
 computing is really a general
-quantum uh general computing um
-uh architecture where you start
+quantgeneral computing um
+architecture where you start
 
 00:12:40.426,00:12:45.898
 with an input. You apply all
@@ -650,192 +650,192 @@ to it. Technically these are all
 
 00:12:45.898,00:12:50.970
 gate based calculations. You do
-an end gate. You take two qubits
-and do something to it you get a
+an end gate. Вы берете два кубита,
+делаете что-то с ними и получаете
 
 00:12:50.970,00:12:55.642
-result. But essentially you have
-an input you calculate something
-and you have an output. And it's
+результат. В общем-то, подаете
+что-то на вход, проводите вычисления
+и получаете что-то на выходе. И 
 
 00:12:55.642,00:13:00.380
-basically uh you can calculate
-uh every uh everything you want
-to calculate with these
+в целом вы можете рассчитать
+практически что угодно
+с помощью таких вот
 
 00:13:00.380,00:13:07.186
-universal quantum computers
-while quantum computers like
-D-wave’s can only solve
+универсальных квантовых компьютеров,
+в то время как D-wave и его
+аналоги могут решать только
 
 00:13:07.186,00:13:12.792
-optimization problems. But
-actually, as it turns out both
-approaches can be used to solve
+задачи на оптимизацию. Но 
+на самом деле, как оказалось,
+оба подхода вполне применимы
 
 00:13:12.792,00:13:17.797
-the factorization problem. And
-uh we have Shor’s algorithm from
-1994 which uh uses gates to uh
+для решения задачи факторизации.
+И у нас есть алгоритм Шора от 1994
+года, который использует для этого
 
 00:13:22.001,00:13:26.606
-solve this problem. And in
-Quantum Annealing we have
-various approaches since 2002
+именно гейты. И у нас в 
+QuantAnnealing с 2002 года
+испытывались различные подходы,
 
 00:13:26.606,00:13:31.110
-and I’m going to explore those a
-little bit in uh in the next
-couple slides as well how they
+я расскажу немного подробнее 
+на нескольких следующих слайдах
+о них и о том, как именно они
 
 00:13:31.110,00:13:37.350
-work to actually um uh solve the
-factorization problem as an
-optimization problem. So uh
+помогают нам в решении задачи
+факторизации в формате задачи
+оптимизации. Итак, гм,
 
 00:13:37.350,00:13:43.089
-let's dive a little bit into
-quantum computing and what I
-need to understand to to explore
+давайте немного углубимся в
+вопросы квантовых вычислений и того,
+что необходимо понимать для
 
 00:13:43.089,00:13:48.695
-a little bit Shor’s algorithms
-and really with the idea of
-giving you an understanding of
+разбора алгоритмов Шора;
+также хотелось бы донести до вас
+общее понимание того,
 
 00:13:48.695,00:13:55.334
-how can someone derive an
-algorithm that gives me now such
-a dramatic improvement over an
+как вообще кому-то удалось вывести
+алгоритм, дающий настолько
+весомое улучшение по сравнению с 
 
 00:13:55.334,00:14:00.273
-classical algorithm which takes
-um exponential time uh to solve
-So the basic building blocks for
+классическим алгоритмом и его 
+экспоненциальной сложностью расчетов.
+Итак, основными строительными блоками
 
 00:14:03.409,00:14:08.815
-uh quantum computers are what we
-call qubits. qubits is the
-equivalent of uh classical bit.
+для квантовых компьютеров являются
+так называемые кубиты. Кубит - это
+эквивалент классического бита.
 
 00:14:08.815,00:14:15.321
-Classical bit is either zero or
-one. A qubit is now a you can
-almost think of it as a quantum
+Классический бит всегда равен нулю
+или единице. Кубит в первом приближении
+представляет собой квантомеханическую
 
 00:14:15.321,00:14:20.660
-mechanical system which can be
-in any state you want it to be.
-And you actually don’t really
+систему которая может находиться
+в любом нужном вам состоянии.
+И вы на самом деле не знаете,
 
 00:14:20.660,00:14:25.765
-know what state it is. But once
-you measure this quantum
-mechanical system it is either
+в каком состоянии она находится.
+Но стоит вам провести акт измерения
+ее состояния, и вы получите
 
 00:14:25.765,00:14:30.970
-gonna be zero or one. And this
-is an uh this is something that
-we are going to explore it later
+ноль либо единицу. А это то,
+что нам стоит рассмотреть 
+позднее более подробно, потому что
 
 00:14:30.970,00:14:36.676
-on that why before we measure
-this system we don’t know which
-state it is but it can actually
+это причина того, что до акта измерения
+системы мы не знаем ее состояния,
+и фактически она может пребывать
 
 00:14:36.676,00:14:43.583
-be in a superposition. It can be
-in a state where all of these
-qubits can um interact with each
+в суперпозиции. Она может находиться
+в состоянии, при котором все эти кубиты
+могут взаимодействовать друг
 
 00:14:43.583,00:14:49.455
-other and only at the very end
-of my processing step I will
-measure the system and all of
+с другом, и только в самом конце
+моего шага обработки я измеряю
+статус системы, и все 
 
 00:14:49.455,00:14:54.527
-those superpositions state will
-basically terminate and I know
-it is either zero or one. But
+это состояния суперпозиции 
+схлопнутся, и я получу
+в итоге ноль или единицу. Но
 
 00:14:54.527,00:14:58.931
-it's really a quantum mechanical
-system you don’t really know
-what it is. It’s neither zero.
+на самом деле, так как система 
+подчиняется законам квантовой
+механики, ее состояние и не ноль,
 
 00:14:58.931,00:15:03.870
-It’s neither one. It is
-something in between. Uh Quite
-often we assign variables to it
+и не единица. Это что-то
+среднее между ними. Довольно часто
+мы затем присваиваем им переменные,
 
 00:15:06.672,00:15:11.010
-and here you can see a
-representation of one of those
-qubits. We have two bases zero
+и здесь вы можете увидеть представление
+одного из этих кубитов.
+У нас есть два основания: 
 
 00:15:11.010,00:15:16.015
-and one which basically
-represent. Uh this zero means if
-I represent the qubits in one
+ноль и единица; здесь 
+ноль на самом деле означает,
+что при измерении состояния кубитов
 
 00:15:19.652,00:15:25.057
-hundred percent of the cases I
-will get the measurement outcome
-of zero. The one means in one
+в ста процентах случаев
+результатом будет 
+ноль. Единица же означает,
 
 00:15:25.057,00:15:29.195
-hundred percent of the cases of
-measurement it will give me the
-measurement outcome of one. And
+что в ста процентах случаев
+результатом измерений
+будет единица. И в итоге
 
 00:15:29.195,00:15:34.834
-now qubit is in the
-superposition of those two with
-alpha and beta. The two complex
+кубит находится в  суперпозиции 
+этих двух основных состояний
+с вероятностями альфа и бета.
 
 00:15:34.834,00:15:41.240
-numbers I can represent those
-and uh that uh can now define
-the state of this particular
+С помощью двух комплексных чисел
+мы теперь можем представить
+состояние этого конкретного
 
 00:15:41.240,00:15:47.580
-qubit. Now we call alpha and
-beta probability amplitudes
-because if I measure this
+кубита. Назовём альфа и
+бета амплитудами вероятности,
+поскольку, если я измерю этот
 
 00:15:47.580,00:15:52.585
-particular um uh qubit I will
-now get the probability of the
-measurement outcome for uh to
+конкретный кубит, 
+я получу
+исход измерения
 
 00:15:56.489,00:16:01.460
-get the measurement outcome zero
-the probability is going to be
-alpha squared. And the
+с нулём с вероятностью 
+альфа в квадрате; 
+аналогично, для
 
 00:16:01.460,00:16:06.265
-probability of getting the
-measurement outcome of one is
-going to be beta squared.
+вероятности получить результат
+измерения с единицей
+значение будет равно бета в квадрате
 
 00:16:06.265,00:16:09.535
-Remember when I measure this
-particular thing even though it
-is two complex numbers
+Заметьте, что когда я провожу измерение
+конкретного кубита, хотя он и представлен 
+двумя комплексными числами,
 
 00:16:09.535,00:16:15.975
-associated with it it is going
-to be either zero or one with a
-certain probability associated
+но результатом все равно будет
+или ноль, или единица - с определенной
+вероятностью - и эти вероятности
 
 00:16:15.975,00:16:21.047
-with it and the probabilities
-really are defined by those two
-numbers and basically to the
+фактически определяются
+этими двумя числами -
+то есть, фактически,
 
 00:16:21.047,00:16:26.052
-square for uh um alpha and beta.
-Uh we know right now is going to
+альфа и бета в квадрате.
+we know right now is going to
 end up in zero and with those
 
 00:16:28.120,00:16:33.392
@@ -844,478 +844,478 @@ those qubits it's basically a
 mathematical representation of
 
 00:16:33.392,00:16:39.398
-the quantum mechanical system uh
-that the quantum computers are
-operating. But remember all of
+the quantmechanical system uh
+that the quantcomputers are
+operating. Но не стоит забывать,
 
 00:16:39.398,00:16:43.302
-these measurements and
-everything we do in the quantum
-world is probabilistic.
+что все эти измерения,
+как и вообще что угодно 
+в квантовом мире, вероятностно.
 
 00:16:43.302,00:16:50.009
-Everything’s just a probability.
-I can put a quantum in a state
-where I can tell you in exactly
+Все - только вероятности.
+Я могу поместить фотон в состояние,
+в котором точно можно будет сказать,
 
 00:16:50.009,00:16:53.946
-half of my measurement is gonna
-be zero and half of my
-measurement is gonna be one.
+что половина измерений дадут
+ноль, а половина результатов
+будет единицей.
 
 00:16:53.946,00:16:57.583
-Which is perfect for random
-numbers for example because I
-can tell you, hey, you don’t
+Это, например, идеально 
+подходит для создания случайных
+чисел, потому что, поверьте,
 
 00:16:57.583,00:17:01.454
-really know whether it’s zero or
-one. It’s exactly equal
-probability of getting zero and
+вы действительно не знаете
+заранее, каким будет результат .
+Шанс получить ноль и единицы один,
 
 00:17:01.454,00:17:06.392
-one so I just take one qubit.
-Measure it five trillion times
-and I get five trillion random
+так что достаточно одного кубита.
+Измерьте его пять триллионов раз,
+и получите пять триллионов
 
 00:17:06.392,00:17:11.430
-bits. But obviously I don’t
+случайных битов. But obviously I don’t
 really know whether I get zero
-or one. It’s all defined by
+or one. Все решают
 
 00:17:11.430,00:17:16.502
-probabilities. Which has a big
-implication on the algorithms
-because the algorithms will also
+вероятности. Это сильно влияет
+на алгоритмы, поскольку они
+тоже будут выдавать
 
 00:17:16.502,00:17:21.774
-only give me probabilities.
-There’s no algorithm that can
-give me I run through this
+мне лишь вероятности.
+Нет алгоритма, который 
+после одного прогона
 
 00:17:21.774,00:17:27.780
-algorithms once and it will give
-me yes it is this answer. It
-will always only give me yeah I
+скажет мне с уверенностью
+"да, ответ будет вот таким".
+Нет, мы получим "Ну, знаешь,
 
 00:17:27.780,00:17:31.884
-think with 83 percent
-probability it is going to be
-this answer for example. So
+процентов на 83 я уверен,
+что ответ будет во-о-от такой",
+например. Так что 
 
 00:17:31.884,00:17:36.889
-quite often you run these
-algorithms multiple times to
-really see um uh uh uh where you
+довольно часто вам придется
+делать несколько прогонов таких
+алгоритмов, чтобы получить
 
 00:17:36.889,00:17:42.995
-end up with. The second um uh
-principal that we need for
-Shor’s algorithm is the concept
+нужный вам результат. Второй ключевой
+момент, который нужен нам для понимания 
+алгоритма Шора - это концепция
 
 00:17:42.995,00:17:48.801
-of entanglement and uh that gets
-slightly philosophical. Um I
-wanna focus a little bit more on
+запутанности, и здесь мы слегка 
+съезжаем на философские рельсы.
+Я бы хотел немного задержаться
 
 00:17:48.801,00:17:53.639
-the mathematical part of this.
-Entanglement is basically a
-property where I can have two
+здесь на математической стороне вопроса.
+По сути, запутанность - это свойство,
+при котором два имеющихся у меня
 
 00:17:53.639,00:17:58.678
-qubits and I know that there is
-some correlation between those
-two qubits. In the classical
+кубита имеют между собой некоторую
+известную мне корреляцию.
+В классическом мире
 
 00:17:58.678,00:18:02.181
-world I have two bits and the
-two bits are completely
-independent of each other.
+у меня есть два бита, которые 
+всегда будут полностью независимы
+друг от друга.
 
 00:18:02.181,00:18:05.751
-Neither of those bits will
-interact with the other and if
-this bit is one it doesn’t
+Ни один из них не будет действовать
+на другой, и если один 
+из них имеет значение "единица",
 
 00:18:05.751,00:18:07.753
-matter what this is. In the
-quantum world I can have a a
-relationship a correlation
+значение второго вообще не важно.
+В квантовом же мире мои кубиты
+могут иметь некоторую взаимосвязь
 
 00:18:07.753,00:18:09.755
-between those two qubits. And a
-simple example is a bell state
-of two qubits. So this state is
+между ними. Простейшим примером
+будет состояние Белла
+для двух кубитов. Это состояние,
 
 00:18:09.755,00:18:14.760
-here a state where you have two
-qubits. In this funny notations
-the first zero is the value of
+в котором у нас имеются два кубита.
+В этих забавных закорючках
+первый ноль - это значение
 
 00:18:26.272,00:18:30.977
-the first qubit. The second zero
-is the value of the second
-qubit. But if I would measure
+первого кубита. Второй ноль - 
+соответственно, значение второго
+кубита. Но если мы измерим значение
 
 00:18:30.977,00:18:37.249
-this qubit here and suppose I
-measure the first qubit as being
-zero it cannot be the second one
+первого кубита и получим  
+в результате, например, ноль,
+то значение второго никак не может
 
 00:18:37.249,00:18:43.422
-because y’know the first one the
-first qubit was zero. So the
-second qubit has to be zero as
+отличаться, поскольку мы уже знаем,
+что первый кубит равен нулю. Так что
+второй кубит тоже должен быть равен
 
 00:18:43.422,00:18:48.627
-well. I know that the second
-qubit is gonna be zero simply
-because I measure the first
+нулю. Я узнаю значение второго кубита
+просто потому, что я 
+перед этим уже измерил первый.
 
 00:18:48.627,00:18:54.000
-qubit. And there’s no way
-because I don’t have zero ones
-or one zero in there that the
+Иначе быть не может:
+в схеме нет вариантов "один - ноль"
+или "ноль-один", поэтому
 
 00:18:54.000,00:18:59.905
-second qubit could something
-different than zero. So I take
+второй кубит не может получить
+отличное от нуля значение. So I take
 basically two qubits. Give them
 
 00:18:59.905,00:19:04.677
-into this quantum mechanical
-system. Prepare this bell state
-and now I have two qubits that
+into this quantmechanical
+system. Введем их в состояние Белла,
+и теперь у нас есть два кубита,
 
 00:19:04.677,00:19:10.249
-are separate from each other but
-in this quantum mechanical
-system those qubits are now
+отделенных друг от друга,
+но связанных в рамках этой 
+квантовомеханической системы -
 
 00:19:10.249,00:19:16.255
-correlated or what we call
-entangled. And now I could give
-one qubit to Alice and send her
+или, пользуясь терминологией,
+спутанных. Теперь мы можем дать 
+один кубит Алисе и отправить ее
 
 00:19:16.255,00:19:21.260
-to the moon and one qubit to Bob
-and send him to Mars. And I know
-that if Alice looks at her qubit
+на Луну, а другой отдать Бобу
+и направить его на Марс. Теперь
+я уверен, что если Алиса посмотрит
 
 00:19:23.496,00:19:30.403
-and says “oh I got a zero” I
-know Bob has a zero as well.
-Even though there is no
+на свой кубит и скажет "о, а у меня-то
+ноль", то Боб тоже получит ноль.
+Хотя эти двое не взаимодействовали,
 
 00:19:30.403,00:19:35.674
-communication between those
-simply because there is this
-correlation these properties now
+но за счет существующей 
+корреляции характеристики их 
+кубитов теперь связаны.
 
 00:19:35.674,00:19:40.479
-I need obviously those two
-qubits I need to prepare them
-together and then I can send
+Итак, я могу просто взять два
+кубита, подготовить их заранее,
+после чего их можно будет отправить
 
 00:19:40.479,00:19:46.819
-them anywhere I want and they
-are now correlated without any
-communication in between those
+туда, куда захочется, и они 
+останутся связаны 
+без всякого прямого взаимодействия 
 
 00:19:46.819,00:19:52.858
-two. There is lots of
-philosophical implications
-because I can give I could put
+между ними. Это влечет за собой
+множество довольно философских 
+последствий. Например, если я
 
 00:19:52.858,00:19:58.731
-those two qubits light years
-away from each other and did I
-really find a way of
+разнесу эти два кубита на многие
+световые годы друг от друга.
+Даёт ли это мне возможность передавать
 
 00:19:58.731,00:20:04.003
-communicating faster than light?
-No I didn’t because if Alice
-measures its gonna be zero. If
+информацию быстрее скорости света? 
+Нет, поскольку Алиса,
+получив в результате измерения ноль,
 
 00:20:04.003,00:20:08.240
-she wants to tell Bob “Hey I
-measured zero” she needs to
-communicate this information to
+сможет сообщить Бобу об этом,
+только отправив ему сообщение
+обычным образом,
 
 00:20:08.240,00:20:14.213
-uh Bob which obviously uh she
-needs uh a few light years uh to
-do so. But it's an important
+и сообщение будет идти
+в течение нескольких лет.
+Тем не менее, это важный
 
 00:20:14.213,00:20:19.719
-principle we gonna use in Shor’s
-algorithm as well. And the main
-thing for you to understand is
+принцип, который будет в том числе
+использован в алгоритме Шора. 
+И еще одна ключевая вещь, которую
 
 00:20:19.719,00:20:26.358
-the um exponential large size. I
-can look into when dealing with
-these quantum systems. Let’s
+нужно понимать, если имеешь
+дело с квантовыми системами - это
+экспоненциальные масштабы.
 
 00:20:26.358,00:20:31.764
-suppose I take two classical
-bits. I can uh represent four
-possible states with two
+Предположим, у меня есть два
+обычных бита. Я могу представить
+четыре возможных состояния
 
 00:20:31.764,00:20:37.570
-classical bits. But only one of
-them at a time so y’know if uh
+с их помощью, но только одно 
+из них за раз. so y’know if uh
 you see the four states there.
 
 00:20:37.570,00:20:43.175
-My system with those two bits is
-in one of those states at any
-one point at point in time. In a
+Моя система из этих двух битов
+всегда пребывает в одном из этих
+состояний в каждый момент времени.
 
 00:20:43.175,00:20:48.914
-quantum world I can take two
-qubits and basically at the end
+В квантовом мире я могу использовать
+два кубита 
 when I measure this system it’s
 
 00:20:48.914,00:20:53.385
 also gonna be in one of those
-four states. But before I
-measure this system because of
+four states. Но до измерения
+состояния системы она 
 
 00:20:53.385,00:20:58.390
-superposition those qubits can
-be in all four states at the
-same time and only when I
+благодаря суперпозиции этих кубитов
+может пребывать во всех четырех состояниях
+одновременно, и только в момент
 
 00:21:00.960,00:21:06.999
-measure the system the system
-will collapse one of those four
-states. And this is exactly now
+измерения состояния система 
+схлопнется в одно из этих четырех
+состояний. And this is exactly now
 
 00:21:06.999,00:21:12.905
 a situation we are gonna explore
-it. If you have n qubits I can
-represent two to the power of n
+it. С помощью n кубитов я могу 
+представить два в степени n
 
 00:21:12.905,00:21:18.811
-state while I do calculations I
-still at the end of the day need
-to know what the result is uh of
+состояний в ходе вычислений; однако,
+в конце концов мне понадобится 
+все же узнать результат 
 
 00:21:18.811,00:21:24.550
-my calculations so I need to
-measure at some stage and the it
-will collapse obviously to um uh
+моих расчетов, так что в определенный 
+момент я проведу измерение,
+и это схлопнет систему в одно
 
 00:21:24.550,00:21:29.989
-those end states but during
-calculations I have two to the
-power of n states which is a
+из этих конечных состояний;
+но пока расчеты идут, у меня
+есть два в степени n состояний,
 
 00:21:29.989,00:21:35.327
-massive amount of uh um uh
-states that I can represent with
-just a few amount of uh of
+что весьма немало, 
+и я могу представить их с помощью
+всего лишь небольшого числа
 
 00:21:35.327,00:21:40.332
-qubits. So now I now I have
-everything kind of to look into
-Shor’s algorithm and how it and
+кубитов. Итак, теперь у меня есть
+весь арсенал для того, чтобы
+рассмотреть алгоритм Шора и 
 
 00:21:42.434,00:21:47.439
-how it works. Um uh and we are
-gonna look into this. So the
-main idea for that Shor had is
+как он работает. Давайте перейдем
+к этому. Итак, главной идеей,
+которая пришла в голову Шору, было
 
 00:21:47.439,00:21:52.478
-actually that if I want to look
-into how to factor uh N into p
-and q into hose two prime number
+то, что если мне необходимо
+найти способ разложить число N 
+на простые множители p и q, то
 
 00:21:52.478,00:21:57.550
-I don’t actually have to solve
-that problem. That problem is
-equivalent to a different
+на самом деле мне не обязательно 
+решать эту задачу в лоб: она 
+фактически эквивалентна
 
 00:21:57.550,00:22:04.123
-problem. And basically he looked
-into number sequences and he
-realized from number theory that
+другой задаче. Он начал исследовать тему
+числовых последовательностей и благодаря
+теории чисел он кое-что понял. Если
 
 00:22:04.123,00:22:10.029
-you have a number sequence for
-example uh you look at the
-number sequence here you
+у вас есть последовательность чисел...
+Например, посмотрите вот на эту:
+все довольно просто,
 
 00:22:10.029,00:22:17.036
-multiply the previous number by
-two. So you have 1, 2, 4, 8, 16,
-32. If you now do if you now use
+просто умножаем предыдущее число 
+на два. Получаем 1, 2, 4, 8, 16,
+32. Теперь возьмем производную 
 
 00:22:17.036,00:22:23.509
-this number sequence and do this
-mod 15 for example in this
-example. You end up with this
+от данной последовательность, 
+в данном примере - берём остаток
+по модулю 15. Получаем 
 
 00:22:23.509,00:22:29.181
-number sequence 1, 2, 4, 8, 1,
-2, 4, 8, 1, 2, 4, 8. This is
-what we call a periodic um uh
+последовательность 1, 2, 4, 8, 1,
+2, 4, 8, 1, 2, 4, 8. Это то,
+что мы назовем периодической
 
 00:22:29.181,00:22:35.487
-sequence. So it is always gonna
-be the same uh um kind of
-sequence of 1, 2, 4, 8, and we
+последовательностью, потому что она состоит из
+одних и тех же повторяющихся раз за разом
+чисел 1, 2, 4, 8.
 
 00:22:35.487,00:22:42.361
-can now define a um uh uh a
-number which is called a period.
-Which is four which is basically
+Теперь мы можем определить период
+этой последовательности, то есть 
+число элементов,
 
 00:22:42.361,00:22:49.168
-the number of the amount of
-numbers before it repeats itself
-and um uh the underlying
+через которое последовательность 
+начинает повторяться.
+Итак, под капотом
 
 00:22:49.168,00:22:56.141
-algorithm from Shor is that if I
-want to find out the factors for
-this number N. If I want to find
+алгоритма Шора лежит следующее:
+если я хочу найти подходящие простые
+множители числа N - 
 
 00:22:56.141,00:23:02.748
-this p and q I can actually
-transform this into problem of
-finding the period R and that
+числа p и q, я на самом деле могу
+преобразовать это в задачу
+поиска периода R и, как оказалось,
 
 00:23:02.748,00:23:09.355
-turns out for that problem I can
-run very easily on a quantum
-computer. So basically um uh if
+эта именно тот тип задач,
+которые прекрасно подходят для
+квантовых компьютеров. Так что,
 
 00:23:09.355,00:23:13.792
 I look into this and the cool
-thing is and I’m gonna show you
-on the next slide the
+thing is and и на следующем слайде
+я покажу вам
 
 00:23:13.792,00:23:18.530
-mathematics behind it is
-actually basically very trivial
-basic level of linear algebra
+математику, стоящую за этим,
+в основном сводящуюся к весьма
+тривиальным основам линейной алгебры,
 
 00:23:18.530,00:23:22.434
-gives you everything to
-understand how this works. So
-the only thing you need to
+которых будет достаточно для понимания
+того, как все это работает. 
+Основное, что вам нужно учитывать,
 
 00:23:22.434,00:23:26.272
-accept is that out of number
-theory there’s a theory which
-basically says this theory this
+это что в рамках 
+теории чисел есть 
+теорема, которая утверждает?
 
 00:23:26.272,00:23:31.277
-function f(a) x to the power of
-a mod N is a periodic function
-um if x has um particular
+что функция f(a), равная остатку 
+от x в степени a по модулю N,
+является периодической при
 
 00:23:34.580,00:23:39.585
-properties and now I only need
-to find uh the number uh the
-period R and with this I have my
+свойствах x, и теперь мне нужно
+только найти значение 
+периода R, с которым мы
 
 00:23:42.121,00:23:46.258
-algorithm Shor which we run
-through in quantum detail
-actually but essentially it's
+можем перейти к алгоритму Шора,
+который содержит много
+особенностей на квантовом уровне,
 
 00:23:46.258,00:23:52.097
-comprised of three phases. First
-I turn this factoring problem
-into a uh period finding problem
+но в целом сводится к трем фазам.
+Сначала я заменяю задачу разложения
+на множители задачей поиска периода,
 
 00:23:52.097,00:23:57.102
-and that's actually trivial.
-Then I use a quantum computer to
-actually give me this period R
+и это довольно тривиально.
+Затем я использую квантовый компьютер
+для поиска значения R;
 
 00:23:59.405,00:24:04.410
-to solve this period R the
-classical computer is again,
-really really hard actually on
+для классических компьютеров
+эта задача все еще 
+очень, очень трудна,
 
 00:24:04.410,00:24:10.282
-the classical computer still is
-of exponential complexity which
-mean that this algorithm on a
+так как представляет 
+экспоненциальную сложность,
+так что такая замена задачи
 
 00:24:10.282,00:24:16.689
-classical computer does not give
-me any advantage whatsoever. But
-I can use a quantum fourier
+на классическом компьютере не 
+даст мне никакого преимущества. Но
+я могу воспользоваться квантовым
 
 00:24:16.689,00:24:21.160
-transform and that gives me the
-speedup and then by once have
-the period. R you can really
+преобразованием Фурье, и это 
+даст мне желаемое ускорение
+и поможет рассчитать период R.
 
 00:24:21.160,00:24:27.099
-very trivially um uh use this to
-find the factor so stage one or
-step one and step three are
+Из него можно уже легко получить
+множители, так что первый и третий
+шаги можно считать 
 
 00:24:27.099,00:24:30.836
-really trivial. Step two is
-where all the magic happens and
-that’s really where the main
+весьма тривиальными. Вся магия 
+происходит именно на втором шаге, 
+и именно за счет него мы получаем
 
 00:24:30.836,00:24:37.609
-speedup um comes. Don’t wanna go
-into two much detail but it is
-really very simple so I think
+основное ускорение. Не хочу вдаваться
+в излишние подробности, но
+там нет ничего сложного, так что,
 
 00:24:37.609,00:24:44.049
-you can uh download the slides
-and you can look through this. I
-know that f(a) is periodic. I
+если хотите, можете просто 
+скачать слайды и просмотреть их.
+Я знаю, что f(a) - периодическая.
 
 00:24:44.049,00:24:49.188
-know that x to the power of zero
-is one. I mean, everything to
-the power of zero is one. And if
+Я знаю, что что x в степени ноль -
+это единица. То есть любое число
+в степени ноль будет единицей. И если
 
 00:24:49.188,00:24:55.661
-R is now my period I know
-because the function’s periodic
-that x to the power of r mod n
+мой период равен R, то раз функция
+периодическая, то остаток
+x в степени r по модулю n
 
 00:24:55.661,00:24:59.965
-equals one two. Equals the same
+тоже равен единице. Equals the same
 what it was before because is
-one period. And really with
+one period. И, как подсказывают мне
 
 00:24:59.965,00:25:04.203
-basic linear algebra I can use x
-to the power of r equals x to
-the power of uh a half to the
+основы линейной алгебры, мы можем 
+записать, что x в степени r равняется 
+x в степени r пополам
 
 00:25:04.203,00:25:09.208
-power of two. And i can uh um uh
-just write this in a different
-form which gives me this um uh
+в квадрате. И теперь я могу
+просто переписать это уравнение
+в другой форме: получаем, что
 
 00:25:13.846,00:25:18.851
-this multiplication of two
-numbers that gives me xero uh
-mod n. So if I can use this if I
+это произведение двух чисел
+дает мне ноль по модулю N.
+Так что если я использую
 
 00:25:23.322,00:25:28.327
-had this R I ha- I have these
+это R I ha- I have these
 two numbers so but if those two
-numbers um uh mod N is uh uh
+numbers mod N is uh
 
 00:25:31.397,00:25:37.903
-those aren’t integers of
-multiple of N because their
+не являются целыми множителями
+N because their
 product is zero mod n so that
 
 00:25:37.903,00:25:44.109
@@ -1329,89 +1329,89 @@ one of those has a factor in
 common with a number I want to
 
 00:25:50.616,00:25:56.588
-look at. So the greatest common
-divisor which is actually um not
-too hard to computer um
+look at. Наибольший 
+общий делитель не так уж 
+сложно найти с помощью обычного
 
 00:25:56.588,00:26:01.693
-classically it is just an n
-squared complexity so by
-computing the greatest common
+компьютера, сложность здесь
+всего лишь n в квадрате, так что 
+нахождение наибольшего общего
 
 00:26:01.693,00:26:06.698
-divisor for each of those
+делителя для каждого из этих чисел
 numbers with n I have my factors
-uh for uh for n and uh that is
+for for n and that is
 
 00:26:09.001,00:26:14.873
-really simple. But to get to
-this R is really really hard.
-But I can put this together uh
+really simple. Но вот найти 
+это самое R очень, очень тяжело.
+Но мы можем разобраться на 
 
 00:26:14.873,00:26:19.878
-in a really quick example. Let’s
-suppose I have N equals 15. Now
-everybody can calculate in their
+одном весьма простом примере.
+Предположим, наше N равно 15. Любой
+может мгновенно сообразить, что 
 
 00:26:19.878,00:26:24.883
-head that prime numbers are 3
-and 5. Basically I choose any
-integer between 1 and 15 and
+его простыми делителями
+будут 3 и 5. Теперь я выбираю любое
+целое число от 1 до 15;
 
 00:26:27.352,00:26:33.725
-really lets for the sake of
-simplicity let's use x equals
-two. So you can see my period
+давайте для простоты решим,
+что мы используем x, равное
+двум. Как вы видите, период
 
 00:26:33.725,00:26:39.698
-here on mod 15 is 1, 2, 4, 8 uh
-so I have the period 4. So I can
-see this. That’s the really hard
+по модулю 15... так: 1, 2, 4, 8 - 
+значит, период равен 4. 
+Теперь начинается самая сложная
 
 00:26:39.698,00:26:44.703
-part to uh calculate But with a
-period 4 the greatest common
-divisor of x to the power of uh
+для расчетов часть. Но с периодом 4
+наибольший общий делитель 
+x в степени R пополам -
 
 00:26:47.306,00:26:52.311
-uh R half is R is four so R half
-is 2. Uh X is 2 so that is two
-to the power of 2 which is four.
+это четыре, так что R пополам равен двум.
+X=2, так что мы возводим двойку
+во вторую степень и получаем четыре.
 
 00:26:54.913,00:27:01.086
-So the greatest common divisor
-of 3 and 15 and 5 and 15 so uh
-so uh four minus one and four
+Так что наибольший общий делитель
+3 и 15 и 5 и 15, так что
+четыре минус один и четыре
 
 00:27:01.086,00:27:05.858
-plus one is obviously 3 and 5.
+плюс один - очевидно, 3 и 5.
 And when you calculate the
 through action in every case you
 
 00:27:05.858,00:27:11.129
-come up with uh 3 and 5. So
-that’s exactly what Shor’s
-algorithm is all about. But the
+come up with 3 and 5. 
+Алгоритм Шора весь об этом.
+Но действительно
 
 00:27:11.129,00:27:16.301
-really hard part is uh figuring
-out what is this period R and
-this is kind of where the
+сложная часть - это поиск
+значения периода R,
+и тут на сцену выходят 
 
 00:27:16.301,00:27:21.373
-quantum uh compu- quantum
-algorithm comes in. And those
-computers, those quantum
+квантовые алгоритмы.
+И эти компьютеры... эти 
+квантовые алгоритмы
 
 00:27:21.373,00:27:26.378
-algorithms always work in the
-same principal. You basically
-you initialize basically the
+всегда работают на одних и 
+тех же принципах. You basically
+you инициализируете тот результат,
 
 00:27:28.514,00:27:33.519
-result that you want to see and
-say let’s think of we want to
-get a 256 bit number or 2048 bit
+что хотите увидеть:
+мы прикидываем, ожидаем ли увидеть 
+256-битное или 2048-битное число,
 
 00:27:35.988,00:27:40.659
 number and you basically every
@@ -1430,11 +1430,11 @@ because you really don’t know
 
 00:27:48.700,00:27:54.473
 what it is. So it’s really kind
-of like uh at fifty percent.
+of like at fifty percent.
 Then you run through this
 
 00:27:54.473,00:28:00.913
-Quantum Fourier transform which
+QuantFourier transform which
 will use amplitude amplification
 so with every duration of this
 
@@ -1444,18 +1444,18 @@ go toeither one or to zero which
 is gonna be the final result.
 
 00:28:08.253,00:28:14.459
-And you run this through uh a
+And you run this through a
 number of times and then you
 measure it at the end and you
 
 00:28:14.459,00:28:20.065
 will see when you end up with.
 I’m gonna have an example of
-this uh when we run this through
+this when we run this through
 
 00:28:20.065,00:28:25.571
-on a on real quantum computer.
-So just to um uh summarize.
+on a on real quantcomputer.
+So just to summarize.
 Shor’s algorithm altogether is
 
 00:28:25.571,00:28:31.176
@@ -1470,8 +1470,8 @@ you found a factor and then you
 
 00:28:35.814,00:28:41.153
 are done. But that is uh
-obviously uh most likely not the
-case. I use my quantum computer
+obviously most likely not the
+case. I use my quantcomputer
 
 00:28:41.153,00:28:46.692
 to find this period R and once I
@@ -1479,9 +1479,9 @@ have R I just need to find the
 greatest common divisor of those
 
 00:28:46.692,00:28:51.697
-uh two uh two terms and I’m
-done. So um uh another example I
-choose randomly uh number seven.
+two two terms and I’m
+done. So another example I
+choose randomly number seven.
 
 00:28:54.900,00:28:59.905
 Calculate period r, R equals 4.
@@ -1489,9 +1489,9 @@ I have the greatest common
 divisor 48 and 15 and 50 and 15
 
 00:29:02.374,00:29:07.379
-gives me uh 3 and 5 so it uh all
+gives me 3 and 5 so it all
 works fine. I can now use this
-and use uh um a livbrayr a
+and use a livbrayr a
 
 00:29:10.549,00:29:16.355
 toolkit called Qiskit which is
@@ -1500,18 +1500,18 @@ now at least 5 or 6 open source
 
 00:29:16.355,00:29:21.593
 platforms how you can use
-quantum computers and how you
-can program quantum computers um
+quantcomputers and how you
+can program quantcomputers um
 
 00:29:21.593,00:29:27.599
-either on quantum simulators or
-on real quantum hardware. And i
+either on quantsimulators or
+on real quanthardware. And i
 gave you some references here
 
 00:29:27.599,00:29:32.604
 you can look at those it's
 actually kind of fairly easy um
-uh to go through. But they also
+to go through. But they also
 
 00:29:32.604,00:29:37.109
 have the same and here’s an
@@ -1530,7 +1530,7 @@ starting point. And once I run
 
 00:29:47.819,00:29:53.925
 through this algorithm and I ran
-through this uh Shor’s algorithm
+through this Shor’s algorithm
 on from these references. The
 
 00:29:53.925,00:29:59.898
@@ -1545,21 +1545,21 @@ that these two results R equals
 
 00:30:05.337,00:30:08.006
 0 and R equals 4. R equals zero
-is obviously trivial um uh
+is obviously trivial uh
 probability so I discard this
 
 00:30:08.006,00:30:13.011
 and I end up with R equals 4. So
 this was now executed on a
-quantum simulator. Quantum
+quantsimulator. Quantum
 
 00:30:17.482,00:30:21.787
 simulator I can simulate a
-quantum state on my normal
+quantstate on my normal
 computer. But remember in
 
 00:30:21.787,00:30:26.391
-quantum computing we exploiting
+quantcomputing we exploiting
 this fact that I have this
 massive large space of 2 to the
 
@@ -1569,32 +1569,32 @@ travel simulate more than
 hundred qubits or so on a normal
 
 00:30:32.197,00:30:37.269
-computer and um uh uh but for
-smaller ones uh for
+computer and but for
+smaller ones for
 demonstrations it is actually
 
 00:30:37.269,00:30:43.442
 quite cool. So the cool thing is
-IBM has a quantum computer that
+IBM has a quantcomputer that
 you can publicly access you can
 
 00:30:43.442,00:30:49.514
-write a uh a quantum computer
+write a a quantcomputer
 program executed towards their
 cloud. It's very simple you just
 
 00:30:49.514,00:30:55.320
 change hey my backend is the
 simulator you change the backend
-to uh IBMs quantum computer. Um
+to IBMs quantcomputer. Um
 
 00:30:55.320,00:31:00.025
 and if you execute this against
-a real quantum computer. It is
-just a 5 qubit quantum computer
+a real quantcomputer. It is
+just a 5 qubit quantcomputer
 
 00:31:00.025,00:31:05.964
-um uh right now. I still get R
+right now. I still get R
 equals 4 with the highest
 probability. But you see there's
 
@@ -1605,7 +1605,7 @@ representative of all the errors
 
 00:31:11.369,00:31:15.874
 you have in the system simply
-because those quantum computers
+because those quantcomputers
 that we have right now are
 
 00:31:15.874,00:31:20.879
@@ -1630,21 +1630,21 @@ has big implication of
 
 00:31:38.130,00:31:43.101
 performance because I need to
-now repeat these um these
+now repeat these these
 algorithms much more and
 
 00:31:43.101,00:31:49.307
 obviously I will end up in debt
 cases because obviously the
-noise will basically um uh
+noise will basically uh
 
 00:31:49.307,00:31:55.480
 reduce the speedup in the
-quantum effects to zero and it
-basically collapses to um uh a
+quanteffects to zero and it
+basically collapses to a
 
 00:31:55.480,00:32:00.418
-um a classical computation that
+a classical computation that
 I have. But the cool is actually
 with Qiskit as well there there
 
@@ -1656,7 +1656,7 @@ people know and they kind of uh
 00:32:07.893,00:32:12.998
 provide these libraries. If you
 wanna run Shor’s algorithm to
-factor a prime uh to factor any
+factor a prime to factor any
 
 00:32:12.998,00:32:19.070
 numbers. You just import Shor’s
@@ -1669,38 +1669,38 @@ factor this number N equals 15.
 I use a simulator. I do this uh
 
 00:32:24.442,00:32:31.016
-1,000 times and uh off I run.
+1,000 times and off I run.
 It’s instant and I get a result.
 How cool is this that you can
 
 00:32:31.016,00:32:34.619
-run this uh run this against a-
-against a Quantum computer and
+run this run this against a-
+against a Quantcomputer and
 the only thing you need to do in
 
 00:32:34.619,00:32:39.024
 this example is if you run this
-against real quantum computer is
+against real quantcomputer is
 you change the backend from the
 
 00:32:39.024,00:32:44.830
 simulator to a different backend
 and now there’s a callout to
-IBMs uh quantum computer to run
+IBMs quantcomputer to run
 
 00:32:44.830,00:32:49.935
-this uh on their backend. It's
+this on their backend. It's
 actually really really cool and
 this feeling when you run a
 
 00:32:49.935,00:32:55.440
-quantum computing software for
+quantcomputing software for
 the first time is actually quite
 cool. So I encourage everybody
 
 00:32:55.440,00:33:01.446
 to look at Qiskit or various
-quantum computer libraries and
+quantcomputer libraries and
 to play around with this. So the
 
 00:33:01.446,00:33:07.319
@@ -1710,7 +1710,7 @@ anything meaningful I need lots
 
 00:33:07.319,00:33:12.557
 of qubits. So in order to use uh
-Shor’s algorithm to um uh to
+Shor’s algorithm to to
 break RSA 2048 I need 4,000
 
 00:33:12.557,00:33:14.626
@@ -1726,7 +1726,7 @@ well. And it's not really a
 00:33:26.538,00:33:31.409
 surprise because when Shor came
 up with this in 1984 there
-weren’t any quantum computers.
+weren’t any quantcomputers.
 
 00:33:31.409,00:33:35.747
 He didn’t have to worry about
@@ -1735,22 +1735,22 @@ algorithm or not. He really just
 
 00:33:35.747,00:33:40.785
 came up with this system and
-method. So um it was never
+method. So it was never
 really meant to run on a quantum
 
 00:33:40.785,00:33:42.787
-computer and um right now lots
+computer and right now lots
 of people look at Shor’s
 algorithm and they say alright
 
 00:33:42.787,00:33:45.991
-uh kind of right now we have 70
+kind of right now we have 70
 qubit so its every the qubit
 count doubles every year
 
 00:33:45.991,00:33:47.993
 whatever so it's gonna be
-another ten years before um we
+another ten years before we
 have Shor’s algorithm. Nobody’s
 
 00:33:47.993,00:33:50.929
@@ -1764,9 +1764,9 @@ people took Shor’s algorithm and
 modified them and optimized them
 
 00:33:53.765,00:33:56.601
-to run on real quantum uh
-quantum hardware. So the first
-one was Fowler in uh in 2012.
+to run on real quantuh
+quanthardware. So the first
+one was Fowler in in 2012.
 
 00:33:56.601,00:33:59.838
 Basically the first approach was
@@ -1780,7 +1780,7 @@ under the assumption there’s no
 
 00:34:12.017,00:34:17.022
 errors or the qubits are
-fantastic uh no errors so
+fantastic no errors so
 basically they used what is
 
 00:34:27.799,00:34:34.239
@@ -1789,8 +1789,8 @@ allow for errors to occur and
 the error rate is 0.1 percent of
 
 00:34:34.239,00:34:40.812
-the uh of the gate error rate
-and um uh Fowler came up I can
+the of the gate error rate
+and Fowler came up I can
 run Shor’s algorithm and I can
 
 00:34:40.812,00:34:47.218
@@ -1799,7 +1799,7 @@ need one billion qubits to do so
 which is obviously a massive
 
 00:34:47.218,00:34:53.491
-amount uh in terms of over it um
+amount in terms of over it um
 to run this. So that was in
 2012. Not to long a- not too
 
@@ -1809,9 +1809,9 @@ further optimization from O’
 Gorman we suddenly kind of like
 
 00:34:59.998,00:35:04.936
-had uh had an algorithm where it
+had had an algorithm where it
 reduces one billion qubits to
-230 million qubits uh in 2017.
+230 million qubits in 2017.
 
 00:35:09.274,00:35:13.411
 And that’s really an
@@ -1819,7 +1819,7 @@ optimization the physical
 connectivity of those qubits.
 
 00:35:13.411,00:35:18.483
-And uh then Gheorghiu kind of
+And then Gheorghiu kind of
 reduces further to 170 million
 qubits so you can see there’s
 
@@ -1835,16 +1835,16 @@ billion qubits to right now 170
 
 00:35:28.426,00:35:34.899
 million qubits. And the biggest
-um uh contribution was from
-Gidney and Ekera from uh um uh
+contribution was from
+Gidney and Ekera from uh
 
 00:35:34.899,00:35:40.872
-Google and uh University in
-Stockholm where they uh provided
+Google and University in
+Stockholm where they provided
 paper just not long ago earlier
 
 00:35:40.872,00:35:46.211
-this year where they uh looked
+this year where they looked
 into how they could do the same
 thing that everyone else is
 
@@ -1859,9 +1859,9 @@ from the end of the research
 there in terms of optimization
 
 00:35:59.658,00:36:06.131
-uh to this problem. Now I won’t
+to this problem. Now I won’t
 go into too much detail of this
-uh of uh what they do but
+of what they do but
 
 00:36:06.131,00:36:11.102
 basically they also look into
@@ -1876,21 +1876,21 @@ directly so that basically
 00:36:18.710,00:36:23.982
 convert this factoring problem
 into Shor Discreet Algorithm uh
-problem and um uh they have a
+problem and they have a
 
 00:36:23.982,00:36:30.855
 part that is computed
 classically and a part that is
-computed um quantumly on a
+computed quantumly on a
 
 00:36:30.855,00:36:37.629
-quantum computer. And they can
+quantcomputer. And they can
 show that in order to find p and
 q they can come up with
 
 00:36:37.629,00:36:43.234
 obviously they know what n is
-which is uh the multiplication
+which is the multiplication
 of those two. They can come up
 
 00:36:43.234,00:36:47.472
@@ -1906,16 +1906,16 @@ which they can fairly easily
 00:36:53.344,00:36:56.781
 solve fairly easily is obviously
 an overstatement because they
-still need uh 20 million uh
+still need 20 million uh
 
 00:36:56.781,00:37:03.655
-qubits uh to do so. Um uh but
-obviously the uh the um
+qubits to do so. but
+obviously the the um
 reduction from 1 billion qubits
 
 00:37:03.655,00:37:08.193
 to 20 million qubits is uh
-massive and uh I expect in the
+massive and I expect in the
 next couple of years there’s
 
 00:37:08.193,00:37:12.931
@@ -1924,18 +1924,18 @@ through Shor’s algorithm and
 especially to Gidney and Ekera’s
 
 00:37:12.931,00:37:19.304
-um uh algorithm where this is
-gonna be uh reduced uh further
+algorithm where this is
+gonna be reduced further
 on. Obvuiously 20 million qubits
 
 00:37:19.304,00:37:25.610
 is still a long way away from uh
-quantum computers that are
-accessible today um uh where we
+quantcomputers that are
+accessible today where we
 
 00:37:25.610,00:37:30.615
 are in the realm of slowly below
-100 qubits um uh at this point
+100 qubits at this point
 in time. So I want to spend the
 
 00:37:32.951,00:37:36.855
@@ -1945,7 +1945,7 @@ the process of quantum
 
 00:37:36.855,00:37:42.026
 annealing. This is the second
-type of quantum computer and uh
+type of quantcomputer and uh
 that is actually what is quite
 
 00:37:42.026,00:37:45.797
@@ -1955,7 +1955,7 @@ and the implication of
 
 00:37:45.797,00:37:50.935
 cryp-cryptography. Actually
-quantum annealing right now is
+quantannealing right now is
 much much further ahead in terms
 
 00:37:50.935,00:37:55.406
@@ -1976,11 +1976,11 @@ need to I need to define my
 00:38:05.049,00:38:09.788
 problem as an optimization
 problem and then basically
-quantum annealing computer can
+quantannealing computer can
 
 00:38:09.788,00:38:16.060
 take this problem and then find
-uh minimum of this uh problem
+minimof this problem
 because it represents a physical
 
 00:38:16.060,00:38:20.732
@@ -1994,7 +1994,7 @@ have the solution to my problem.
 And there is really a cool a
 
 00:38:25.003,00:38:31.976
-cool theorem um uh where you’re
+cool theorem where you’re
 gonna find you wanna go into the
 lowest point. You wanna find
 
@@ -2004,23 +2004,23 @@ hand side. So how do we find
 this lowest point and not get
 
 00:38:36.047,00:38:41.920
-caught up in those uh minimums
-uh in between. And there’s lots
+caught up in those minimums
+in between. And there’s lots
 of ways how you can do this from
 
 00:38:41.920,00:38:47.992
-the uh from the physical system.
+the from the physical system.
 And there’s really cool case on
-this quantum annealing case
+this quantannealing case
 
 00:38:47.992,00:38:52.997
 where there is a theorem that
 says if I start in a really in a
-very easy quantum mechanical
+very easy quantmechanical
 
 00:38:55.500,00:39:01.506
 system. In this really easy
-quantum mechanical system I know
+quantmechanical system I know
 the ground state. So this is my
 
 00:39:01.506,00:39:06.711
@@ -2039,8 +2039,8 @@ this theory gives me a guarantee
 or physical proof that I will
 
 00:39:19.958,00:39:26.231
-end up in the in the maximum in
-the optimal minimum of the
+end up in the in the maximin
+the optimal minimof the
 problem that I wanna solve. And
 
 00:39:26.231,00:39:31.502
@@ -2056,7 +2056,7 @@ equal zero you end up in this
 00:39:36.174,00:39:41.179
 high H zero which is my easy to
 understand system where I know
-the local minimum and in my
+the local minimand in my
 
 00:39:43.214,00:39:49.454
 calculation I slowly moves from
@@ -2070,12 +2070,12 @@ adiabatic theorem guarantees to
 
 00:39:54.859,00:40:00.598
 me that I will end up in the
-maximum minimum for the problem
+maximminimfor the problem
 that I really want to solve.
 
 00:40:00.598,00:40:05.403
 Which is really really cool
-because it gives uh I know I’m
+because it gives I know I’m
 not going to be caught in some
 
 00:40:05.403,00:40:09.474
@@ -2095,7 +2095,7 @@ look into the problem n equals p
 
 00:40:21.552,00:40:27.992
 times q. I am looking for p and
-q um uh so that this equation is
+q so that this equation is
 true. So I just need to solve
 
 00:40:27.992,00:40:32.897
@@ -2119,7 +2119,7 @@ binary optimization problem
 which you can happily run on any
 
 00:40:51.716,00:40:56.354
-quantum annealer that is out
+quantannealer that is out
 there. And you basically use
 binary representation that is
 
@@ -2134,7 +2134,7 @@ this down and it's a very simple
 example. My example 15 is 5
 
 00:41:02.994,00:41:04.996
-times 3. Now um uh in binary
+times 3. Now in binary
 notation p equals x1,1. The last
 bit always has to one because
 
@@ -2151,12 +2151,12 @@ to minimize now. And I can run
 00:41:13.905,00:41:20.545
 this against D Wave’s quantum
 computer and if I find the
-minimum I know n equals pq
+minimI know n equals pq
 
 00:41:20.545,00:41:23.181
 because that’s by definition a
 positive function. So I can use
-quantum’s uh D’wave’s quantum
+quantum’s D’wave’s quantum
 
 00:41:23.181,00:41:26.351
 computer they provide a library
@@ -2165,11 +2165,11 @@ here you can download it. It’s
 
 00:41:26.351,00:41:29.987
 basically same thing you just
-call factor P. P is my uh my
+call factor P. P is my my
 product and I can run this on uh
 
 00:41:29.987,00:41:34.993
-D’wave’s quantum computer. The
+D’wave’s quantcomputer. The
 problem is if I run this without
 any optimization I need n
 
@@ -2180,13 +2180,13 @@ need really kind of like grow
 
 00:42:06.524,00:42:11.529
 quite heavily and for larger
-numbers is not sustainable uh to
+numbers is not sustainable to
 do. But I wanted to show you
 
 00:42:13.531,00:42:18.536
 it’s all probability so if I run
 this one time I end up with um
-uh my for 15 for the p and q for
+my for 15 for the p and q for
 
 00:42:20.605,00:42:26.511
 my two prime numbers is one and
@@ -2194,19 +2194,19 @@ seven which is obviously wrong
 so I run this once and I didn’t
 
 00:42:26.511,00:42:31.382
-really end up in the uh in the
+really end up in the in the
 right spot. But I run this five
 times and now I already have 5
 
 00:42:31.382,00:42:36.621
 and 3 is already 60 percent um
-uh you know probabilities. And
+you know probabilities. And
 if I run this fifty times you
 
 00:42:36.621,00:42:42.560
 know I know my prime numbers are
 already 3 and 5 so I know I need
-to run those quantum algorithms
+to run those quantalgorithms
 
 00:42:42.560,00:42:47.899
 more and more often to make sure
@@ -2244,14 +2244,14 @@ numbers and it carry overs to
 the left and virtually all of
 
 00:43:21.799,00:43:28.372
-those optimizations um uh go
+those optimizations go
 through this how I can do this
 multiplications much easier.
 
 00:43:28.372,00:43:33.377
 Dridi and Alghassi did some work
 in 2016 where they used some of
-these uh optimizations to remove
+these optimizations to remove
 
 00:43:35.379,00:43:41.419
 some of the all of the degrees
@@ -2265,8 +2265,8 @@ annealing are not as don’t have
 
 00:43:48.526,00:43:53.998
 to be as good as universal
-quantum computer qubit so D wave
-announced a system with uh I
+quantcomputer qubit so D wave
+announced a system with I
 
 00:43:53.998,00:43:59.003
 think around 5,000 qubits for
@@ -2274,7 +2274,7 @@ next year. So 900 qubits is what
 was available back then on
 
 00:44:01.939,00:44:07.912
-universal quantum computers. The
+universal quantcomputers. The
 biggest prime number is less
 than 100 and they these guys in
 
@@ -2286,11 +2286,11 @@ The big breakthrough was from
 00:44:13.851,00:44:18.856
 Jiang et al in Indiana in uh
 April 2018 and it is really kind
-of mindblowing uh you see the
+of mindblowing you see the
 
 00:44:21.292,00:44:26.430
 next one which was really just
-uh two months after really
+two months after really
 around optimization of this
 
 00:44:26.430,00:44:32.603
@@ -2301,12 +2301,12 @@ number which is greater than
 00:44:32.603,00:44:39.076
 350,000 with just 94 qubits.
 Remember D-wave comes up with
-5,000 units quantum computer
+5,000 units quantcomputer
 
 00:44:39.076,00:44:44.081
-next week um next year. Um uh
+next week next year. uh
 and it's all based on this
-optimization uh problem that we
+optimization problem that we
 
 00:44:46.517,00:44:51.889
 solve called factoring and with
@@ -2314,14 +2314,14 @@ optimization to the
 multiplication table. And then
 
 00:44:51.889,00:44:57.161
-Peng in two thousand uh in uh
-earlier this year really um uh
+Peng in two thousand in uh
+earlier this year really uh
 and you can see this uh
 
 00:44:57.161,00:45:01.999
 submission was received in July
 while the previous submission
-was I think uh submitted in
+was I think submitted in
 
 00:45:01.999,00:45:07.338
 April or something it was just
@@ -2336,7 +2336,7 @@ qubits. So that’s already 20 bit
 00:45:11.976,00:45:17.381
 number. So right now when you
 look into the problem of hey can
-I use a quantum computer to uh
+I use a quantcomputer to uh
 
 00:45:17.381,00:45:24.255
 factor prime numbers. Universal
@@ -2344,12 +2344,12 @@ computers and Shor’s algorithms
 are nowhere compared to uh
 
 00:45:24.255,00:45:30.027
-quantum annealers. And with
-quantum annealers I can already
-um uh um do this with uh 20 bit
+quantannealers. And with
+quantannealers I can already
+do this with 20 bit
 
 00:45:30.027,00:45:32.029
-numbers. So um there’s three
+numbers. So there’s three
 things really interesting. So
 they they can run this on
 
@@ -2359,39 +2359,39 @@ And all of those algorithm
 that’s a really big takeaway um
 
 00:45:34.031,00:45:39.036
-uh that you have. To do this I
+that you have. To do this I
 don’t just have one quantum
 problem that I wanna solve. It’s
 
 00:45:48.179,00:45:53.317
 always a hybrid model of some
 classical compu-computation and
-some quantum computation. I
+some quantcomputation. I
 
 00:45:53.317,00:45:57.321
 really use classic computer what
 he’s good at and quantum
-computer what a quantum computer
+computer what a quantcomputer
 
 00:45:57.321,00:46:02.259
-is um is um good at. So um my
-point is quantum annealers are a
+is is good at. So my
+point is quantannealers are a
 thousand fold better right now
 
 00:46:06.530,00:46:11.569
 than Shor’s algorithm and
-universal quantum computers. But
+universal quantcomputers. But
 because they are too noisy right
 
 00:46:11.569,00:46:18.476
 now we are far away from
-breaking anything that is uh in
+breaking anything that is in
 used in practical terms. Right
 
 00:46:18.476,00:46:24.882
 now the biggest number is a 20
 bit number. But obviously we
-know uh those two uh kind of
+know those two kind of
 
 00:46:24.882,00:46:29.520
 like converging curves here. The
@@ -2399,7 +2399,7 @@ algorithms are getting better
 and better. At the same time the
 
 00:46:29.520,00:46:34.592
-quantum hardware gives me more
+quanthardware gives me more
 and more qubits as well. So both
 of them will actually have a big
 
@@ -2415,27 +2415,27 @@ You’re neglecting the
 
 00:46:43.601,00:46:48.506
 improvements that the algorithms
-uh will make over the next uh
-over the next uh couple of years
+will make over the next uh
+over the next couple of years
 
 00:46:48.506,00:46:54.578
-too. So a couple of uh myth and
+too. So a couple of myth and
 reality. Shor, nobody is gonna
 implement Shor on any quantum
 
 00:46:54.578,00:47:00.918
-computer whatsoever. Um uh Shor
+computer whatsoever. Shor
 was a theoretical work. There
-are practical work um uh you
+are practical work you
 
 00:47:00.918,00:47:07.258
 know derivations of this work
-that will be implemented. Um at
+that will be implemented. at
 some point obviously on the on
 
 00:47:07.258,00:47:13.030
 the base of Shor’s algorithms
-people will break um uh the uh
+people will break the uh
 the RSA encryption. It is a
 
 00:47:13.030,00:47:17.401
@@ -2459,8 +2459,8 @@ key is known. I don’t care
 whether it takes me 20 years to
 
 00:47:33.050,00:47:37.888
-uh get the private key to those
-uh to those bitcoins. I figure
+get the private key to those
+to those bitcoins. I figure
 in 20 years there’s you know one
 
 00:47:37.888,00:47:42.727
@@ -2471,7 +2471,7 @@ around 12 billion dollars right
 00:47:42.727,00:47:46.997
 now. Hey if someone come to me
 and say Hi Chris you know can
-you bring me quantum computer.
+you bring me quantcomputer.
 
 00:47:46.997,00:47:50.735
 Hey it’s really hard it takes me
@@ -2479,8 +2479,8 @@ Hey it’s really hard it takes me
 here’s 12 billion dollars right
 
 00:47:50.735,00:47:55.740
-there. [laughter] So um um so
-anyway uh it takes it will be
+there. [laughter] So so
+anyway it takes it will be
 quite a while but I want to
 
 00:47:58.309,00:48:02.913
@@ -2495,13 +2495,13 @@ kind of you know from this
 
 00:48:07.284,00:48:13.457
 Chinese paper in the very end.
-That’s the that’s the uh uh the
+That’s the that’s the the
 end statement. There’s plenty of
 
 00:48:13.457,00:48:19.397
 work on the way right now to use
-quantum annealers or to look
-into symmetric uh encryption. So
+quantannealers or to look
+into symmetric encryption. So
 
 00:48:19.397,00:48:24.468
 if you say hey I just use
