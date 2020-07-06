@@ -521,565 +521,547 @@ Payne Elevators, несмотря на мою фамалию.
 94
 00:09:55,625 --> 00:10:00,125
 или зажатые тормоза проскальзывают, в яме есть пружины
-или масляные поршни, предназначенные
+или масляные поршни, чья задача
 
 95
 00:10:00,125 --> 00:10:05,917
-to absorb the full weight of
-the car at full travel speed.
->> You probably won't die, very
+поглотить удар кабины,
+которая на полном ходу едет вниз.
+Вы вряд ли умрёте, но серьёзно пострадаете.
 
 96
 00:10:05,917 --> 00:10:14,577
-seriously injured, but you won't
-die. >> Yeah you'll be back next
-year. So elevators do the job
+Но не умрёте.
+- Да, через год восстановитесь.
+Так что лифты решают свою задачу
 
 97
 00:10:14,580 --> 00:10:21,620
-really well on that mode if
-you're riding in the elevator.
-If you're not, this is where
+действительно хорошо, если вы
+нормально ими пользуетесь.
+Но если нет, тогда
 
 98
 00:10:21,625 --> 00:10:27,625
-elevators get unsafe. When
-you're riding like a
-(indiscernible) in the car.
+лифты становятся небезопасными.
+Например, когда вы едете на крыше кабины. 
+"Давай покатаемся! Давай покатаемся!"
+Это кстати документальная съёмка
 
 99
 00:10:34,042 --> 00:10:40,042
->> Turn that light on.
-(Inaudible)
+"Включи свет"
 
 100
 00:10:41,420 --> 00:10:46,960
-(Tense music)
+(Напряженная музыка)
+"Это офигенно! Не могу поверить!"
 
 101
 00:10:51,000 --> 00:10:55,080
-People used to call it elevator
-surfing. >>
+Люди действительно это делали.
+Они называли это лифтсёрфинг.
+Не повторяйте!
 
 102
 00:10:57,580 --> 00:11:03,160
-(Screaming, ringing bell)
+(Кричит, звенит звонок)
+Ну да, не становитесь этим парнем
 
 103
 00:11:07,792 --> 00:11:12,417
-that is a way elevator
-mechanics have been fatally
-injured in the past. We're not
+К сожалению, именно так механика
+лифтов была фатальна в прошлом.
+Мы не шутим. Пожалуйста,
 
 104
 00:11:12,417 --> 00:11:18,542
-kidding. Don't do this. >> But
-in you're in the car on
-automatic operation, the
+не делайте этого. 
+- Но если вы внутри кабине, и лифт
+следуюет своей программе,
 
 105
 00:11:18,542 --> 00:11:22,292
-elevator's going to keep you
-very safe. Would you like to
-learn about nonautomatic
+то он вполне безопасный. Хотели бы вы
+узнать о том как заставить лифт
+не следовать программе?
 
 106
 00:11:22,292 --> 00:11:30,572
-application? >>  (Applause.)
->> The most common thing I use
-as a pen tester on jobs [S] flip
+(аплодисменты) Самая распространенная вещь,
+которую я использую как пентестер на заданиях
+это вывод лифта из группы обслуживания
 
 107
 00:11:30,583 --> 00:11:35,875
-an elevator out of group service
-and into independent service.
-When you register a hall call
+в независимую работу.
+Когда вы нажимаете на кнопку в коридоре,
+
 
 108
 00:11:35,875 --> 00:11:40,083
-and you have a bank of
-elevators, they don't all come
-to your floor. The controller
+и у вас есть несколько лифтов,
+они приходят не все.
 
 109
 00:11:40,083 --> 00:11:45,958
-chooses one and dispatches that
-to you because they're in group
-operation. If you take that
+Контроллер выбирает один и отправляет его
+для вас, потому что они все в группе
+обслуживания. Если вы вызвали этот
+
 
 110
 00:11:45,958 --> 00:11:51,818
-elevator up, the controller
-knows I can't use that for a
-while. An elevator in
+лифт вверх, контроллер знает,
+что его пока нельзя использовать. 
 
 111
 00:11:51,820 --> 00:11:56,620
-independent service as we see in
-independent key switch here,
-sometimes they're toggle
+На этом фото лифт в независимом обслуживании,
+мы видим переключатель этого режима с помощью ключа.
+иногда они переключаются
 
 112
 00:11:56,625 --> 00:12:02,250
-switches hidden behind panels.
-There's a lot of hidden panels.
-If you flip to independent
+тумблером, которые спрятаны за панелями.
+В лифтах много скрытых панелей.
+Если вы переключитесь на независимый
 
 113
 00:12:02,250 --> 00:12:08,700
-service mode, the elevator
-becomes yours. It ignores all
-the hall calls everything but
+режим обслуживания, лифт
+становится вашим. Он игнорирует все
+вызовы из коридоров, кроме
 
 114
 00:12:08,700 --> 00:12:18,040
-what we're telling it. That
-includes opening the doors if
-you drive to a floor, you have
+тех команд, которые говорите ему вы.
+Это включает в себя открытие дверей. Если
+вы приехали на этаж в этом режиме, вы должны
 
 115
 00:12:18,040 --> 00:12:25,875
-to manually say, open door, or
-close door. I have hidden in
-target buildings for hours just
+кнопкой приказать лифту "открыть дверь", или
+"закрой дверь". Я прятался внутри лифтов
+атакуемых зданий в течение нескольких часов просто
 
 116
 00:12:25,875 --> 00:12:29,417
-on independent service because
-it's not going anywhere. People
-could call the elevators all
+на независимом обслуживании, потому что
+она никуда не едет. Люди
+могут продолжать вызвать лифты весь
 
 117
 00:12:29,417 --> 00:12:36,583
-day. No one ever notices how
-come elevator passenger seven
-hadn't been responding. No, you
+день. Никто никогда не замечает:
+"Эй, а почему лифт номер семь
+не работает весь день?". Нет, ты
 
 118
 00:12:36,583 --> 00:12:42,667
-just get on the first one you
-come to. If I wield an office
-chair in an elevator once and
+просто пользуешься первым
+приехавшим. Однажды я сидел
+на офисном стуле в лифте и
 
 119
 00:12:42,667 --> 00:12:47,367
-sat there and waiting until
-everybody went home. And we
-rocked house all over data
+ждал, пока все не разойдутся
+по домам. Потом я впустил Боба
+и мы пробрались внутрь датацентра
 
 120
 00:12:47,367 --> 00:12:54,833
-center. >> [Laugther] >> So yeah,
-independent service is really useful if
-you're a pen tester. Because it
+[Смех] Да, независимое обслуживание
+реально полезно, если
+вы пентестер. Потому что лифт
 
 121
 00:12:54,833 --> 00:12:59,125
-takes the elevator completely
-out of the group and gives it
-just to you. It becomes your
+полностью выходит из обслуживающей
+группы и теперь принадлежит только вам. 
 
 122
 00:12:59,125 --> 00:13:04,708
-elevator. So there's a
-similar mode called
-attendance service and it has
+Есть ещё один подобный режим,
+он называется "Оператор лифта"
+и имеет
 
 123
 00:13:04,708 --> 00:13:10,958
-its root in the history. Where
-there actually was an attendant
-who would drive the cab up or
+свои корни в истории. Когда-то
+в лифте действительно был лифтёр,
+который перемещал кабину вверх или 
 
 124
 00:13:10,958 --> 00:13:17,858
-down using a hand crank like
-here. So on an automatic system,
-you'd see something like this
+вниз с помощью рукоятки, как на этом
+фото. Так на автоматической системе,
+вы бы увидели что-то вроде этого
 
 125
 00:13:17,860 --> 00:13:22,458
-behind a lock panel. There are
-up and down controls to allow
-the attendant to signal that the
+за панелью с замком. Есть кнопки
+вверх и вниз, чтобы лифтёр
+подал сигнал, что
 
 126
 00:13:22,460 --> 00:13:29,083
-wants to reverse direction.
-So they might have a cab full of
-people or VIP and they decide
+хочет изменить направление.
+К примеру в кабине может быть много
+людей или находиться VIP, поэтому
 
 127
 00:13:29,083 --> 00:13:34,917
-let's stop collecting all the
-calls in this direction and get
-these people wherever they need
+нужно перестать собирать вызовы
+из коридоров в этом направлении
 
 128
 00:13:34,917 --> 00:13:40,417
-to go. And then that bypass
-button, sometimes it's called
-the nonstop button, that allows
+Эта кнопка именно это и делает,
+иногда на ней есть надпись "без остановки"
+или аббревиатура "NS", которая позволяет
 
 129
 00:13:40,417 --> 00:13:46,375
-the attendant to continue in the
-same direction with the phone
-car and skip all the calls. When
+лифту продолжать движение в том же
+направлении и игнорировать все вызовы.
+Когда лифт приехал куда нужно,
 
 130
 00:13:46,375 --> 00:13:54,000
-he's done, all of those hall
-calls are still registered. So
-eventually it'll pick up those
+все те вызовы никуда не делись.
+В конце концов он соберёт всех
 
 131
 00:13:54,000 --> 00:13:59,580
-passengers that are waiting.
-It's just a wait to signal that
-the cab is full or whatever.
+пассажиров, которые ждут. Это
+просто способ сказать, что кабина
+полна или что-то в этом духе
 
 132
 00:13:59,580 --> 00:14:04,375
->> It's like the close door hack
-which doesn't fuck]ing work. So
-everyone should stop repeating
+Это как вскрытие закрытой двери,
+которая никуда не ведёт. Поэтому
+прекращайте это делать
 
 133
 00:14:04,375 --> 00:14:11,792
-that all the time. >> Except
-there's that one kind of. >>Ask
-us about like, ask us about
+- За исключением одного варианта
+- Спросите нас про логические контроллеры,
 
 134
 00:14:11,792 --> 00:14:17,250
-really logic controllers which
-how. >> We think the origin of
-that was independent. Somebody
+и о том, как они [работают?]... Короче,
+мы думаем, что этот режим порождён
+независимым обслуживанием
 
 135
 00:14:17,250 --> 00:14:23,583
-saw an elevator where the
-operator was holding door close
-to 'cause you have to on
+Кто-то увидел лифт, где оператор держал
+дверь закрытой, потому что вы должны это
+делать в этом режиме
 
 136
 00:14:23,583 --> 00:14:28,543
-independent mode. And it's like
-oh wow, you see what that guy
-did? I'll do that later? No you
+И началось: "Ого! вы видели,
+что этот парень сделал?
+Я хочу это повторить!"
 
 137
 00:14:28,543 --> 00:14:33,603
-won't. Unless you have a key
-switch. What if you don't want
-to have a high priority service
+Ты не сможешь, долбоёб, если только
+у тебя нет ключа. Что если вам нужен
+высший приоритет в обслуживании,
 
 138
 00:14:33,603 --> 00:14:41,300
-but don't want to hire someone
-to stand there >> So there are
-two types of priority services.
+но вы не хотите нанимать человека, который
+будет торчать в лифте круглыми сутками?
+- Есть два типа приоритетных услуг.
 
 139
 00:14:41,300 --> 00:14:46,640
-One is called express priority
-mode, the other is executive
-priority mode. We mentioned
+Один из них режим экспресс-приоритета,
+другой - исполнительного приоритета.
+Мы уже упоминали,
 
 140
 00:14:46,640 --> 00:14:51,940
-elevators will pick up calls
-and demand in the same
-direction it is already traveling.
+что лифт принимает вызовы
+в том же направлении,
+в котором он уже движется.
 
 141
 00:14:51,940 --> 00:14:58,600
-If there are passengers going
-up they're going to collect every
-up call on the way up as it goes.
+Если пассажиры едут вверх,
+по пути он собирает все
+вызовы наверх.
 
 142
 00:14:58,600 --> 00:15:05,080
-When it reaches the end it will
-reverse direction. In this case
-a user may have a key or badge
+Когда он доедет до верхнего этажа,
+направление меняется. В этом случае
+у пользователя может быть ключ или карта,
 
 143
 00:15:05,080 --> 00:15:12,500
-to signal they are more important
-than regular people. The difference
-between the modes, one will actually
+чтобы сказать лифту, что он более важен,
+чем обычные люди. Разница между режимами в том, что
+здесь лифт может изменить направление движения,
 
 144
 00:15:12,500 --> 00:15:18,840
-reverse the direction the cab is
-traveling to serve that person.
->> And what happens when VIP is
+чтобы как можно быстрее добраться до этого человека.
+- Что же происходит, когда должен проехать VIP?
 
 145
 00:15:18,840 --> 00:15:25,640
-served? >> In particular, it's
-funny if you ever see this used 
-‑ ‑ going up going down. And if
+Это на самом деле забавно, особенно в лифтах
+с голосовым интерфейсом в духе "Едем вниз"/"Едем вверх"
 
 146
 00:15:25,700 --> 00:15:31,840
-an executive puts their key in,
-it says this elevator is needed
-for other reasons. Please exit
+Управляющий вставляет свой ключ,
+резервируя лифт. При этом вы слышите
+сообщение: "Этот лифт используется
 
 147
 00:15:31,840 --> 00:15:39,420
-the door immediately upon
-opening. And it kicks you out of
-the elevator. >> Maybe if you're
+для другой цели, пожалуйста, немедленно
+покиньте его, когда откроются двери".
+- Он вас просто вышвыривает. Отлично
 
 148
 00:15:39,420 --> 00:15:45,417
-the type of person whose seen
-interesting communities and
-their beliefs and other things,
+Возможно, вы встречали людей из некоторых
+сообществ со своими убеждениями и правилами
 
 149
 00:15:45,417 --> 00:15:54,037
-your maybe familiar with Sabbath
-mode. Or you saw a movie with
-bill March religiously. It is
+Возможно, благодаря им вы знаете о режиме Шаббата.
+Кто-нибудь видел лифт с режимом Шаббата?
+Или вы видели религиозный фильм с Билл Марч?
 
 150
 00:15:54,040 --> 00:16:00,040
-for people who believe they're
-not allowed to interact with
-certain systems which toggles
+Он нужен для людей, которым нельзя взаимодействовать
+с механическими системами в шаббат, такими как кнопки
+и тумблеры.
 
 151
 00:16:00,042 --> 00:16:08,000
-Sabbath mode let's people get
-around the billing by driving
-all the way to the top floor and
+Режим шаббата позволяет людям покинуть
+здание. Он едет на верхний этаж,
+а потом спускается,
 
 152
 00:16:08,000 --> 00:16:15,875
-platforming automatically on
-every single floor on the way
-down. It's kind of like hacking
+останавливаясь на каждом этаже
+Это что-то типо хакинга Бога.
 
 153
 00:16:15,875 --> 00:16:24,195
-god I guess. Ah, I found a
-loophole in scripture. So I'm
-smarter than you. So that's
+А! Вот, я нашел лазейка в Писании. Так что
+я умнее тебя. Это режим Шаббата. И у многих
+лифтов он есть. 
 
 154
 00:16:24,200 --> 00:16:33,020
-Sabbath service. A lot of other
-there's a Sabbath mode there.
-Ask us later about why it
+Особенно в больших городах типо Нью-Йорка.
+У этого режима есть еще фишки
+Спросите нас позже о том, почему он
 
 155
 00:16:33,020 --> 00:16:36,540
-doesn't exactly do what some
-people think it does. And SAB
-some religious colors need to
+делает не совсем то, что может
+показаться на первый взгляд.
+А религиозным организациям стоит
 
 156
 00:16:36,542 --> 00:16:42,542
-double check their notes.
-Collars. Load by pass. Holy
-shit. Elevators know how heavy
+перепроверить свои документы. "[Обход] при перегрузке".
+Эта штука должна включаться чаще, но не включается
+Лифты знают, насколько они загружены
 
 157
 00:16:46,000 --> 00:16:52,875
-they are. You put too much shit
-in the elevator once and they
-beeped at you and got angry.
+Если вы загрузили в него слишком
+много хлама, он пищит и злится.
+У него есть датчики веса
 
 158
 00:16:52,875 --> 00:16:59,208
-They can use that data to say
-hum, I'm collecting all these
-calls and I'm pretty full. I
+Он может использовать эти данные,
+чтобы сказать:
+"Хм, я набрал уже много народу, я почти полный
 
 159
 00:16:59,208 --> 00:17:03,167
-should not fucking stop at a
-bunch of other floors right now
-because it's going to be a bunch
+Лучше я не буду останавливаться
+на каждом оставшемся вызове,
+иначе будет:
 
 160
 00:17:03,167 --> 00:17:11,417
-of this. Sorry no room. Sorry no
-room. For like five more floors.
-Yeah. Hope if you come to like
+"Извините, нет места". "Извините".
+И так пять этажей подряд.
+Ага. [Надеюсь, если вам понравится
 
 161
 00:17:11,417 --> 00:17:17,167
-the hope in New York, why this
-isn't enabled more often is
-beyond me. Why antinuance is not
+надежда в Нью-Йорке] Почему это включают
+не так часто за гранью моего понимания.
+Почему [антихулиган (anti-nuisance)] не включён
 
 162
 00:17:17,167 --> 00:17:24,708
-enabled. If you're a frickin'
-derby bush and like the press
-all buttons  ‑ ‑ >> More calls.
+из коробки?. Если ты долбаный...
+Дерпи Хувз и любишь нажимать все кнопки
+Вы знали, что лифты умеют сбрасывать всё это?
 
 163
 00:17:24,708 --> 00:17:33,580
-Keep going. Wait hold on. Boom,
-done. (Laughing) that's amazing
-keep recording it. So we're
+- Продолжай. Подожди, подожди.
+Бум, готово! (Смеется)
+Это удивительно. 
 
 164
 00:17:33,580 --> 00:17:41,700
-going down, one to 23 and boom.
-Out. It's like they know we're
-here. >> Yeah that's called
+Давай еще. Едем вниз... 1,2,3 и бум.
+Отключился. Как будто они знают, что мы здесь
+Это называется "[антихулиган (anti-nuisance)]"
 
 165
 00:17:41,708 --> 00:17:46,542
-antinuance mode. There's peak
-programming if you're a building
-with workers come in the
+Есть режим работы в часы пик,
+когда работники приходят в офис утром
 
 166
 00:17:46,542 --> 00:17:53,260
-morning. Check out in a certain
-hour. There's all kind of
-optimization that you can do and
+Включается в определенные часы.
+Есть множество оптимизаций,
 
 167
 00:17:53,260 --> 00:17:58,540
-that's something a confident
-elevator consultant can do for
-you. There's also if you want to
+которые вам может включить квалифицированный
+специалист по лифтам. Есть режимы, когда
 
 168
 00:17:58,540 --> 00:18:02,700
-have like extra special
-considerations when people
-shouldn't be coming and going.
+вы не хотите впускать или выпускать людей
+из здания в определённых обстоятельствах
 
 169
 00:18:02,708 --> 00:18:11,600
->> I saw a mode at museum and it
-was called riot mode. I thought
-what the heck is this. The
+- Я видел в музее режим под названием "режим бунта".
+Я подумал, что это за хрень?
 
 170
 00:18:11,600 --> 00:18:17,792
-building owners wanted a way,
-they could lock the ground floor
-out of the elevator system but
+Владельцы здания хотели таким образом,
+запрещать лифту обслуживание первого этажа.
 
 171
 00:18:17,792 --> 00:18:23,625
-still use it to access the other
-floors. So again, somebody in
-the security room would hit a
+При этом лифт можно использовать
+на всех других этажах. То есть, кто-то
+из охранников нажимает кнопку
 
 172
 00:18:23,625 --> 00:18:31,083
-button and say oh gosh, there's
-a riot happening outside.
->> Occupy Tulsa. >> So it
+и говорит: "О Боже, снаружи бунт".
+И когда он её нажимает...
+- "Оккупируй Тальсу!" [протесты в США в 2011]
 
 173
 00:18:31,083 --> 00:18:34,923
-would just stop responding to
-the ground floor because if
-somebody was able to get in on
+Лифт просто перестаёт реагировать на
+первый этаж, потому что если
+кто-то заберётся в здание
 
 174
 00:18:34,923 --> 00:18:40,580
-the ground level, they could get
-on an elevator and do bad
-things. >> The basic part of the
+с улицы, он может добраться
+на лифте куда угодно и делать плохие вещи. 
+- Но главная фишка режим бунта в том,
 
 175
 00:18:40,583 --> 00:18:50,680
-riot mode, the elevators keep,
-WOG on the rest. Why can't the
-99  percent be happy with the
+что лифт продолжает работать на остальных этажах. 
+Вы можете смотреть из окна своих апартаментов
+и сетовать: "Ох! Ну почему 99% людей не довольны
 
 176
 00:18:50,680 --> 00:18:58,200
-scraps we give them. You don't
-care you just can't go to the
-lobby. So also decide SIFK
+объедками, что мы им даем?" Вы продолжаете ездить между
+этажами. Вам наплевать, вы просто не можете выйти в холл.
+- Помимо социальных потрясений
 
 177
 00:18:58,208 --> 00:19:04,708
-unrest there's also seismic
-unrest. And you may never have
-seen this. Or you might live in
+Есть также сейсмические. Возможно, вы живёте
+в сейсмически стабильном регионе и никогда
+не видели этого. А может вы живёте
 
 178
 00:19:04,708 --> 00:19:09,042
-southern California where
-there's a little jewel on the
-elevator sometimes that says
+Южной Калифорнии, где в лифтах есть
+маленькая лампочка с надписью
+"сейсимичность(seismic)".
 
 179
 00:19:09,042 --> 00:19:16,958
-seismic. It's going to cause an
-earthquake when you push it. No,
-there's this indicator that in an
+Люди любят шутить: "Чувак, если её нажать,
+начнётся землетрясение". Нет,
+это просто лампочка, которая загорается
 
 180
 00:19:16,958 --> 00:19:22,125
-earthquake you should exit the cab as
-soon as possible. So a lot of
-tiles it's very simple
+при землетрясении. При этом вы должны выйти
+из кабины, как можно быстрее.
+Механизм обычно устроен он очень просто:
 
 181
 00:19:22,125 --> 00:19:26,792
-mechanical that might be a
-ring on a string as
-you call it. There's a [metal
+это кольцо на "струне", как её называют,
+через которое пропущен металлический
+кабель вдоль всей шахты
 
 182
 00:19:26,792 --> 00:19:31,667
-cable running up ask down. And
-if the cab starts swinging side
-to side, that ring might come in
+Если кабина начнет раскачиваться
+в стороны, это кольцо касается струны,
 
 183
 00:19:31,667 --> 00:19:37,167
-contact completing a circuit
-indicating to the controller
-that unexpected lateral movement
+замыкая цепь, что говорит контроллеру
+о неожиданном боковом движении
 
 184
 00:19:37,167 --> 00:19:43,458
-is occurring. It's the one kind
-of emergency mode that might
-actually take you up. So it's a
+Это единственный вид аварийного режима,
+который может поднять вас наверх
 
 185
 00:19:43,458 --> 00:19:47,875
-little counterintuitive. But if
-you think about it, what can
-happen, one of the risks during
+Это может быть неинтуитивно, но, если 
+вы задумаетесь, один из рисков во время
 
 186
 00:19:47,875 --> 00:19:53,750
-an earthquake, if the cab or the
-counterweight actually becomes
-displaced from the rail that is
+землетрясения в том, что если кабина или
+противовесом сойдут с рельс, по которым
 
 187
 00:19:53,750 --> 00:19:59,667
-Supposed to guiding it.
-You got a 2,500, 3,000‑ pound 
->> (Inaudible) with you.
+они ездят, в итоге вы получите
+противовес весом тонну или полторы,
+качающийся рядом с вами.
 
 188
 00:19:59,667 --> 00:20:04,875
->> Yeah, so it moves you away
-from the counterweight. Even if
-it moves you in the wrong direction.
+Поэтому вас нужно увезти от него
+подальше, пускай и вверх.
 
 189
 00:20:04,875 --> 00:20:08,750
