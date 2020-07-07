@@ -1065,597 +1065,579 @@ Payne Elevators, несмотря на мою фамалию.
 
 189
 00:20:04,875 --> 00:20:08,750
->> How many people maybe work in a
-hospital or medical facility,
-you may have seen code [blue
+Сколько людей здесь работает в
+больнице или медучреждении?
+Возможно, вы видели режим "Синий код"
 
 190
 00:20:08,750 --> 00:20:14,770
-service. Right on. That's
-medical priority. Imagine the
-highest VIP priority where a
+Используется медработниками.
+Представьте себе наивысший приоритет,
+в котором врач или кто-то еще
 
 191
 00:20:14,770 --> 00:20:19,500
-doctor or an emergency
-personnel will use a key
-and they will seize an elevator
+из медиков воспользуется ключом,
+чтобы захватить ближайший лифт.
 
 192
 00:20:19,500 --> 00:20:25,500
-the closest one responds and it
-becomes their elevator until the
-key comes back down. Hospital
+Он становится их лифтом до тех пор,
+пока не вынимается ключ. Это "Синий код"
 
 193
 00:20:25,500 --> 00:20:35,292
-also has code pink. It's baby
-theft mode. If the baby gets moved
-unauthorized, the elevators can
+В больницах также есть "Розовый код".
+Этот режим используют при похищении ребёнка.
+Если кто-то взял ребёнка без разрешения,
 
 194
 00:20:35,292 --> 00:20:39,875
-basically turn into security
-recall devices which is its own
-mode that you can program
+лифты могут превратиться в ["Security Recall"]
+устройства. Помните, что лифт можно вывести
+из группового обслуживания?
 
 195
 00:20:39,875 --> 00:20:44,833
-independent of a hospital. It
-turns the elevator into a man
-trap. It'll deliver the person
+Этот режим превращает лифт
+в ловушку. Он доставит человека
 
 196
 00:20:44,833 --> 00:20:50,333
-to a floor of your designation
-And keep the doors
-shut. Or it'll psych it will
+туда, куда вы скажете, и будет держать двери
+закрытыми, пока вы не придёте или
 
 197
 00:20:50,340 --> 00:20:55,458
-doors manually so they can't
-hide. There's all kinds of
-fascinating things you can do
+[что-то делать с дверьми, чтобы никто не спрятался в лифте]
+Есть много удивительных вещей,
+которые вы можете делать с безопасностью лифтов
 
 198
 00:20:55,458 --> 00:20:59,458
-with elevator security and
-there's other things people try
-to do and we're going to shit
+Мы попробуем пройтись
+по ним через минуту.
 
 199
 00:20:59,458 --> 00:21:04,458
-all over that in a minute.
-There's also just modes you see,
-if you start looking into this,
+Когда начинаешь изучать это,
+начинаешь видеть еще кучу других режимов.
+Можно наткнуться на "режим безопасности"
 
 200
 00:21:04,458 --> 00:21:09,833
-you'll see security service.
-This is kind of a catch all key
-switch. It doesn't always mean
+Это что-то типо ключа ото всех
+режимов. Это не всегда означает то,
 
 201
 00:21:09,833 --> 00:21:14,083
-what you think. Like all the key
-switches in this photo are
-actually the same keyway.
+что ты думаешь. К примеру
+все выключатели на этой фотографии
+на самом деле включаются одим ключём
 
 202
 00:21:14,083 --> 00:21:19,333
-Look at one of them that the
-security service looks beat to
-hell. So I asked the desk at
+Взгляните на тот с надписью "служба безопасности".
+Выглядит сильно потрёпанным. Я спросил дежурного
 
 203
 00:21:19,333 --> 00:21:25,292
-this hotel, hay, I work with
-elevators, I'm curious, are you
-having security incidents every
+в том отеле: Слушай, я работаю с лифтами,
+и мне любопытно, у вас что происходит 
+дохрена инцидентов каждый день?
 
 204
 00:21:25,292 --> 00:21:32,042
-frickin' day? And he's like no.
-The maid use that to go to the
-basement. Just 'cause use see
+А он такой: не, горничная использует
+его, чтобы попасть в подвал.
+Если вы что-то видите,
 
 205
 00:21:32,042 --> 00:21:38,542
-something, it doesn't actually
-do what you think it does. One
-of the most misunderstood modes
+не факт, что оно делает то,
+что вы думаете. 
+- Один из самых непонятых режимов
 
 206
 00:21:38,542 --> 00:21:43,000
-is firefighters emergency
-operation. You're seeing here
-two key switches that are
+это режим пожарного. Вы видите
+два ключевых переключателя,
+которые играют
 
 207
 00:21:43,000 --> 00:21:48,667
-instrumental in the use of an
-elevator during a fire. When the
-heat or smoke condition is
+важную роль в использовании
+лифта во время пожара. Когда
+датчик температуры или дыма
 
 208
 00:21:48,667 --> 00:21:54,640
-detected by the buildings's fire
-alarm system there are contact
-that is  ‑ ‑   ‑ ‑ controller
+пожарной системы здания включает тревогу,
+эта система подключается к контроллеру
+лифта, который сигнализирует,
 
 209
 00:21:54,640 --> 00:21:59,360
-which indicates that there is
-such a condition and that it's
-no longer safe to run the
+что сработала тревога
+и что в данной ситации
+пользоваться лифтом небезопасно
 
 210
 00:21:59,360 --> 00:22:05,320
-elevators. You've probably seen
-signs. They're supposed to be at
-every landing. That say  ‑ ‑
+Вы, наверное, видели знаки.
+Они встречаются везде.
+"Не пользуйтесь лифтом в случае пожара"
 
 211
 00:22:05,320 --> 00:22:09,120
->> You shouldn't be able to. The
-elevator should go away from you
-and sit] in the lobby. It
+- У вас в принципе не должно быть такой
+возможности. Лифт должен уехать от вас
+и встать в вестибюле
 
 212
 00:22:09,125 --> 00:22:16,840
-should. >> But the smokes and
-heats  are near the landing so the 
-building can be in fire down there, and
+- Должен, но штука в том, что датчики
+расположены рядом с дверями лифта, так что
+здание может быть в огне в той стороне,
 
 213
 00:22:16,840 --> 00:22:21,940
-the elevator over there is still
-working SDWL but if the elevator
-has platformed in the lobby, the
+А другой лифт всё еще работает.
+- Но если лифт остановился в вестибюле,
 
 214
 00:22:21,940 --> 00:22:27,875
-firefighter can take control of
-it. And they can drive it in the
-building and in a very powerful
+Пожарный может перехватить управление.
+Это также называется "Фаза 2"
+И они могут перемещаться по зданию очень быстро.
 
 215
 00:22:27,875 --> 00:22:34,583
-way. >> Just to be clear, phase
-one is when the smoke and heat
-detecters go off. It brings the
+Чтобы было понятно, фаза
+один, это когда срабатывают
+датчики дыма и температуры.
 
 216
 00:22:34,583 --> 00:22:40,300
-elevators down to the lobby or
-some other designated floor  ‑ ‑
-  ‑ ‑ once the car is on phase
+Лифты спускаются в вестибюль или на заранее заданный
+этаж. Пожарные могут вручную перевести лифт в первую
+фазу, если этого не произошло. Но когда он в ней,
 
 217
 00:22:40,300 --> 00:22:48,120
-one, then they can go in and use
-their key to activate phase two
-which allows them to run the
+пожарные могут войти и использовать
+свой ключ для активации второй фазы,
+что позволяет им управлять лифтом при пожаре
 
 218
 00:22:48,120 --> 00:22:53,500
-car. Over riding the fact that
-this other is logged out.
->> Over riding is pretty much
+- Ключ отменяет то, что это лифт выбыл
+из обслуживания
+- Он отменяет по сути всё
 
 219
 00:22:53,500 --> 00:22:59,083
-everything. You think
-independent mode is powerful?
-Firefighter phase is way more
+Вы думаете, что независимый
+режим является мощным?
+Фаза пожарного намного круче
 
 220
 00:22:59,083 --> 00:23:07,420
-powerful. Fuck you, I'm a
-firefighter. >> By code it has
-to be disabling any security
+Тут считыватель карт? Да пошёл ты, я пожарный. Этот этаж запрещён? Пошёл ты. Я пожарный, мне надо туда.
+- По инструкции он имеет право отключить любую систему безопасности,
 
 221
 00:23:07,420 --> 00:23:11,833
-systems. So that firefighters
-can get to the floor they need
-to go to. So there's one more
+что позволяет добраться
+до нужного им этажа.
+Но есть еще один режим,
 
 222
 00:23:11,833 --> 00:23:17,375
-mode that's even more powerful
-than this. In the elevator
-world, who can ever be more
+мощнее этого. Кто может быть
+еще важнее, чем пожарный
+в мире лифтов?
 
 223
 00:23:17,375 --> 00:23:23,458
-important than a firefighter?
->> Us. (Laughing) . >> Yeah,
-elevator guys right? . So
+- Мы
+- Лифтеры, не так ли?
 
 224
 00:23:23,458 --> 00:23:28,718
-hoistway inspection, if
-you can take command of the
-elevator and get into the hoist
+Например, инспектирование шахты,
+Вы можете взять управление лифтом
+на себя и вылезти прямо в шахту,
 
 225
 00:23:28,720 --> 00:23:34,458
-way, which is superfuck]ing
-dangerous. If you don't know
-what you're doing, don't god dam
+что кстати охренеть как
+опасно. Если не знаете,
+что делате, не делайте этого.
 
 226
 00:23:34,458 --> 00:23:41,542
-do this. If you do, there are
-all kinds of controls in there,
-you should not have anything to
+Но если знаете, там есть
+все элементы управления,
+Но вы не должны их трогать,
 
 227
 00:23:41,542 --> 00:23:46,162
-do with because you don't know
-what they are. >> Exactly. >> Oh
-my God, you'll see something
+потому что вы не знаете, что они делают. 
+- Совершенно верно.
+- О да, мы, наверное, вернёмся к этому позже
 
 228
 00:23:46,162 --> 00:23:50,833
-about that later maybe. So
-plenty of buildings, try to use
-elevators adds part of their
+Очень много зданий, пытаются использовать
+лифты как элемент модели защиты.
 
 229
 00:23:50,833 --> 00:23:55,458
-security model. Maybe you seen a
-building where you can't
-register a haul call. Or you
+Может быть, вы были
+в здании, где нельзя
+вызвать лифт в коридоре. 
 
 230
 00:23:55,458 --> 00:24:02,792
-have to use a key. Maybe there's
-no haul buttons, there's only a
-key switch. Maybe you've been in
+Для этого нужен ключ. Кнопки могут быть
+отключены. Может быть, кнопки вызова нет,
+есть только замочная сважина.
 
 231
 00:24:02,792 --> 00:24:08,917
-situations where a badge reader
-is used or hotel key card is
-used. So not being able to make
+Где-то для вызова используется пропуск
+или ключ-карта отеля.
+[Мы не смогли принести сюда лифт,]
 
 232
 00:24:08,917 --> 00:24:13,875
-the elevator come to you and you
-can drive it layer, we'll show
-you an interesting trick about
+Позже мы покажем
+вам интересный трюк позже
 
 233
 00:24:13,875 --> 00:24:18,958
-that. Maybe there have been
-situations where you can get in
-the elevator and certain floors
+Может быть, вы были в лифтах
+с этажами, на которые можно
+попасть только с ключом?
 
 234
 00:24:18,958 --> 00:24:23,958
-are locked out. What kind of locks
-are these? Anybody who's been in
-the lock (inaudible).
+Что это за замок? Кто-нибудь,
+был в секции локпикинга?
 
 235
 00:24:25,980 --> 00:24:32,140
-(Indiscernible) locks are shit
-ones. Those are valid answers.
-all the elevator key switches,
+Да, Автомобильный или велосипедный
+замок. Говнозамок. Это правильные
+ответы. Почти все замки тут
 
 236
 00:24:32,140 --> 00:24:35,792
-almost all of them are way for
-lock. Some of them are harder I
-think. But you can pick them
+именно этого типа. Некоторые
+из них посложнее, чем кажется.
+Но вы можете вскрыть их позже,
 
 237
 00:24:35,792 --> 00:24:42,667
-later if you want. This is not a
-way for lock. That is a medical
-lock. I'm very interested on
+Если захотите. Это не велосипедный
+замок. Что это? Это замок MEDICO.
+Мне очень интересно,
 
 238
 00:24:42,667 --> 00:24:48,458
-floor seven. But anything like
-lock outs or badge systems,
-these are common ways that
+Что на седьмом этаже? При использовании
+замков и пропусков, многие люди
+люди пытаются использовать лифт
 
 239
 00:24:48,458 --> 00:24:53,708
-people try to treat the elevator
-as restricting your movement.
-They try to say, oh you know,
+Как заградительный элемент, который
+ограничивает ваше перемещение.
+Они говорят:
 
 240
 00:24:53,708 --> 00:24:58,792
-someone couldn't get to floor
-seven or 20, or whatever unless
-they have the right credential.
+"Никто не сможет добраться
+до седьмого или двадцатого этажа,
+если у него нет права доступа"
 
 241
 00:24:58,792 --> 00:25:04,875
-Duck FAUK bunch of that. That's
-not how you should think of your
-elevator. You want to secure a
+Да в топку всё это! Вам нельзя
+так относиться к лифту.
+Вы хотите обезопасить лифт?
 
 242
 00:25:04,875 --> 00:25:10,292
-elevator? This is what your
-doing. What's going on here.
->> Sure. We had a job WOUN time
+Вот что вам нужно делать.
+Что тут происходит?
+- У нас как то была работа
 
 243
 00:25:10,292 --> 00:25:18,412
-in a facility and we came across
-this. I said gee, THS a
-interesting way to secure a
+в одном месте, где хотели усилить безопасность,
+и нам показали это. Я сказал: "Ну и ну! Это очень
+интересный способ обезопасить коридор
 
 244
 00:25:18,420 --> 00:25:24,417
-hallway. (Indiscernible) this
-key. Let's just show them. >> It
-was a jail. It's a giant cage in
+- Что это за замок?
+- Давай просто покажем. Это была тюрьма.
+- Перед лифтом была огромная решётка.
 
 245
 00:25:24,417 --> 00:25:31,125
-front of the elevator. Unless
-you're doing this, think of your
-elevators as a stairwell. Think
+Если вы не работаете в тюрьме,
+думайте о своем
+лифте как о лестнице.
 
 246
 00:25:31,125 --> 00:25:37,083
-of them as a stair way where
-lazy people don't use their
-legs. Everything we just showed
+Это лестница, в которой ленивые
+люди не используют свои ноги.
+Всё, что мы только что показали,
 
 247
 00:25:37,083 --> 00:25:43,375
-you we'll just shit all over it.
-Remember there was no haul call
-buttons, you can't get the
+можно обойти.
+Помните, что тут не было
+никакой кнопки вызова?
 
 248
 00:25:43,375 --> 00:25:50,667
-elevator to show up, I use my
-magic hack haxor
-paper. Well what happened there?
+Я использую свою
+волшебную хакерскую бумагу.
+Что же там произошло?
 
 249
 00:25:50,667 --> 00:25:55,833
-Well the elevator happened to be
-at the floor, so somebody
-tripped the safety inch. And
+Ну так получилось, что лифт был
+на этом этаже. Автор просто
+активировал [автоматическое открытие дверей]
 
 250
 00:25:55,833 --> 00:25:59,893
-it's a really smart idea to
-stick things through the hoist
-way doors. >> No it's not.
+Это реально хорошая идея, просовывать вещи
+сквозь щель между дверьми. 
+- Нет, не хорошая.
 
 251
 00:26:01,380 --> 00:26:07,375
->> And also to be clear, that's
-not a universal trick. In fact
-that's unusual it did work.
+Кстати, это не универсальный трюк.
+На самом деле необычно, что это сработало.
 
 252
 00:26:07,375 --> 00:26:11,625
-Those sensors should have been
-disabled when the doors were
-closed. But this kid somewhere
+Эти датчики должны быть
+отключены, когда двери
+закрыты. Но этот пацан
 
 253
 00:26:11,625 --> 00:26:18,500
-on YouTube happened to find out
-that it worked. >> Most of what
-we do most of what we're going
+с ютуба каким-то образом узнал, что это работает.
+- Большая часть того, что мы
+рассказываем и что мы делаем,
 
 254
 00:26:18,500 --> 00:26:23,000
-to talk to you about over riding
-systems just by using the key
-SWECHs. There's key switches
+Это просто обход систем и захват управления
+с помощью ключей. Во всех лифтах есть
+выключатели, управляемые ключами.
 
 255
 00:26:23,000 --> 00:26:30,000
-inside all  ‑ ‑ how many people
-have seen panels in elevators
-that pop open. Some of those
+Сколько человек видело
+открывающиеся панели в лифтах?
+В них много всего интересного
 
 256
 00:26:30,000 --> 00:26:37,900
-panels are locked. None of you
-would have ever picked this.
-Interesting point, there's
+Некоторые их них закрыты на замок. Никто из вас
+никогда бы не вскрыл их, да?
+Интересный момент, есть панели, которые
 
 257
 00:26:37,900 --> 00:26:45,375
-something call add slam panel.
-It's like a spring loaded latch.
-You can just. (Making noise.)
+защёлкиваются, когда ими хлопают.
+Внутри просто пружинная защелка.
+Они открываются очень просто - поддеваешь
 
 258
 00:26:45,375 --> 00:26:51,500
-And it'll pop open. But inside
-the panels, you'll see like look
-independent service that we told
+И она открыта. Внутри панели можно увидеть
+выключатель независимого обслуживания,
+о котором мы рассказывали,
 
 259
 00:26:51,500 --> 00:26:55,667
-you about. Hoist way service,
-you shouldn't touch it. Card
-reader disabled. Let me turn I
+"Обслуживание шахты",
+не трогайте его.
+"Выключатель картридера"
 
 260
 00:26:55,667 --> 00:27:02,333
-don't have my key, let me turn
-off my that function. The
-industry is oh washed in
+"Упс, у меня нет ключа,
+выключу-ка я его".
+В лифтах встречается очень
 
 261
 00:27:02,333 --> 00:27:07,375
-different key SWIFs and
-different keys that you'll start
-to see in the industry they call
+много режимов и типов ключей.
+В связи с этим вы увидите
+так называемы граффити.
 
 262
 00:27:07,375 --> 00:27:12,208
-it graffiti. In the motor rooms
-and car panels, you'll see notes
-from elevator guys and gals.
+В моторном отделении или в кабине.
+Вы увидите заметки от лифтеров:
+"Этот ключ для того, а этот для этого"
 
 263
 00:27:15,360 --> 00:27:19,500
-You'll start to think that keys
-are really different all over
-the place. And yes, there's a
+Вы начнете думать, что ключи
+действительно везде разные. И да,
 
 264
 00:27:19,500 --> 00:27:25,000
-lot of keys. If you're on a pen
-test job, you might try to look
-for the elevator keys. Sometimes
+ключей много. Если вы на задании
+по пентесту, вы можете поискать
+поблизости. Иногда вы просто находите их
 
 265
 00:27:25,000 --> 00:27:31,042
-you just find them. But if
-you're on a legislate elevator
-job, what this man has done for
+А что если вы
+профессиональный лифтёр,
+как этот человек? Он годами
 
 266
 00:27:31,042 --> 00:27:43,292
-years now is catalog every key
-he's ever seen on every job ever
-ever. As far as I know, Howard's
+собирает в коллекцию каждый ключ, который
+он встречал где-либо когда-либо на работе.
+Каждый. Насколько я знаю, Говард
 
 267
 00:27:43,292 --> 00:27:48,583
-the only one that has a
-collection of every elevator key
-he's found SXN he knows what it
+единственный владелец коллекции ключей
+от всех известных лифтов.
+И он знает, что каждый из них делает
 
 268
 00:27:48,583 --> 00:27:54,333
-does. This is not Howard's key
-collection by the way. This is
-Howard's key collection. >> [Applause] >>
+Кстати, это не коллекция Говарда.
+Вот коллекция Говарда.
 
 269
 00:28:02,060 --> 00:28:10,260
-might notice this is actually an
-old photo. Every elevator  ‑ ‑
-there's all different brands and
+Можете заметить, что это старая фотография.
+Там все марки, все типы замков.
 
 270
 00:28:10,260 --> 00:28:15,917
-fixtures. And you can just spot
-them. >> So when you have the
-experience to look at something
+И вы можете определить их. 
+- Когда у вас появляется опыт,
+вы можете, взглянув на что-то,
 
 271
 00:28:15,917 --> 00:28:22,557
-and say ah, I've seen that on
-another job or I've seen the
-catalog or company's flyers and
+сказать: "А, я видел это на прошлой
+работе, я знаю этого производителя.
+Или я просто видел каталог, листовку компании 
 
 272
 00:28:22,560 --> 00:28:29,500
-visited the trade shows. It's
-all the same. They use the same
-things everywhere. And that is
+был на выставке и видел их панели".
+Оно всё одинаково. Они используют одни
+и те же вещи повсюду. 
 
 273
 00:28:29,500 --> 00:28:34,667
-one of the main points to take
-away from this. If they sold you
-a key switch, the buttons look
+И это одна из главных вещей, которую
+нужно понять. Если они вам продают
+замочную скважину, а кнопки выглядят
 
 274
 00:28:34,667 --> 00:28:43,320
-alike and the key switches look
-alike. The buttons looks alike,
-hay my elevator uses Adams,
+так же, то и ключи выглядят так же. Они не только выглядят
+одинаково, их ключи тоже одинаковы. Со временем начинаешь узнавать панели: "В моём лифте стоят панели Adams"
 
 275
 00:28:43,320 --> 00:28:52,620
-guess what, your key probably
-operates that other Adams
-elevator. >> There's modernizing
+Угадали! Вашим ключом можно управлять другим лифтом Adams.
+- Еще есть множество реселлеров,
+есть вторичные бренды, есть модернизации
 
 276
 00:28:52,620 --> 00:28:59,120
-that happens. We're in the
-Rio right? Dover impulsion. How
-many people seen those buttons a
+Например, это здание, мы находимся в
+Рио, верно? Dover Impulse. Все здесь
+видели эти кнопки миллион раз
 
 277
 00:28:59,125 --> 00:29:06,560
-million times. >> When I started
-to try to learn this, I'm on
-jobs, I'm like holy shit, I'm
+Когда я начал изучать это всё. К примеру,
+я на пентесте, шлю ему фотографию.
+Я говорю:
 
 278
 00:29:06,560 --> 00:29:14,160
-pretty sure I have ooh key for
-this. What is it? I'm like I
-don't know what it is. How thick
+"Я почти уверен, что у меня есть ключ для него. Что это?"
+Он: "Ты знаешь, что это"
+"Не знаю! Они все одинаковые!"
+"Нет. Смотри, насколько толстый ободок вокруг кнопки,
 
 279
 00:29:14,167 --> 00:29:19,708
-is the halo. What font is  ‑ ‑
-they all look the same to you
-until you start learning it. And
+Каким шрифтом написана цифра.."
+Они все выглядят одинаково,
+пока вы не начнете их изучать
 
 280
 00:29:19,708 --> 00:29:24,917
-you can type the fixtures just
-by glancing at them and you know
-what keys (indiscernible).
+Каким шрифтом написана цифра.."
+Они все выглядят одинаково,
+пока вы не начнете их изучать
 
 281
 00:29:24,917 --> 00:29:31,292
->> That's totally hell vet KA.
->> Yeah, epiKA. >> And the other
-is innovation. >> It says it on
+- Это точно Helvetica слева.
+- Ага. Epco, да? - Точно. А справа?
+- Innovation Industries
 
 282
 00:29:31,292 --> 00:29:38,708
-the slide. >> Like an article
-narrow I think. >> I could do
-this to him all day. Now if you
+Думаю, это Arial Narrow.
+- Я могу так спрашивать его весь день.
+Теперь, если вы
 
 283
 00:29:38,708 --> 00:29:43,667
-want your own elevator keys,
-like people sell them online.
-Many people probably shouldn't
+хотите свои собственные ключи от лифта,
+Люди продают их в интернете.
+Многие люди, наверное, не должны
 
 284
 00:29:43,667 --> 00:29:47,958
-be and you probably shouldn't
-buy them because they're ripping
-you off. Like this key set is
+этого делать. И вы, наверное, не должны
+их покупать, потому что они вас обдирают.
+Этот набор ключей обойдётся
 
 285
 00:29:47,958 --> 00:29:52,875
-almost $9 a key. >> And its
-actually has to ship USB ground
-because the smoke isn't the
+почти в $9 за ключ. К тому же его
+придётся доставлять с помощью UPS Ground,
+потому что дым на фото включён в заказ.
 
 286
 00:29:52,875 --> 00:29:59,750
-picture is included. So it's  ‑
-‑ I don't know what half these
-things are to tell you the
+Я не знаю, откуда они взяли эти ключи,
+честно вам скажу.
 
 287
 00:29:59,750 --> 00:30:06,020
-truth. They took an KOOEL guy
-that retired 20  years ago and
-copied every single one, because
+Наверное, они взяли связку лифтёра,
+который вышел на пенсию 20 лет назад и
+скопировали все до единого, потому что
 
 288
 00:30:06,020 --> 00:30:12,380
