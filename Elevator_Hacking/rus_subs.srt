@@ -2674,583 +2674,561 @@ Major Malfunction провёл одно из лучших
 
 471
 00:50:04,380 --> 00:50:08,833
-right is where we want to be.
-This is an elevator that is
-driving itself down the hoist
+Этот лифт едет вниз,
+потому что мы сделали несколько
 
 472
 00:50:08,833 --> 00:50:15,500
-way because we sent some calls
-down that way. If [we want to,
-we can seize the car in a way
+вызов внизу. Если мы захотим,
+мы можем захватить управление
 
 473
 00:50:15,500 --> 00:50:19,083
-that's completely out of
-standard. You're not supposed
-to do it. I've learned from
+совершенно нестандартным способом.
+Вы не должны вообще быть способны
+сделать это. От Говарда я узнал,
 
 474
 00:50:19,083 --> 00:50:24,500
-Howard, there's three ways to do
-things. There's the right way,
-the wrong way and the elevator
+что существует три способа что-то
+сделать: правильный, неправильный
+и способ лифтёра
 
 475
 00:50:24,500 --> 00:50:30,833
-person way. >> Which is like the
-wrong way faster basically.
->> So here we are  ‑ ‑ there's
+Что в принципе эквивалентно
+быстрому неправильному пути
+- Да.
 
 476
 00:50:30,833 --> 00:50:36,167
-the car top, all right, we're on
-a mode  ‑ ‑ we're not really going
-to talk about any of this
+Здесь видно крышу кабины,
+мы на месте. Сейчас я
+не буду рассказывать обо всём,
 
 477
 00:50:36,167 --> 00:50:42,667
-right now. But if we take
-control of this elevator and we
-get on to the car top, my mom
+Но мы захватили контроль над
+этим лифтом и забрались
+на крышу. Моя мама
 
 478
 00:50:42,667 --> 00:50:48,417
-hated this video. She almost
-smacked me when she saw it. What
-are you doing. You shouldn't be
+ненавидит это видео. Она чуть не отвесила
+мне подзатыльник, когда мы встретились:
+"Что ты там делал? Ты не должен был быть там!
 
 479
 00:50:48,417 --> 00:50:58,197
-there. You're an idiot. So once
-you're in the hoist way, you can
-drive this car anywhere. It
+Те два парня знают, что они делают,
+а ты просто идиот!". Как только вы попали
+в шахту, вы можете ехать куда угодно
 
 480
 00:50:58,208 --> 00:51:04,917
-literally doesn't matter if this
-is a fed facility, this one wasn't, but
-in the hoist way, your risk of
+Не имеет значения, даже если это
+госучреждение (это здание им не было).
+В шахте угроза жизни настолько велика,
 
 481
 00:51:04,917 --> 00:51:10,667
-life is so great that you have
-utter absolute control. You can
-drive any direction. You can go
+что у вас есть абсолютный контроль.
+Можно ехать в любом направлении
+и на любой этаж
 
 482
 00:51:10,667 --> 00:51:16,500
-to any other floor. What kind of
-security do you think the hoist
-way doors have on
+Как вы думаете, как защищены двери
+на этажах со стороны шахты?
+- Никак нахрен.
 
 483
 00:51:16,500 --> 00:51:28,020
-the other side? (Inaudible) 0.
-There we are, thank you good
-night. You can just send it
+А вот и мы, спасибо большое,
+доброй ночи... 
+"Ты можешь отправить его вниз"
 
 484
 00:51:28,020 --> 00:51:35,660
-down. So how do we do that?
->> You've seen that little hole
-right SNG. >> Real quick
+Так как же мы это сделали?
+Видите это маленькое отверстие?
 
 485
 00:51:35,667 --> 00:51:40,833
-disclaimer, there's another
-video, where we are completely
-out of control and almost
+- Маленький дисклеймер: есть еще одно
+видео, которое мы не покажем, где всё
+вышло из-под контроля и нас чуть
 
 486
 00:51:40,833 --> 00:51:46,042
-crashed in the over head. Down
-down down in the black and
-jumping down in the grease in
+не раздавило о потолок.
+- Да, там только темнота и крики:
+"Вниз! Вниз! Вниз!", а затем
 
 487
 00:51:46,042 --> 00:51:51,750
-the elevator car top. Sometimes
-thing can be unpredictable.
-Sometimes out of your control.
+Мы попадали на крышу кабины.
+- Да. Иногда вещи могут быть непредсказуемы.
+Даже если вы опытный специалист,
 
 488
 00:51:51,750 --> 00:51:56,042
-So if you see that hole in the
-door, that's call add
-(indiscernible) hole. That is
+Что-нибудь может выйти из-под
+контроля. Ок, это отверстие в двери
+называется [Escutcheon hole]
 
 489
 00:51:56,042 --> 00:52:01,940
-the hole through which elevator
-personnel that will  ‑ ‑ that
-will usually flip a flag that
+Через него лифтёр может просунуть ключ,
+который обычно переключает флажок,
 
 490
 00:52:01,940 --> 00:52:08,660
-release it is door interlock. It
-does two things. It keeps the
-doors mechanically closed and it
+тем самым разблокируя двери.
+Блокировщик делает две вещи. Он держит
+двери в шахту закрытыми механически,
 
 491
 00:52:08,667 --> 00:52:13,167
-also electrically signals to the
-controller that the doors are
-closed. So when an elevator
+а также шлёт контроллеру лифта сигнал,
+что двери закрыты. То есть, когда лифтёр
 
 492
 00:52:13,167 --> 00:52:18,347
-mechanic sticks it key in and
-turn it. It unlock it is door
-and sends a signal to the
+вставляет ключ и поворачивает его,
+это открывает дверь и посылает сигнал
 
 493
 00:52:18,347 --> 00:52:23,580
-controller that the door is
-open, stop the cab. With that
-being said, there's a million
+контроллеру, что дверь открылась 
+и нужно остановить кабину.
+Имея это ввиду, существует миллион
 
 494
 00:52:23,583 --> 00:52:29,458
-different kinds of key, but
-there's a key for every door at
-the end of the the day  ‑ ‑   ‑
+различных видов ключей, но
+у каждой двери этот ключ есть.
 
 495
 00:52:29,458 --> 00:52:33,333
-‑ sometimes it doesn't have a
-hole, there are often ways of
-interacting with the interlock
+И даже если отверстия нет,
+часто есть способы
+взаимодействия с этой блокировкой,
 
 496
 00:52:33,333 --> 00:52:41,833
-that you might not expect. >> I
-know how uber this talk is, I
-really do. Unfortunately, you're
+которых вы, возможно, и не ожидали.
+- Я знаю, насколько это выдающийся доклад,
+действительно знаю. К сожалению,
 
 497
 00:52:41,833 --> 00:52:49,667
-trying to set up for final
-ceremonies, and this track has
-to end. Now I have a problem
+мы пытаемся подготовить к финальной
+церемонии, и этот доклад должен
+закончиться. Теперь у меня есть проблема
 
 498
 00:52:49,667 --> 00:52:54,292
-with usually we shot this
-SPAEKers, that's nice for them.
-But we have little tricks up our
+обычно мы останавливаем спикеров,
+это хорошо на них влияет.
+Но у нас есть маленькие хитрости,
 
 499
 00:52:54,292 --> 00:53:02,572
-sleeves to lure the speakers off
-stage. So I brought with me some
-bait. Come on, come on speakers.
+чтобы заставить спикеров покинуть сцену.
+Поэтому я взял с собой немного приманки.
+Давайте, давайте, спикеры, пойдём.
 
 500
 00:53:02,583 --> 00:53:08,875
->> I'm literally not going. Because
-it is not the top of the hour.
-We have seven minutes and we're
+Нет! Я никуда не пойду. Потому час ещё
+не прошёл. У нас есть еще семь минут,
 
 501
 00:53:08,880 --> 00:53:17,740
-going to use all seven minutes.
-(Applause.) (Indiscernible)
-really fast. You know people
+и мы используем их все!
+А теперь по-быстренькому. Вы знали,
+что некоторые люди хранили наркотики
 
 502
 00:53:17,740 --> 00:53:23,200
-used to stash drugs in hoist
-ways because they could pop
-hole. They made a lock for it.
+в шахтах, потому что до них можно было легко
+добраться, используя это отверстие. Для
+противодействия этому, туда начали ставить замок
 
 503
 00:53:23,208 --> 00:53:27,958
-The lock was interesting, it
-would plug up the hole. The lock
-had a problem in the way it was
+Замок был интересный, он по сути
+затыкал отверстие. Но у него была
+проблема с конструкцией
 
 504
 00:53:27,958 --> 00:53:34,250
-assembled. The lock screwed
-together. So if the lock screws
-together and you can just
+Замок был из двух частей,
+вкручивающихся друг в друга.
+Получается, если вы открутите
 
 505
 00:53:34,250 --> 00:53:43,100
-unscrew the collar, you don't
-need the real key, what you can
-do is say that's the speedy key.
+цилиндр, вам вообще не нужен
+настоящий ключ, чтобы его открыть.
 
 506
 00:53:43,100 --> 00:53:52,000
-That it's fast key. If you don't
-have that key, well what if you
-had any other possible key ever?
+Это быстрый ключ. А что если у вас
+нет ключа? Что если у вас есть
+абсолютно любой другой ключ?
 
 507
 00:53:55,625 --> 00:54:01,625
-Yeah. Put a little torque on
-that. Push a little harder. Oh
-my, what happened there? Yeah
+Ага. Нужно чуть провернуть и о
+Боже! Что происходит?
 
 508
 00:54:04,250 --> 00:54:11,167
-just unscrew the (indiscernible)
-lock. Pull it apart, whatever.
-Fine. Come talk to us  ‑ ‑
+Просто выкрутите этот замок.
+Он развалится, но какая вам разница?
+Подойтите к нам попозже,
 
 509
 00:54:11,167 --> 00:54:15,042
-there's so  ‑ ‑ we're going to
-skip a few slides. We're going
-to show you some others. In the
+сейчас мы пропустим несколько слайдов,
+некоторые покажем. В конечном итоге,
 
 510
 00:54:15,042 --> 00:54:20,167
-end, there are some really
-common guidelines we can give
-you right? >> First thing if
+есть некоторые общие рекомендации,
+которые мы можем дать вам
 
 511
 00:54:20,167 --> 00:54:26,320
-you have an emergency phone in
-the elevator that's answered by
-your your security desk. This is
+- Первое, если в кабине есть телефон
+экстренной связи, который связан с вашей
+службой безопасности, проверьте его.
 
 512
 00:54:26,320 --> 00:54:33,792
-a case where a guy got stuck in
-an elevator for over 48 hours
-because the phone didn't work.
+На слайде тот случай, когда парень застрял
+в лифте на 48 часов или даже больше, потому что
+телефон и звонок сигнализации не работал.
 
 513
 00:54:33,792 --> 00:54:41,542
-There ended up being a lawsuit.
-Test your alarm bell. Make sure
-it works too. >> (Speaking
+Все закончилось судебным разбирательством.
+Проверьте свою сигнализацию. Убедитесь,
+что она тоже работает. 
 
 514
 00:54:41,542 --> 00:54:45,917
-simultaneously) the hoist way
-should never be accessible. No
-one should be in there and ride
+И ради Бога не подпускайте людей к шахте.
+- Шахта никогда не должна быть доступна.
+Никто не должен быть там и *кататься
 
 515
 00:54:45,917 --> 00:54:52,625
-the fucking counterweight. >> If
-anybody recognizes this photo,
-I'll buy you a drink at the bar.
+на сраном противовесе*! 
+- Если кто-нибудь узнает эту фотографию,
+я угощю вас выпивкой
 
 516
 00:54:52,625 --> 00:55:00,417
-Your motor room, should be self‑
-closing self‑ locking. This is
-not self‑ closing or self‑
+Ваше моторное отделение должно быть
+самозакрывающимся и самоблокирующимся.
+Это А - не закрывается и не блокируется само,
 
 517
 00:55:00,417 --> 00:55:05,597
-locking and B is being operated
-by a frickin' mall security
-guard who shouldn't be in there
+и Б к нему имеет доступ охранник торгового
+центра, которого там быть не должно,
 
 518
 00:55:05,600 --> 00:55:09,660
-because it's dangerous. Only
-elevator people should be in
-there. Because you know these
+потому что там опасно. Только
+лифтёры могут там находиться
+Ну вы ведь знаете, что эти парни лифтеры.
 
 519
 00:55:09,667 --> 00:55:15,667
-guys are elevator guys. >> [Applause] >>
-Know who your elevator staff is.
-They are not your maintenance
+Знайте сотрудников, отвечающих
+за лифты. Это не ваш
+обслуживающий персонал
 
 520
 00:55:22,292 --> 00:55:27,000
-crew. They are very nice sir.
-Know who your people are that
-provide your maintenance vs.
+Очень мило, сэр...
+Разберитесь, кто обслуживает вас,
+а кто ваш консультант.
 
 521
 00:55:27,000 --> 00:55:33,125
-consulting. Know who your people
-are and what they're doing. If
-you have bullshit jobs and
+Знайте, кто из ваших людей за что 
+отвечает и что делает. Есть ли у вас
+говнодолжности, есть ли куча
 
 522
 00:55:33,125 --> 00:55:37,167
-paperwork that's not being
-filled out if you have
-collusion or inspection
+незаполненной отчётности, есть ли
+сговор или проверки, которые
+не несут никакого смысла, например,
 
 523
 00:55:37,167 --> 00:55:42,292
-that is don't make any sense,
-what is this? There are test
-tabs. It's a permanently affixed
+что это такое?
+- Это бирка об испытаниях.
+Это перманентно закреплённая бирка,
 
 524
 00:55:42,292 --> 00:55:48,492
-tab that after, every year,
-every five years there is
-performed they fill it out
+Каждый год или каждые пять лет
+проводится тест, бирка заполняется,
 
 525
 00:55:48,500 --> 00:55:54,000
-indicating the elevator passed
-hopefully and it's left there so
-if somebody ever has to come in
+показывая, что лифт прошел тест.
+Она закреплена на лифте, поэтому,
+если кому-то когда-нибудь будет нужно,
 
 526
 00:55:54,000 --> 00:56:01,667
-and take a look and say when the
-test was done and  ‑ ‑ let us
-know that OETS performed the
+он сможем посмотреть и сказать, когда
+тест был проведён и каким был результат.
+Данный тест проводился Отисом,
 
 527
 00:56:01,667 --> 00:56:08,083
-test, because that makes sense.
-Unless the guy's name was Otis.
-Elevator tests are important.
+- Ну это же логично!
+- Ну может быть парня звали Отис?
+- Точно
 
 528
 00:56:08,083 --> 00:56:17,042
-Here's a final readiness
-test. (machine noise.) Yeah
-and the client didn't, no it's
+Тесты лифта важны.
+Вот тест окончательной готовности.
+Клиент не хотел его делать,
 
 529
 00:56:17,042 --> 00:56:22,083
-fine right? To be fair, the
-elevator mechanic said there's
-no way this is going to work.
+считая, что всё будет нормально. Откровенно
+говоря, механик лифта сказал, что нет никаких
+шансов, что оно будет работать
 
 530
 00:56:22,083 --> 00:56:27,625
-And he made his supervisor come
-down he was the one recording
-it. You want to run the test,
+И он заставил своего начальника прийти.
+Он был тем, кто записывал видео.
+И он такой: "Вы хотите провести тест?
 
 531
 00:56:27,625 --> 00:56:35,250
-you run the test, I'll record
-it. So yeah, follow all of your
-building procedures. How many
+Вот и проводите. А я запишу"
+Следуйте всем процедурам в вашем здании
 
 532
 00:56:35,250 --> 00:56:41,500
-times we've coasted in on oh I'm
-the elevator guy I BLONG here. I
-have a shirt I bought which you
+Сколько раз мы попадали внутрь
+с фразой: "Я лифтер, я здесь
+работаю. На мне же футболка!"
 
 533
 00:56:41,500 --> 00:56:46,625
-can't anymore. You can no longer
-buy the uniforms forms we're
-wearing right now. Pretty much
+Их больше нет в продаже?
+- Да. Вы не сможете купить футболки,
+которые на нас сейчас.
 
 534
 00:56:46,625 --> 00:56:53,625
-thanks (inaudible). >> I believe
-they did. >> So what do you do
-now? If your elevators are maybe
+В основном по нашей же вине.
+- Так что же вам сейчас делать?
+Если ваши лифты являются
 
 535
 00:56:53,625 --> 00:56:57,917
-part of your security models and
-you're like oh my God, what if
-people are going to attack the
+частью вашей моделей безопасности и
+вы такой: "О Боже, а что, если
+люди захотят атаковать лифты?
 
 536
 00:56:57,917 --> 00:57:04,083
-elevators because they're not
-actually doing what they think,
-there is a difference between
+Ведь они работают не так, как мы думали"
+Есть разница между техником,
 
 537
 00:57:04,083 --> 00:57:10,625
-your parts oil and grease tech
-at a security consultant. There
-are people that do this. Not
+обслуживающим лифт
+и консультантом по безопасности. 
+Есть люди, которые этим занимаются,
 
 538
 00:57:10,625 --> 00:57:16,208
-like a lot of them. He's kind of
-the only ones we've ever Maine
-but your elevator controller can
+их не так уж и много. Он единственный,
+кого мы когда-либо встречали.
+Но ваш контроллер лифта может
 
 539
 00:57:16,208 --> 00:57:22,083
-actually do monitoring without
-installing a fucking windows box
-in the motor room. Your elevator
+на самом деле следить за происходящим
+без установки грёбаного компьютера
+с windows в моторном отделении
 
 540
 00:57:22,083 --> 00:57:28,040
-controller can open or close
-contacts if it gets flipped on
-independent mode or inspection
+Ваш контроллер может замыкать и размыкать
+контакты, если он переключён в
+независимый режим или режим осмотра шахты
 
 541
 00:57:28,040 --> 00:57:34,660
-mode or fire mode. You could be
-logging this with your access
-control system or alarm system.
+или режим пожарного. Вы можете записывать
+всё это вместе с вашей системой контроля и
+управления доступом или сигнализацией.
 
 542
 00:57:34,667 --> 00:57:40,208
-There are add on boards, extra
-modules that you can use to make
-your system better. We're going
+Есть подключаемые платы и модули,
+которые можно использовать для
+улучшения вашей системы
 
 543
 00:57:40,208 --> 00:57:44,167
-to wrap it up in one minute with
-some final tips they're useful
-if you're a jackass and get
+Мы закруглимся за одну минуту парой
+советов, котороые будут полезны,
+если вы неудачник и застряли
 
 544
 00:57:44,167 --> 00:57:51,780
-stuck. First tip, don't panic.
-You're not going to run out of
-air. There's a fan. And just in
+Первый совет: не паникуйте. Вы не задохнётесь.
+Я реально слышал такой слух. Там есть система
+вентиляции. Да и вообще кругом полно кислорода
 
 545
 00:57:51,780 --> 00:57:58,860
-general, there's oxygen. So just
-relax. The second thing is, if
-you're on a red team, you don't
+Так что просто расслабьтесь.
+Второе, если вы в красной команде,
+вероятно вы не хотите звать на помощь,
 
 546
 00:57:58,860 --> 00:58:05,917
-want to use the emergency phone.
-But if the main light in the cab
-are off, the power's out.
+Но если вы просто застряли - это лучший
+вариант. Но если свет в кабине
+погас, значит электричество отключилось.
 
 547
 00:58:05,917 --> 00:58:10,833
-There's nothing you can do. If
-the cab lights are still on, you
-might have a few options. .
+С этим Вы ничего не сделаете. Зовите
+на помощь. Если свет в кабине все еще горит,
+у вас есть дополнительные варианты
 
 548
 00:58:10,833 --> 00:58:17,542
-Let's just run through a few
-scripts. They're going to tell
-you to hit door open. Would you
+Давайте просто пробежимся по вопросам,
+которые человек по телефону всё равно вам задаст.
+Вас попросят нажать кнопку открытия дверей
 
 549
 00:58:17,542 --> 00:58:21,208
-believe that happens all the
-time. Someone's just siting
-there. The cab is parked and
+Поверьте, такое происходит постоянно.
+Кто-то просто сидит внутри,
+кабинка запаркована,
 
 550
 00:58:21,208 --> 00:58:27,420
-they just don't think to hit
-door open. They might tell you
-to hit door close and then hit
+им даже не приходит в голову нажать
+"открыть двери". Они сразу вызывают диспетчера.
+Вас могут попросить нажать "закрыть двери",
 
 551
 00:58:27,420 --> 00:58:32,740
-door open. This sometimes when
-the door operator hadn't fully
-closed the doors allows it to
+а затем "открыть двери". Такое иногда бывает,
+если двери не полностью закрылись,
 
 552
 00:58:32,750 --> 00:58:37,500
-fully close and signalling to
-the elevator that it's safe
-run. Another option would be
+но лифту пришёл сигнал, что дверь закрыта
+и можно безопасно ехать. Еще один вариант:
 
 553
 00:58:37,500 --> 00:58:42,333
-make sure you can register a
-call to another floor. If you're
-sitting there and staring at it
+Убедитесь, что вы можете вызвать другой этаж.
+Если вы сидите и смотрите на него,
+и все лампочки горят, вы застряли.
 
 554
 00:58:42,333 --> 00:58:48,813
-and it's stuck, you're stuck.
-But maybe you're stuck at a
-floor you don't have access to.
+Но, может быть, вы застряли на
+этаже, на который у вас нет доступа?
 
 555
 00:58:48,820 --> 00:58:55,240
-Badge in, etc. >> If you have a
-badge, make sure it's in before
-you're placing the callsment Ma.
+- Да, приложите вашу карту доступа к считывателю.
+- Точно, если она у вас есть, приложите её перед
+тем, как нажимаете кнопку этажа
 
 556
 00:58:55,250 --> 00:59:03,083
-Maybe your a authorized user and
-your key switches. >> Or e‑
-mailed me and bought some keys.
+Может быть, вы пользователь с доступом, и
+у вас есть ключи... - "С доступом". А может,
+вы кто-то типо меня. Написали мне и купили ключи
 
 557
 00:59:03,083 --> 00:59:07,167
->> You could try the key switches
-I've been stuck in elevators
-where it didn't matter. And of
+- ...тогда вам стоит попробовать ключи.
+Я сам застревал в лифтах,
+но это не важно. И конечно же
 
 558
 00:59:07,167 --> 00:59:11,875
-course, the last thing is, keep
-in mind the number one cause of
-encrapments is that the doors
+последнее правило. Помните, 
+что двери где-то открылись.
 
 559
 00:59:11,875 --> 00:59:17,542
-have opened somewhere. It might
-not be where you are, but it
-might be. So I very hesitantly
+Это может быть не там, где вы есть,
+но это возможно. Поэтому я очень нерешительно
 
 560
 00:59:17,542 --> 00:59:24,520
-say this you can kind of
-troubleshoot the doors in a safe
-way. Don't stick your hand in
+говорю это, но вы можете попытаться
+устранить сбой дверей безопасно.
+Не суйте руку в щель между дверьми
 
 561
 00:59:24,520 --> 00:59:30,380
-the gap between the doors. Just
-very gently put your palm on the
-door, see if it's jiggling and
+Вообще ничего туда не засовывайте. Просто
+очень осторожно положите ладонь на дверь,
+посмотрите, дергается ли она в стороны и
 
 562
 00:59:30,380 --> 00:59:39,458
-try to close them with the flat
-part of your hand somewhere
-square on the door. And if all
+попробуйте закрыть их ладонью, давя
+на дверь, ничего не суйте в щели
 
 563
 00:59:39,458 --> 00:59:44,458
-else fails, call for help.
->> I'll help you. >> Never ever
-ever try to leave through the
+Если ничего не получится, зовите на помощь.
+- Я помогу вам. - Никогда-никогда-никогда!
+не пытались покинуть кабину через
 
 564
 00:59:44,458 --> 00:59:51,938
-top hatch. It doesn't lead you
-anywhere and it'll fuck other
-shit up. Never ever exit a
+верхний люк. Он никуда не приведёт вас,
+и может сделать хуже: если люк открыт,
+кабина никуда не поедет.
 
 565
 00:59:51,940 --> 01:00:00,000
-missed level car. If
-you have to jump it's too far,
-stay in the elevator. It's the
+Никогда в жизни на выходите из невыровненного
+лифта. Если нужно прыгнуть - это слишком далеко.
+Если произошло что-то странное, оставайтесь в лифте
 
 566
 01:00:00,000 --> 01:00:05,000
-safest place to be, the elevator
-wants to keep you alive. We
-wanted to keep you alive. We
+Самое безопасное место - это лифт.
+Лифт хочет сохранить вам жизнь.
+Мы хотим сохранить вам жизнь.
 
 567
 01:00:05,000 --> 01:00:09,400
-hope you learned something
-today. Thank you for letting us
-talk at DEF CON. (Applause.)
+Мы надеемся, вы чему-то научились
+сегодня. Спасибо, что позволили
+выступить на DEF CON
 
