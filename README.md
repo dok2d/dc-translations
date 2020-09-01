@@ -5,13 +5,15 @@
 
 | Доклад                                                   | Оригинал                                    | Перевод               |
 |----------------------------------------------------------|---------------------------------------------|-----------------------|
-| Harnessing Weapons of Mac Destruction                    | https://www.youtube.com/watch?v=InL3YA_6P6s | нету                  |
+| Harnessing Weapons of Mac Destruction                    | https://www.youtube.com/watch?v=InL3YA_6P6s | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/474418/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/474590/) |
 | Reverse Engineering 17+ Cars in Less than 10 Minutes     | https://www.youtube.com/watch?v=KkgxFplsTnM | [YouTube DC7495](https://www.youtube.com/watch?v=N7eRdoxrCZA) |
 | Are Quantum Computers Really A Threat To Cryptography?   | https://www.youtube.com/watch?v=86HwtH2v14w | нету                  |
 | Phreaking Elevators                                      | https://www.youtube.com/watch?v=NoZ7ujJhb3k | нету                  |
 | Jmaxxz - Your Car is My Car                              | https://www.youtube.com/watch?v=w8SG2V3n4-U | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/490884/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/491246/) |
 | Hack police                                              | https://www.youtube.com/watch?v=vQtLms02PFM | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/484448/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/484522/) |
-| Joe Grand DefCon badge                                   | https://www.youtube.com/watch?v=gnZQcWIX02A | [Habr](https://habr.com/ru/company/ua-hosting/blog/483532/) |
+| Joe Grand - DefCon badge                                 | https://www.youtube.com/watch?v=gnZQcWIX02A | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/483532/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/483602/) |
+| smea - Adventures In Smart Buttplug Penetration testing  | https://www.youtube.com/watch?v=RnxcPeemHSc | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/495378/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/495792/) |
+| Nina Kollars - Confessions of an Nespresso Money Mule    | https://www.youtube.com/watch?v=2IT2oAzTcvU | [Habr](https://habr.com/ru/company/ua-hosting/blog/488758/) |
 
 ### DEFCON 23
 
