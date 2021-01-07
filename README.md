@@ -15,11 +15,17 @@
 | smea - Adventures In Smart Buttplug Penetration testing  | https://www.youtube.com/watch?v=RnxcPeemHSc | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/495378/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/495792/) |
 | Nina Kollars - Confessions of an Nespresso Money Mule    | https://www.youtube.com/watch?v=2IT2oAzTcvU | [Habr](https://habr.com/ru/company/ua-hosting/blog/488758/) |
 
+### DEFCON 25
+| Доклад                                                   | Оригинал                                    | Перевод               |
+|----------------------------------------------------------|---------------------------------------------|-----------------------|
+| Garry Kasparov - The Brain's Last Stand                  | https://www.youtube.com/watch?v=fp7Pq7_tHsY | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/457152/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/457290/) |
+
 ### DEFCON 23
 
 | Доклад                                                   | Оригинал                                    | Перевод               |
 |----------------------------------------------------------|---------------------------------------------|-----------------------|
 | Confessions of a Professional Cyber Stalker – Ken Westin | https://www.youtube.com/watch?v=zVJGY2bZ-Ko | [Habr](https://habr.com/ru/company/ua-hosting/blog/418357/) [YouTube](https://www.youtube.com/watch?v=uwVUNMZvwvU) |
+| Zoz - And That's How I Lost My Other Eye...Explorations in Data Destruction | https://www.youtube.com/watch?v=-bpX8YvNg6Y | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/418477/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/418479/) |
 
 ### DEFCON 22
 
