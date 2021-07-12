@@ -34,6 +34,14 @@
 | Weaponizing Your Pets: The War Kitteh and the Denial of Service Dog | https://www.youtube.com/watch?v=DMNSvHswljM | [Habr](https://habr.com/ru/company/ua-hosting/blog/352968/) |
 | Elevator Hacking - From the Pit to the Penthouse         | https://www.youtube.com/watch?v=oHf1vD5_b5I | [Youtube DC7495](https://www.youtube.com/watch?v=8BJXuhV3UeM) |
 | Home Alone with localhost: Automating Home Defense       | https://www.youtube.com/watch?v=2IeU7Cck0hI | [Youtube](https://www.youtube.com/watch?v=nUGMDlPcOtY) |
+| Hack All The Things: 20 Devices in 45 Minutes            | https://www.youtube.com/watch?v=h5PRvBpLuJs | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/424907/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/424915/) |
+| Touring the Darkside of the Internet: An Introduction to Tor | https://www.youtube.com/watch?v=To5yarfAg_E | [Habr](https://habr.com/ru/company/ua-hosting/blog/352792/) |
+| Home Alone with localhost: Automating Home Defense       | https://www.youtube.com/watch?v=2IeU7Cck0hI | [Habr](https://habr.com/ru/company/ua-hosting/blog/352658/) |
+| Don't Fuck It Up!                                        | https://www.youtube.com/watch?v=J1q4Ir2J8P8 | [Habr. Часть 1](https://habr.com/ru/company/ua-hosting/blog/422775/) [Habr. Часть 2](https://habr.com/ru/company/ua-hosting/blog/422793/) |
+| Dropping Docs on Darknets: How People Got Caught         | https://www.youtube.com/watch?v=eQ2OZKitRwc | [Habr](https://habr.com/ru/company/ua-hosting/blog/424187/) |
+| Mass Scanning the Internet: Tips, Tricks, Results        | https://www.youtube.com/watch?v=nX9JXI4l3-E | [Habr](https://habr.com/ru/company/ua-hosting/blog/351928/) |
+| Burner Phone DDOS 2 dollars a day : 70 Calls a Minute    | https://www.youtube.com/watch?v=EDci2gb3ruQ | [Habr](https://habr.com/ru/company/ua-hosting/blog/354858/) |
+
 
 ### DEFCON 21
 
