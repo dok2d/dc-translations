@@ -31,6 +31,7 @@
 
 | Доклад                                                   | Оригинал                                    | Перевод                                                |
 |----------------------------------------------------------|---------------------------------------------|--------------------------------------------------------|
+| Weaponizing Your Pets: The War Kitteh and the Denial of Service Dog | https://www.youtube.com/watch?v=DMNSvHswljM | [Habr](https://habr.com/ru/company/ua-hosting/blog/352968/) |
 | Elevator Hacking - From the Pit to the Penthouse         | https://www.youtube.com/watch?v=oHf1vD5_b5I | [Youtube DC7495](https://www.youtube.com/watch?v=8BJXuhV3UeM) |
 | Home Alone with localhost: Automating Home Defense       | https://www.youtube.com/watch?v=2IeU7Cck0hI | [Youtube](https://www.youtube.com/watch?v=nUGMDlPcOtY) |
 
