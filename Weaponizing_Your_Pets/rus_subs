@@ -261,8 +261,8 @@ Lady Merlin туда пришла с псом,
 
 61
 00:02:43,048 --> 00:02:50,654
-Военные собаки, полицейские собаки, крутейшие псы,
-десантирующиеся из самолёта в воду
+Военные собаки, полицейские собаки, крутейшие псы
+десантирующиеся из самолёта в воду.
 
 62
 00:02:48,107 --> 00:02:52,742
@@ -787,1332 +787,1362 @@ Rockchip 3066
 Тут он используется для контроля за едой в холодильнике
 
 175
-00:08:23,011 --> 00:08:28,292
-guy used it to make the robot's
-hand move, and this guy used to
-cheat on his video games.
+00:08:22,985 --> 00:08:26,047
+Перчатка: двигаешь пальцами,
+А манипулятор робота повторяет
 
 176
-00:08:28,292 --> 00:08:34,958
-Relatively small form factor.
-The good news with Arduino is
-Open Source and inexpensive,
+00:08:26,075 --> 00:08:29,126
+Можно читить в игрушках
 
 177
-00:08:34,958 --> 00:08:39,583
-until the cat starts loosing
-them and you have to buy nine of
-them. Bad news, poorly
+00:08:29,171 --> 00:08:31,137
+Относительно небольшой.
 
 178
-00:08:39,583 --> 00:08:43,792
-documented it can take forever
-to get to you, an expansion
-shield, sometimes okay. Cool,
+00:08:31,174 --> 00:08:34,340
+Хорошая новость, что ардуино - опен сорс
+И относительно не дорог.
 
 179
-00:08:43,792 --> 00:08:49,792
-that's great. But I have never
-done doing, and worked with
-small chips. I'm not a
+00:08:34,351 --> 00:08:37,479
+Ну пока кошки не начнут их терять и
+придётся купить 9 штук!
 
 180
-00:08:51,958 --> 00:08:57,958
-professional coder and I have
-never  soldered before. It is
-solder. Like what. He said,
+00:08:37,715 --> 00:08:40,393
+Плохая новость - 
+иногда документация не очень 
 
 181
-00:09:00,292 --> 00:09:06,958
-don't worry, it's easy. The plan
-is to get some Arduino the
-stuff, sign on the form factor,
+00:08:40,359 --> 00:08:43,752
+Доставка бывает длинною в вечность
+Особенно шилдов
 
 182
-00:09:06,958 --> 00:09:11,875
-put it together on a  collar and
-figure out something for the
-denial service dog. So I went
+00:08:43,843 --> 00:08:45,921
+Периодические косяки с производительностью
 
 183
-00:09:11,875 --> 00:09:17,542
-out and bought the how to book.
-There was guides and learning
-and reading up on it with
+00:08:45,958 --> 00:08:49,135
+Ок! Нормально.
+Но я никогда ничего не делал на ардуино
 
 184
+00:08:49,205 --> 00:08:51,899
+Никогда не работал с микрочипами, прошивками
+и всем этим.
+
+185
+00:08:51,945 --> 00:08:54,504
+Я не профессиональный программист
+Я даже никогда  ничего не запаивал.
+
+186
+00:08:54,618 --> 00:08:58,286
+Билл мне: "Распаивал" правильно будет"
+
+187
+00:08:58,323 --> 00:09:00,153
+Я такой :"эмм, да?"
+
+188
+00:09:00,292 --> 00:09:01,916
+"Не переживай"- говорит, дело не хитрое!
+
+189
+00:09:02,004 --> 00:09:04,058
+"Знаменитые предсмертные слова."
+Не иначе.
+
+190
+00:09:04,079 --> 00:09:08,598
+План теперь таков:
+Заказать наиболее подходящие под задачу платы
+
+191
+00:09:08,573 --> 00:09:11,810
+Прикрутить это всё к ошейнику.
+И для собаки-отказаки тоже что-нибудь смастерить
+
+192
+00:09:11,875 --> 00:09:17,542
+Купил самоучитель,
+
+
+193
 00:09:17,542 --> 00:09:23,708
 electronics stuff. So I get the
 flashy stuff flashing and the
 non flashy things flashing when
 
-185
+194
 00:09:23,708 --> 00:09:28,625
 they're not suppose to flash. So
 I said I'm ready to go, need the
 more advance stuff. Libraries
 
-186
+195
 00:09:28,625 --> 00:09:34,625
 for Wi‑ Fi, they got it, GPS,
 they got it. SD card stuff, they
 got it. So, Jeremyblum.com, this
 
-187
+196
 00:09:34,625 --> 00:09:40,625
 has a lot of videos on making
 these things work. I used him
 religiously. Thank God. I did
 
-188
+197
 00:09:43,083 --> 00:09:48,042
 all of my research and
 background investigation, I'm
 now an expert. I went out and
 
-189
+198
 00:09:48,042 --> 00:09:54,042
 got a  Wi‑ Fi and a GPS child.
 So my plan is to get the Wi‑ Fi
 stuff and writing to an SD card
 
-190
+199
 00:09:56,333 --> 00:10:02,875
 and GPS writing to an SD card,
 combine the two and then profit.
 The Wi‑ Fi shield was cool.
 
-191
+200
 00:10:02,875 --> 00:10:08,417
 Setup, the drivers worked away.
 And hooked it up and was even
 mentioned on the Arduino
 
-192
+201
 00:10:08,417 --> 00:10:13,958
 website, the parameters and
 variables. Got my solution. That
 was easy. GPS not so much easy.
 
-193
+202
 00:10:13,958 --> 00:10:19,375
 A little bit about GPS, the NMEA
 string is what the satellites
 are broadcasting up there,
 
-194
+203
 00:10:19,375 --> 00:10:25,042
 national maritime electronic
 association. This comma
 separated value there is what
 
-195
+204
 00:10:25,042 --> 00:10:32,042
 the satellite is actually
 sending out and the job of the
 receive take it in and transmit
 
-196
+205
 00:10:32,042 --> 00:10:37,708
 to (?) So  the GPS boot process
 is starts up and it doesn't know
 where it is on the planet. Could
 
-197
+206
 00:10:37,708 --> 00:10:43,208
 be in your back pocket on
 Timbuktu. It has to listen to
 space. So the GPS process was
 
-198
+207
 00:10:43,208 --> 00:10:48,417
 fairly poorly documented. Get at
 least satellites to listen to
 and figure out where it is, this
 
-199
+208
 00:10:48,417 --> 00:10:53,625
 process can take two to 15
 minutes. And if someone is
 looking over your shoulder it is
 
-200
+209
 00:10:53,625 --> 00:10:58,833
 going to take 15 minutes. The
 GPS shield was rather poorly
 documented. There was no docs in
 
-201
+210
 00:10:58,833 --> 00:11:04,542
 the kit. It took my several
 weeks of what is wrong with
 this, why is it not working.
 
-202
+211
 00:11:04,542 --> 00:11:11,000
 Finally at the long end of the
 research effort the baud rate is
 supposed to be 34,800. I wanted
 
-203
+212
 00:11:11,000 --> 00:11:16,250
 to give demonstration is how it
 is poorly documented. Now I go
 on line and cannot find the it
 
-204
+213
 00:11:16,250 --> 00:11:20,667
 is 34800. The GPS shield is off
 to the side. Because I was going
 to use the pins. I put this
 
-205
+214
 00:11:20,667 --> 00:11:26,667
 together and combined the code
 and got this weird error about
 80% memory utilization. I see
 
-206
+215
 00:11:36,583 --> 00:11:43,875
 that on windows blow it off and
 go for it. They were telling me
 the truth. 80%, the chip cannot
 
-207
+216
 00:11:43,875 --> 00:11:50,708
 work. 32K on the memory. The
 Arduino mega, however, has 256K.
 And I purchased the mega. Put
 
-208
+217
 00:11:50,708 --> 00:11:56,917
 that together, messed around
 with variables, messed around
 with some stuff and Woo Hoo it
 
-209
+218
 00:11:56,917 --> 00:12:02,917
 works. A  working prototype. So
 the Arduino 2550, more better mo
 betta, mo ports. But the size is
 
-210
+219
 00:12:05,875 --> 00:12:11,875
 not mo better. So I searched all
 over the internet tried to find
 something that is ting 2560 from
 
-211
+220
 00:12:17,292 --> 00:12:24,792
 JK Devices.com. It is a  ripoff,
 I was going to mention it during
 my talk. Defcon knows about
 
-212
+221
 00:12:24,792 --> 00:12:30,792
 that. I didn't know about that
 at a time, I need a  Wi‑ Fi
 chip, you can see the breakout
 
-213
+222
 00:12:34,542 --> 00:12:40,375
 board chip there, this is the
 spark cord, I call it the
 mullet, because Wi‑ Fi in the
 
-214
+223
 00:12:40,375 --> 00:12:47,917
 front and, Arduino in the back.
 And of course a  GPS chip, and
 a  SD card breakout board. So
 
-215
+224
 00:12:47,917 --> 00:12:53,917
 the mega worked but the mega
 mini was four weeks to ship and
 another solutions are too big in
 
-216
+225
 00:12:58,667 --> 00:13:05,792
 size and too small in memory. So
 I went with the spark core that
 had troubled shipping. So I
 
-217
+226
 00:13:05,792 --> 00:13:12,208
 borrowed one from Bill, who got
 me started on this. It is a  32
 bit, 128K of memory, SPI, and
 
-218
+227
 00:13:12,208 --> 00:13:18,208
 12D those are like the protocol
 chips kind of like the Internet
 and had that, a TICC3 Wi‑ Fi
 
-219
+228
 00:13:23,000 --> 00:13:29,000
 chip. It is it compatible? No.
 People that are a  chip head
 will say yes. If you say it is
 
-220
+229
 00:13:33,500 --> 00:13:37,458
 Ardiomo compatible , it mean it
 will work with my external
 component an I can just cut and
 
-221
+230
 00:13:37,458 --> 00:13:43,333
 past the code, from one to
 another and and that's how it
 works. So this is one thing, the
 
-222
+231
 00:13:43,333 --> 00:13:47,375
 spark cord is another. I will
 have to start over again from
 scratch. That made me not happy.
 
-223
+232
 00:13:51,958 --> 00:13:56,000
 Despite this problem, the spark
 was very, very cool. A 
 dedicated core group of
 
-224
+233
 00:13:56,000 --> 00:13:59,917
 developers I would looking at
 the code, and one developer
 would say I would like to do
 
-225
+234
 00:13:59,917 --> 00:14:05,458
 blah, and then they would stay
 up all night and blah, I figured
 this stuff is getting updated. A
 
-226
+235
 00:14:05,458 --> 00:14:10,167
 shout out to peekay123 who
 helped me a lot on my project! I
 figured all this stuff is
 
-227
+236
 00:14:10,167 --> 00:14:15,000
 getting updated so let's see
 what happens. Libraries, someone
 posted SD libraries at the
 
-228
+237
 00:14:15,000 --> 00:14:21,292
 forums they compiled. Good
 morning, libraries, they
 combined and worked with my GPS
 
-229
+238
 00:14:21,292 --> 00:14:27,875
 shield. Wi‑ Fi libraries not so
 much. The spark cord bills
 itself as an Internet of things
 
-230
+239
 00:14:27,875 --> 00:14:31,667
 device. I'm going to say that a
 couple of times because it
 screwed me a  couple of times.
 
-231
+240
 00:14:31,667 --> 00:14:36,708
 So the Wi‑ Fi is in the
 background as a service, you are
 coding up front and just connect
 
-232
+241
 00:14:36,708 --> 00:14:42,792
 you to the Internet. Not there
 to mess with, but I want to mess
 with it. The Adafruit board that
 
-233
+242
 00:14:42,792 --> 00:14:49,417
 I bought the exact same chip. It
 and it is available library for
 download. And I messed with it
 
-234
+243
 00:14:49,417 --> 00:14:56,250
 before. Thomas Edison said I
 found 100 ways not to make the
 lightbulb, before making the
 
-235
+244
 00:14:56,250 --> 00:15:02,250
 lightbulb. I found a lot of ways
 to make a  kitty collar. I
 messed with these things and had
 
-236
+245
 00:15:04,333 --> 00:15:12,042
 some SSID scanning stuff and
 copied and pasted it and put it
 in there, bam, it worked. Yes.
 
-237
+246
 00:15:12,042 --> 00:15:19,708
 Now, I have the good morning,
 working on the spark. The SD
 compiled on the spark. SSID is
 
-238
+247
 00:15:19,708 --> 00:15:26,542
 working. Now working with the
 tiny components that I bout and
 that means soldering. Who looks
 
-239
+248
 00:15:26,542 --> 00:15:31,500
 to solder and likes it?
 Soldering is my new least
 favorite activity. So for those
 
-240
+249
 00:15:31,500 --> 00:15:37,500
 getting ready to learn how to
 solder have rules. Rule number
 one, don't touch the pointy end.
 
-241
+250
 00:15:40,708 --> 00:15:47,625
 That's where the hotness is.
 Rule number two is remembering
 where you put the soldering iron
 
-242
+251
 00:15:47,625 --> 00:15:53,625
 down. If you violate rule number
 two, you're going to violate
 rule number one. Rule number
 
-243
+252
 00:15:56,667 --> 00:16:03,083
 three is everything looks so
 easy on the Internet and it's
 not. So that not withstanding my
 
-244
+253
 00:16:03,083 --> 00:16:09,750
 first attempt went well. I put
 the SD breakout board here, this
 is my breadboard stuff, the chip
 
-245
+254
 00:16:09,750 --> 00:16:15,042
 on the left side. There's a
 core, breakout board, had to
 solder ends onto the end for and
 
-246
+255
 00:16:15,042 --> 00:16:22,750
 the GPS antenna. That went
 pretty good. I'm home testing
 everything went great. And
 
-247
+256
 00:16:22,750 --> 00:16:27,250
 getting sniffing, doing stuff, I
 put it in my yard, the
 neighbor's Wi‑ Fi, and I took it
 
-248
+257
 00:16:27,250 --> 00:16:33,250
 on a  car ride, and there was
 massive failure, nothing. Why
 not? Well, again, the spark is
 
-249
+258
 00:16:33,250 --> 00:16:37,792
 an Internet of things device, it
 is never meant not to be
 connected the Internet. So I was
 
-250
+259
 00:16:37,792 --> 00:16:41,750
 talking to the guys on the
 forums and they said turn the
 chip on and off because it will
 
-251
+260
 00:16:41,750 --> 00:16:48,458
 suck power. But when you turn it
 on put the code put it in the
 status equals Wi‑ Fi on. It is
 
-252
+261
 00:16:48,458 --> 00:16:54,458
 true if there is a known access
 point. If I'm a  half mile down
 the road that will not happen. I
 
-253
+262
 00:17:01,250 --> 00:17:06,667
 could turn on the chip and do my
 scan before it made a 
 connection. That worked
 
-254
+263
 00:17:06,667 --> 00:17:12,375
 perfectly. I removed the code
 from the stuff. That is all that
 I needed. I'm back on track. So
 
-255
+264
 00:17:12,375 --> 00:17:19,000
 I took it for a  drive and got
 data back. And so I was popping
 the into Google Earth. I was
 
-256
+265
 00:17:19,000 --> 00:17:23,417
 driving on the highway, they had
 me off in a lake and I was
 sitting in my house was I
 
-257
+266
 00:17:23,417 --> 00:17:28,750
 halfway down the block. So I was
 wondering what was going on. So
 who posted the GPS library, they
 
-258
+267
 00:17:28,750 --> 00:17:36,583
 did the NMEA conversion
 incorrectly. So now I have no
 GPS libraries. So when I was
 
-259
+268
 00:17:36,583 --> 00:17:41,333
 working on the Aduino stuff, I
 had the GPS plus‑ plus  ‑ ‑
 stuff that I loved to use, so
 
-260
+269
 00:17:41,333 --> 00:17:47,292
 easy to interact with. And it
 had everything that I needed. So
 I needed to find someone to put
 
-261
+270
 00:17:47,292 --> 00:17:54,292
 the GPS plus plus into the spark
 and I talked to Bill and said he
 port libraries. I said how do
 
-262
+271
 00:17:54,292 --> 00:18:00,875
 you port libraries. He explained
 it to me like my rocket science
 story, having drinks in a  bar
 
-263
+272
 00:18:00,875 --> 00:18:03,833
 and somebody and he is a cool
 guy. What do you do for a 
 living? I'm a  rocket scientist.
 
-264
+273
 00:18:03,833 --> 00:18:07,083
 Seriously. No, seriously, I'm a 
 rocket scientist. That is cool,
 what do you think about the
 
-265
+274
 00:18:07,083 --> 00:18:11,750
 phrase, it's not rocket science.
 I laugh at that, there are
 science and engineering to
 
-266
+275
 00:18:11,750 --> 00:18:17,750
 building the rocket and fuel in
 them, but you put the rocket on
 the launch pad and hit the red
 
-267
+276
 00:18:23,333 --> 00:18:29,333
 button and hope for the best.
 Sometimes it blows up. Sometimes
 it tips over and blows up.
 
-268
+277
 00:18:33,167 --> 00:18:39,833
 Sometimes it gets to space and
 blows up. The hard part is not
 getting new rockets, the hard
 
-269
+278
 00:18:39,833 --> 00:18:45,833
 part is getting more monkeys to
 put in the rocket. That is a 
 rocket science joke. That's how
 
-270
+279
 00:18:48,458 --> 00:18:55,292
 you port libraries. We changed
 our Arduino stuff out with the
 spark stuff, hit compile, listen
 
-271
+280
 00:18:55,292 --> 00:18:59,000
 to it scream at you and fix what
 it is screaming about. You keep
 doing that until it doesn't
 
-272
+281
 00:18:59,000 --> 00:19:03,500
 scream anymore. If you compiling
 is screening at you, and you
 scream back, you succeed at
 
-273
+282
 00:19:03,500 --> 00:19:09,500
 scaring your wife. I did that
 for a  couple of hours and BAM,
 it works. I ported libraries. I
 
-274
+283
 00:19:11,708 --> 00:19:17,708
 was so proud of myself I posted
 them to github. The next problem
 is then power consumption, my
 
-275
+284
 00:19:21,083 --> 00:19:26,333
 buddy Ricky Hill hooked me up
 with the batteries for model
 airline stuff. 3.7‑ volts,
 
-276
+285
 00:19:26,333 --> 00:19:31,542
 500mAh batteries - enough to get
 a kiddy thing going. So now I'm
 testing for the optimal power
 
-277
+286
 00:19:31,542 --> 00:19:37,000
 consumption. The first thing you
 think of is I will turn
 everything on, get the stuff,
 
-278
+287
 00:19:37,000 --> 00:19:41,917
 and turn everything off.
 Remember, before I told you it
 can take 2 to 15 minutes to get
 
-279
+288
 00:19:41,917 --> 00:19:46,875
 the GPS lock. If you turn it off
 the GPS, you lose the satellite,
 and you the cat runs into bush
 
-280
+289
 00:19:46,875 --> 00:19:53,292
 you burn through without getting
 any data. So the best thing for
 me, you turn the main micro
 
-281
+290
 00:19:53,292 --> 00:19:58,625
 controller on and keep the GPS
 powered and that worked much,
 much better. Much better,
 
-282
+291
 00:19:58,625 --> 00:20:03,583
 collections every 30 seconds
 lasted 4 hours, collections
 every 10 minutes lasted 8 hours.
 
-283
+292
 00:20:03,583 --> 00:20:10,750
 So now I have to make a  collar.
 If you thought soldering is fun.
 Desoldering is twice as much fun
 
-284
+293
 00:20:10,750 --> 00:20:16,292
 as soldering. Oh, may God, I
 destroyed so much crap trying to
 desolder things. The Internet
 
-285
+294
 00:20:16,292 --> 00:20:22,125
 was not helpful. YouTube looked
 to easy. I talked to my friend,
 Joey. Head to your lab and they
 
-286
+295
 00:20:22,125 --> 00:20:27,833
 will help out. Shout out to the
 labs in Virginia. Ted, mad
 scientist, and evil genius
 
-287
+296
 00:20:27,833 --> 00:20:34,958
 helped me to do this. Did not
 end up in the final one. And
 Brian my solder tutor. Taught me
 
-288
+297
 00:20:34,958 --> 00:20:42,417
 the right iron and the right
 solder make life a whole hell of
 a lot easier. So now I can to
 
-289
+298
 00:20:42,417 --> 00:20:48,458
 make the collar itself. And hard
 stuff. Man, I don't know how to
 make a  collar. The code thing,
 
-290
+299
 00:20:48,458 --> 00:20:53,167
 I just learned to solder, but
 this is like ribbons. So talking
 to my friend Joe, he said get a
 
-291
+300
 00:20:53,167 --> 00:20:59,167
 couple of ribbons and sew it
 together and put your stuff
 inside of it. So I went down to
 
-292
+301
 00:20:59,167 --> 00:21:05,167
 Michaels and got myself a 
 ribbon, leopard print is just so
 in this year for the cats. Now,
 
-293
+302
 00:21:07,417 --> 00:21:14,333
 I need to sew it together. Who
 knows to sew, it is 2014. We
 don't sew, we buy new stuff. It
 
-294
+303
 00:21:14,333 --> 00:21:20,333
 is a grandmother skill, right?
 So what do you do? You get a 
 grandmother. So my wife's
 
-295
+304
 00:21:22,417 --> 00:21:28,750
 grandmother, her name is Nancy.
 She is very nice to meet you.
 She was very happy to help me
 
-296
+305
 00:21:28,750 --> 00:21:34,625
 and there is a dollar bill
 followed by the battery, the
 actual collar and the components
 
-297
+306
 00:21:34,625 --> 00:21:41,708
 all wrapped up to protect
 things. The spark had flashy
 bits. Now, back to our volunteer
 
-298
+307
 00:21:41,708 --> 00:21:47,708
 cat. This bastard still owes me
 a  cell phone. So we're going to
 send him out with some practice
 
-299
+308
 00:21:50,333 --> 00:21:54,917
 stuff first and see if he comes
 back with it. Then I might let
 him play with the tech. So we
 
-300
+309
 00:21:54,917 --> 00:21:59,292
 put the collar on him to see if
 he tolerated it, he tolerate it,
 and he tolerated marvelously.
 
-301
+310
 00:21:59,292 --> 00:22:05,292
 This is what it looked like
 before and what it looks like
 now. It is all cool, put you can
 
-302
+311
 00:22:08,583 --> 00:22:15,458
 see the bit behind his head.
 That is the name collar it is to
 go on the bottom because the GPS
 
-303
+312
 00:22:15,458 --> 00:22:21,292
 chip is directly opposite. We
 have to put a  weight on it.
 Went down to ranger supply. It
 
-304
+313
 00:22:21,292 --> 00:22:27,042
 is war kit. A  bullet. So the
 cat goes on the collar, and the
 collar goes on the cat. And the
 
-305
+314
 00:22:27,042 --> 00:22:34,250
 cat goes for a  walk and profit.
 And the deployments were,
 nothing. No, no. No. I knew it
 
-306
+315
 00:22:34,250 --> 00:22:38,792
 works. I grabbed my stuff and
 went to my buddy's Reeve's
 house. All of the diagnostics
 
-307
+316
 00:22:38,792 --> 00:22:46,292
 work working fine. We put the
 collar on the cat, and the cat,
 we had a couple beers, the cat
 
-308
+317
 00:22:46,292 --> 00:22:52,292
 went under a  bush and hung out
 there and licked himself for 20
 minutes. He is licking himself.
 
-309
+318
 00:22:54,375 --> 00:23:01,167
 I said, Reeves is that the cat
 under the bush. No, walked up.
 Yes and he grabs the bush and
 
-310
+319
 00:23:01,167 --> 00:23:07,167
 shakes it. The cat was running.
 A  better deployment process was
 let the collar set outside 5 to
 
-311
+320
 00:23:09,208 --> 00:23:15,208
 10 minutes. Bring the cat to the
 collar, put on the cat and let
 the cat go for a  walk about. So
 
-312
+321
 00:23:19,042 --> 00:23:24,833
 does this work? Success,
 bitches. Here is the initial
 results for obvious reasons.
 
-313
+322
 00:23:24,833 --> 00:23:30,542
 Somebody contacted me off of the
 Internet and said I can help you
 out with visualizing this. Check
 
-314
+323
 00:23:30,542 --> 00:23:38,125
 this out. Somebody did this for
 me. It is awesome. I would like
 to point out I have been working
 
-315
+324
 00:23:38,125 --> 00:23:43,833
 on this for a  good number of
 months and the damn cat never
 left the front yard. Yeah.
 
-316
+325
 00:23:43,833 --> 00:23:49,833
 Furthest he went was the car. My
 grandmother was saying I would
 love to know I Coco goes, so we
 
-317
+326
 00:23:57,250 --> 00:24:02,792
 strapped it up to Coco and got
 results. I'd like to printout,
 But we still have WEP and open
 
-318
+327
 00:24:02,792 --> 00:24:08,792
 Wi‑ Fi hotspots in 2014. Oh, my
 God. So but cocoa went a lot
 further as you will see. He
 
-319
+328
 00:24:16,208 --> 00:24:22,208
 wondered all over the
 neighborhood. He's going to take
 a  while. He actually caught a
 
-320
+329
 00:24:28,667 --> 00:24:36,500
 mouse during this deployment
 that was very, very cool. Really
 cool results. The cats tolerated
 
-321
+330
 00:24:36,500 --> 00:24:41,500
 it brilliantly, and it was the
 fruition of a  long bunch of
 work. I cannot tell you how
 
-322
+331
 00:24:41,500 --> 00:24:47,500
 happy I was. So that is the war
 kitty, ladies and gentlemen. [
 Applause ] So now we move onto
 
-323
+332
 00:24:57,083 --> 00:25:03,083
 the Denial of Service Dog
 admittedly is just trolling.
 Nothing socially redeeming about
 
-324
+333
 00:25:09,417 --> 00:25:16,958
 it at all. I have a  pineapple I
 bought at Shmoo, a  TV B Gone at
 Radio Shack, doggie backpack
 
-325
+334
 00:25:16,958 --> 00:25:21,667
 with the service dog patches on
 it. There is the pineapple, you
 know what it is. I had Karma
 
-326
+335
 00:25:21,667 --> 00:25:26,167
 answering probes and DNS spoof
 to redirect to the pineapple.
 And there is a  package you can
 
-327
+336
 00:25:26,167 --> 00:25:32,167
 download that has five or six
 things that it cycles through as
 people connect to it. It is
 
-328
+337
 00:25:34,417 --> 00:25:40,542
 awesome. So he's the TV B Gone.,
 as it comes with my new found
 soldering skills I turned it,
 
-329
+338
 00:25:40,542 --> 00:25:47,750
 what was supposed to be this,
 into this. And the idea being I
 was going puts saddlebags and
 
-330
+339
 00:25:47,750 --> 00:25:51,833
 the T.V. in the saddlebag and
 connect the wires to the outside
 so the LEDs were on the outside
 
-331
+340
 00:25:51,833 --> 00:25:57,917
 of the saddlebag. Now I need
 patches. Holy crap, how hard is
 it to get somebody to make your
 
-332
+341
 00:25:57,917 --> 00:26:04,375
 patches. Except on the Internet,
 500 of them, $5  a  piece. So I
 beat the streets for quite a
 
-333
+342
 00:26:04,375 --> 00:26:10,375
 while, and I found a  JoAnnes in
 Sterling,Virginia and they made
 me a  denial of service dog
 
-334
+343
 00:26:13,042 --> 00:26:20,250
 patch. The Wi‑ Fi thing right
 there. I have a video
 demonstration to proof it works
 
-335
+344
 00:26:20,250 --> 00:26:25,458
 there. There is the denial of
 service dog stuff. And the LED
 sticking outside of the
 
-336
+345
 00:26:25,458 --> 00:26:32,208
 saddlebag. I ran a  wire up the
 leash and have a  button in my
 hand right there. Taped the wire
 
-337
+346
 00:26:32,208 --> 00:26:37,708
 to the leash. You hit the button
 right there, you see the little
 green light, and then they start
 
-338
+347
 00:26:37,708 --> 00:26:45,625
 flashing on the fruit and then
 the T.V. will then just turn on.
 And here's the demonstration
 
-339
+348
 00:26:45,625 --> 00:26:51,625
 video of it working. You've got,
 I'm outside somewhere. You will
 see that the denial of service
 
-340
+349
 00:26:53,875 --> 00:26:59,125
 dog has this ssid is up. Another
 thing I did. I'm going to add a 
 Wi‑ Fi hotspot, it is going to
 
-341
+350
 00:26:59,125 --> 00:27:05,125
 be called Defcon. And I'm
 filming with one hand and doing
 the other, forgive me, it took
 
-342
+351
 00:27:07,958 --> 00:27:15,583
 me a long time. I'm trying to
 connect. That is me over here,
 pop up and connect. And go out
 
-343
+352
 00:27:15,583 --> 00:27:21,583
 to the Internet, excuse us. >> I
 said welcome to Def Con earlier.
 We have a tradition here  ‑ ‑
 
-344
+353
 00:27:26,000 --> 00:27:31,500
 and if you've never seen this
 tradition, it is a wonderful
 tradition where new speakers get
 
-345
+354
 00:27:31,500 --> 00:27:35,292
 welcomed to Def Con with an
 appropriate beverage of choice.
 [ Applause ] So  ‑ ‑ since Gene
 
-346
+355
 00:27:35,292 --> 00:27:41,292
 has never spoken at Def Con
 before, we decided to welcome
 him, even to the extent of
 
-347
+356
 00:27:47,000 --> 00:27:51,792
 interrupting his presentation.
 We would like to welcome him to
 Def Con for the first time
 
-348
+357
 00:27:51,792 --> 00:27:57,792
 speaker. [ Applause ] >> Good
 morning. >> Thank you. >> Wow.
 >> Here is the denial of service
 
-349
+358
 00:28:05,750 --> 00:28:11,750
 dog. Awesome. So the long story 
 ‑ ‑ let's see, where I was? Yes.
 I'm playing with this, I wish
 
-350
+359
 00:28:17,875 --> 00:28:25,500
 there was a  way to speed it up.
 Are we going to go through it
 all again? That is good stuff.
 
-351
+360
 00:28:25,500 --> 00:28:32,167
 So I added Def Con to the whole
 thing. And camera is going to
 see the probe go out, it is me,
 
-352
+361
 00:28:32,167 --> 00:28:38,125
 and pull it back into the Wi‑ Fi
 pineapple. That's how it all
 works and it works brilliantly.
 
-353
+362
 00:28:38,125 --> 00:28:44,125
 So it will pop up, bam, I'm Def
 Con. The funny part I tried to
 do this later and there is the
 
-354
+363
 00:28:46,167 --> 00:28:52,375
 Def Con AP. See, I go up, it is
 like. ¶ [ Music ] ¶ Circus  ‑ ‑
 dot dot Afro. So I'm going to go
 
-355
+364
 00:28:52,375 --> 00:28:58,375
 to CNN and it is come to come
 up, polk‑ a‑ dot polk‑ a‑ dot
 Afro. That's how that things
 
-356
+365
 00:29:08,333 --> 00:29:14,333
 works. Now, we need a volunteer
 dog, to be our denial of service
 dog. If you ever seen a
 
-357
+366
 00:29:17,208 --> 00:29:23,667
 Doberman pinscher service dog.
 Well you have. The denial of
 service dog. He was so happy, he
 
-358
+367
 00:29:23,667 --> 00:29:29,667
 ran the yard. I'm so happy, new
 people, new people. So we dug
 him inside of the house and put
 
-359
+368
 00:29:35,792 --> 00:29:41,792
 the backpack on him, he stood
 like this for 10 minutes. And
 that's good. Because it allowed
 
-360
+369
 00:29:44,208 --> 00:29:50,208
 me to take pictures. There is
 the service dogs in there. And
 that is going on there. The
 
-361
+370
 00:29:52,625 --> 00:29:59,167
 first thing the V dog did when
 he stopped being comatose. What
 we discovered two things. One
 
-362
+371
 00:29:59,167 --> 00:30:06,792
 there is now two ways to deploy
 the TVB Gone, one is the button
 and the other is the dog shakes.
 
-363
+372
 00:30:06,792 --> 00:30:13,000
 The other things I discovered
 and failed to properly secure it
 into the pouch. Every time he
 
-364
+373
 00:30:13,000 --> 00:30:19,375
 did that, it well flying all
 over the place. In the process
 of doing so completely destroyed
 
-365
+374
 00:30:19,375 --> 00:30:24,667
 my TVB Gone to the point even
 with my new soldering abilities
 I was not able to bring it back.
 
-366
+375
 00:30:24,667 --> 00:30:30,667
 So next. So the funny thing is 
 ‑ ‑ if it says service dog on
 your dog's backpack, they will
 
-367
+376
 00:30:34,917 --> 00:30:40,917
 let you in. [ Laughter ] Mine
 very clearly said denial of
 service. But service dog. Yeah.
 
-368
+377
 00:30:43,208 --> 00:30:49,042
 Sure. Here is the part I tell
 you one man's video proof to
 Defcon, is another man's
 
-369
+378
 00:30:49,042 --> 00:30:55,792
 evidence to court. The truth of
 the matter is I, was so focused
 on denial of service dog. I hit
 
-370
+379
 00:30:55,792 --> 00:31:01,000
 the wrong button on go pro. It
 has 2 buttons, I hit the wrong
 one, so I need to go ex KC on
 
-371
+380
 00:31:01,000 --> 00:31:07,000
 you here. I love to play. Do you
 mind if we come in. Sure. Do you
 want something to drink. And
 
-372
+381
 00:31:12,083 --> 00:31:18,083
 then off here. Peanut jelly
 time. Peanut butter jelly time.
 [ Laughter ] I'm taking artistic
 
-373
+382
 00:31:20,500 --> 00:31:26,792
 license here. Still. So the
 third our four  ‑ ‑ or fourth
 time the guy came to our table
 
-374
+383
 00:31:26,792 --> 00:31:32,792
 and said why does it say denial
 of service dog. Props to this
 guy, because he was the only one
 
-375
+384
 00:31:35,125 --> 00:31:41,833
 all day long that asked. We
 didn't answer him, and he went
 away. So you go to the sports
 
-376
+385
 00:31:41,833 --> 00:31:49,125
 bar and hit the bottom. Ball
 play, and it was the world cup
 game, just happens to be the
 
-377
+386
 00:31:49,125 --> 00:31:55,125
 Argentina and you hit the button
 and it goes away. Never going to
 give you up. [ Laughter ] So if
 
-378
+387
 00:32:04,833 --> 00:32:10,833
 you go into a  restaurant that
 has 15 TVs on wall, they are
 controlled by the back. But one
 
-379
+388
 00:32:16,083 --> 00:32:22,083
 or two TVs on the wall. They are
 not. Just saying. So then  ‑ ‑
 yeah. He is happy. Then we go
 
-380
+389
 00:32:25,333 --> 00:32:31,333
 into a  J random box store
 someone. And the V dog is like I
 love you. We're walking around
 
-381
+390
 00:32:33,375 --> 00:32:38,583
 the owner has his leash in one
 hand and his hand on the
 backpack. This is not a service
 
-382
+391
 00:32:38,583 --> 00:32:44,917
 dog. But nobody  ‑ ‑ and the guy
 is like do you mind if we come
 in. Sure. Make sure that he
 
-383
+392
 00:32:44,917 --> 00:32:52,125
 doesn't poop on anything. This
 actually happened. And then we
 go back to the TV section, and,
 
-384
+393
 00:32:52,125 --> 00:32:57,667
 of course, the V dog was like
 squirrel, we hit the button and
 the thing goes up and the
 
-385
+394
 00:32:57,667 --> 00:33:05,125
 television goes away, yeah! We
 did wonderful things. Circus,
 afro circus, Afro. So according
 
-386
+395
 00:33:05,125 --> 00:33:11,125
 to the results several victims
 connected the denial of service
 dog. I cannot definitively proof
 
-387
+396
 00:33:13,917 --> 00:33:19,292
 anyone connected why we are out
 I took artistic license, however
 when giving this presentation to
 
-388
+397
 00:33:19,292 --> 00:33:25,292
 my company, people were hacked
 right and left. It's Gene. Only
 one person asked about the
 
-389
+398
 00:33:32,750 --> 00:33:38,875
 denial of service dog. Most
 people just said nice doggie.
 What have we learned? A  tech
 
-390
+399
 00:33:38,875 --> 00:33:46,000
 hobbyist with no experience can
 create a  war collar in
 relatively short time. You can
 
-391
+400
 00:33:46,000 --> 00:33:50,833
 do this, too. I didn't go a 
 damn thing about this stuff when
 I was started. But I kept at it
 
-392
+401
 00:33:50,833 --> 00:33:56,833
 and in 2014 there are unsecured
 hotspots. And lot of devices
 still probed for stuff. There is
 
-393
+402
 00:34:01,042 --> 00:34:07,042
 no patch for human stupidity and
 cats and dogs really hard to
 work with. I have to give a
 
-394
+403
 00:34:16,917 --> 00:34:22,917
 shout out to all of these
 devices. JK devices they are
 terrible. Don't go there.
 
-395
+404
 00:34:37,042 --> 00:34:43,042
 Reeves, still, Joe, Joey, Nancy,
 Bill, the spark.io guys, the app
 guys, V-dog, Skitzy CoCo,
 
-396
+405
 00:34:57,667 --> 00:35:03,667
 Tenacity, and, of course,
 Defcon, I'm so proud to be here.
