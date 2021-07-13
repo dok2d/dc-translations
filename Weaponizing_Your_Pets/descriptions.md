@@ -1,15 +1,8 @@
 ## Заряженные питомцы: ВредоКот и Собака-Отказака
 
-#### Джен Бренсфильд. Конференция DEF CON 22
+#### Джин Бренсфильд. Конференция DEF CON 22
 
 
-
----
-
-## Weaponizing Your Pets: The War Kitteh and the Denial of Service Dog
-
-#### Gene Bransfield - DEF CON 22 Conference
-
-WarKitteh: In my job I have to deliver frequent Information Security briefings to both technical and non-technical professionals. I noticed that as the material got more technical, I began to lose the non-technical crowd. Therefore, I started including humorous pictures of cats and made the briefings include stories about those cats. This worked, and I soon became notorious for my presentation style. After delivering one of those presentations, an audience member offered to lend me their cat tracking collar. The collar contained a GPS device and a cellular component and would track your cats movements throughout the neighborhood. Me being the guy I am, I thought “All you need now is a WiFi sniffing device and you'd have a War Kitteh.” I laughed, and started working on it.
+Вредокот: По линии моей работы, мне часто приходится проводить ИБ брифинги. Как для технарей так и для неспециалистов. Я стал замечать, что теряю внимание непросвещенной аудитории при усложнении материала. Потому, я стал добавлять добавлять в брифинги смешные фото и истории с котами. Сработало! И спустя некоторое время я даже этим прославился. Как-то после одного такого доклада ко мне подошёл один из слушателей  и протянул мне ошейник-трекер для кошки. Со встроенным GPS, мобильной связью. Отслеживать, как кошка лазает по району. Ну я человек такой, первое что подумал "Так...осталось Wi-Fi сниффер прикрутить и ВредоКот готов!". Посмеялись...и я принялся за работу.
 
 DoS Dog: With apologies to LadyMerlin (who has since blessed the project) I attended Outerz0ne one year and LadyMerlin brought her dog. They had labeled the puppy the “Denial of Service Dog” as the pooch demanded so much attention that it was impossible to complete any task other than petting the dog. I thought that if you loaded a doggie backpack with different equipment (e.g. a Pineapple) you could create a Denial of Service Dog of a different kind.
