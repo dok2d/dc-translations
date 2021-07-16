@@ -1583,16 +1583,14 @@ If status == WiFi_ON
 И работать с ним легко! И всё что нужно есть.
 
 348
-00:17:47,292 --> 00:17:54,292
-the GPS plus plus into the spark
-and I talked to Bill and said he
-port libraries. I said how do
+00:17:47,292 --> 00:17:53,714
+Значит надо как-то прикрутить этот GPS++ к Spark.
+Спросил у Билла. А он говорит:
 
 349
-00:17:54,292 --> 00:18:00,875
-you port libraries. He explained
-it to me like my rocket science
-story, having drinks in a  bar
+00:17:53,806 --> 00:18:00,875
+"Ну ты библтотеки портани"
+Я- "И как же портануть библиотеки?"
 
 350
 00:18:00,875 --> 00:18:03,833
