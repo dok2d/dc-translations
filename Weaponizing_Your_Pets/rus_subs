@@ -2161,448 +2161,541 @@ GPS чип с противоположной стороны
  леди и джентельмены!
 
 477
-00:24:56,437 --> 00:24:58,213
+00:24:56,437 --> 00:24:58,857
 Теперь перейдём к Собаке-Отказаке.
 
 478
-00:24:58,317 --> 00:25:03,083
-the Denial of Service Dog
-admittedly is just trolling.
-Nothing socially redeeming about
+00:25:04,231 --> 00:25:04,808
+Да!
 
 479
-00:25:09,417 --> 00:25:16,958
-it at all. I have a  pineapple I
-bought at Shmoo, a  TV B Gone at
-Radio Shack, doggie backpack
+00:25:04,885 --> 00:25:08,152
+Ну, если честно, то
+Собака-отказака это просто троллинг!
 
 480
-00:25:16,958 --> 00:25:21,667
-with the service dog patches on
-it. There is the pineapple, you
-know what it is. I had Karma
+00:25:08,219 --> 00:25:09,918
+Никакой общественной пользы, по сути.
 
 481
-00:25:21,667 --> 00:25:26,167
-answering probes and DNS spoof
-to redirect to the pineapple.
-And there is a  package you can
+00:25:10,017 --> 00:25:12,135
+Взял WiFi Pineapple.
+Купил его на ShmooCon
 
 482
-00:25:26,167 --> 00:25:32,167
-download that has five or six
-things that it cycles through as
-people connect to it. It is
+00:25:12,178 --> 00:25:15,190
+Купил TV B Gone в радиомагазине
+Adafruit там же.
 
 483
-00:25:34,417 --> 00:25:40,542
-awesome. So he's the TV B Gone.,
-as it comes with my new found
-soldering skills I turned it,
+00:25:15,671 --> 00:25:17,369
+Попону с карманами для собаки
 
 484
-00:25:40,542 --> 00:25:47,750
-what was supposed to be this,
-into this. And the idea being I
-was going puts saddlebags and
+00:25:17,437 --> 00:25:19,096
+Нашивки для собаки-отказаки.
 
 485
-00:25:47,750 --> 00:25:51,833
-the T.V. in the saddlebag and
-connect the wires to the outside
-so the LEDs were on the outside
+00:25:19,215 --> 00:25:21,667
+Pineapple.Ну вы знаете что это за штука.
 
 486
-00:25:51,833 --> 00:25:57,917
-of the saddlebag. Now I need
-patches. Holy crap, how hard is
-it to get somebody to make your
+00:25:21,667 --> 00:25:26,167
+Karma для работы с зондами
+DNS Spoof для перенаправления на Pineapple
 
 487
-00:25:57,917 --> 00:26:04,375
-patches. Except on the Internet,
-500 of them, $5  a  piece. So I
-beat the streets for quite a
+00:25:26,167 --> 00:25:30,027
+Randomroll -еще один пак для Pineapple который можно скачать. 
+Посылает 5-6 разных рик-роллов,  
 
 488
-00:26:04,375 --> 00:26:10,375
-while, and I found a  JoAnnes in
-Sterling,Virginia and they made
-me a  denial of service dog
+00:25:29,609 --> 00:25:35,734
+Очень круто!
 
 489
-00:26:13,042 --> 00:26:20,250
-patch. The Wi‑ Fi thing right
-there. I have a video
-demonstration to proof it works
+00:25:30,178 --> 00:25:32,572
+Каждому подсоединившемуся выдавая новый.
 
 490
-00:26:20,250 --> 00:26:25,458
-there. There is the denial of
-service dog stuff. And the LED
-sticking outside of the
+00:25:35,825 --> 00:25:38,298
+Так выглядит TV B Gone
 
 491
-00:26:25,458 --> 00:26:32,208
-saddlebag. I ran a  wire up the
-leash and have a  button in my
-hand right there. Taped the wire
+00:25:38,297 --> 00:25:40,389
+И применив свои безумные умения по пайке
 
 492
-00:26:32,208 --> 00:26:37,708
-to the leash. You hit the button
-right there, you see the little
-green light, and then they start
+00:25:40,450 --> 00:25:42,687
+Превратил то, что должно было выглядеть вот так.
 
 493
-00:26:37,708 --> 00:26:45,625
-flashing on the fruit and then
-the T.V. will then just turn on.
-And here's the demonstration
+00:25:42,764 --> 00:25:43,753
+Вот в это!
 
 494
-00:26:45,625 --> 00:26:51,625
-video of it working. You've got,
-I'm outside somewhere. You will
-see that the denial of service
+00:25:43,758 --> 00:25:47,372
+Идея заключалась в том, чтобы
+собрать попону,
 
 495
-00:26:53,875 --> 00:26:59,125
-dog has this ssid is up. Another
-thing I did. I'm going to add a 
-Wi‑ Fi hotspot, it is going to
+00:25:47,474 --> 00:25:51,754
+Засунуть TV B Gone в попону.
+И подключить проводк так, чтоб LED'ы были бы снаружи.
 
 496
-00:26:59,125 --> 00:27:05,125
-be called Defcon. And I'm
-filming with one hand and doing
-the other, forgive me, it took
+00:25:51,886 --> 00:25:57,917
+Ок! Нужны нашивки! И чёрт подери!
+Невозможно найти производителя!
 
 497
-00:27:07,958 --> 00:27:15,583
-me a long time. I'm trying to
-connect. That is me over here,
-pop up and connect. And go out
+00:25:57,917 --> 00:26:04,375
+Никто их не делает сегодня. В интернете 500 штук минимум 5$ за штуку!
+Неее!
 
 498
-00:27:15,583 --> 00:27:21,583
-to the Internet, excuse us. >> I
-said welcome to Def Con earlier.
-We have a tradition here  ‑ ‑
+00:26:04,375 --> 00:26:08,880
+Я довольно долго искал и слава богу
+нашёл Irina and freinds в JoAnn's Fabrics в Стерлинге, Верджинии.
 
 499
-00:27:26,000 --> 00:27:31,500
-and if you've never seen this
-tradition, it is a wonderful
-tradition where new speakers get
+00:26:08,880 --> 00:26:11,379
+И они сделали мне нашивку для собаки-отказаки!
 
 500
-00:27:31,500 --> 00:27:35,292
-welcomed to Def Con with an
-appropriate beverage of choice.
-[ Applause ] So  ‑ ‑ since Gene
+00:26:11,472 --> 00:26:13,480
+Значок WiFi мне нравится очень.
 
 501
-00:27:35,292 --> 00:27:41,292
-has never spoken at Def Con
-before, we decided to welcome
-him, even to the extent of
+00:26:17,643 --> 00:26:20,250
+Ну и есть у меня видео-демо! Пруф, что всё работает!
 
 502
-00:27:47,000 --> 00:27:51,792
-interrupting his presentation.
-We would like to welcome him to
-Def Con for the first time
+00:26:20,250 --> 00:26:28,792
+Как вы видете - Собака-Отказака.
+Adafruit прикручен, диод торчит из кармашка!
 
 503
-00:27:51,792 --> 00:27:57,792
-speaker. [ Applause ] >> Good
-morning. >> Thank you. >> Wow.
->> Here is the denial of service
+00:26:28,898 --> 00:26:32,208
+Я пропустил провод по поводку!
+ У меня в руке кнопка
 
 504
-00:28:05,750 --> 00:28:11,750
-dog. Awesome. So the long story 
-‑ ‑ let's see, where I was? Yes.
-I'm playing with this, I wish
+00:26:32,287 --> 00:26:35,306
+лентой для лакросса примотал провод к поводку!
+Идея такая. Нажимаешь кнопку.
 
 505
-00:28:17,875 --> 00:28:25,500
-there was a  way to speed it up.
-Are we going to go through it
-all again? That is good stuff.
+00:26:35,323 --> 00:26:38,058
+Начинает мигать зелёный диод на adafruit.
 
 506
-00:28:25,500 --> 00:28:32,167
-So I added Def Con to the whole
-thing. And camera is going to
-see the probe go out, it is me,
+00:26:38,133 --> 00:26:40,303
+Ииии телевизор теперь просто выключается
 
 507
-00:28:32,167 --> 00:28:38,125
-and pull it back into the Wi‑ Fi
-pineapple. That's how it all
-works and it works brilliantly.
+00:26:40,802 --> 00:26:41,502
+Бам!
 
 508
-00:28:38,125 --> 00:28:44,125
-So it will pop up, bam, I'm Def
-Con. The funny part I tried to
-do this later and there is the
+00:26:45,625 --> 00:26:49,222
+И вот демо видео того как оно работает.
 
 509
-00:28:46,167 --> 00:28:52,375
+00:26:49,360 --> 00:26:56,478
+Karma. Я где-то на улице.
+Как видно - SSID Собака-Отказака доступен.
+Да и это я тоже сделал.
+
+510
+00:26:56,619 --> 00:27:00,210
+Добавим точку WiFi.
+Назовём Defcon
+
+511
+00:27:00,294 --> 00:27:07,567
+Я снимаю это одной рукой а другой печатаю.
+ Простите что долго так.
+
+512
+00:27:07,722 --> 00:27:10,727
+Пытаюсь подконнектиться. И Karma выдает: 
+"О это я тут!"
+
+513
+00:27:10,801 --> 00:27:13,761
+Точка появляется, я подконнечусь.
+
+514
+00:27:14,138 --> 00:27:16,570
+Теперь надо выйти в интернет ии..
+
+515
+00:27:16,833 --> 00:27:19,044
+Извините!Извините!
+Мы вынуждены прервать.
+На минутку.
+
+516
+00:27:19,380 --> 00:27:20,080
+Эмм.
+
+517
+00:27:20,421 --> 00:27:23,619
+Я ранее говорил "Добро пожаловать на DefCon"
+ у нас тут есть традиция.
+
+518
+00:27:26,000 --> 00:27:36,278
+И если вы не знаете, то это замечательная традиция,
+мы посвещаем новых спикеров на DefConc правильно подобранным
+алкогольным напитком, на их выбор.
+
+519
+00:27:41,844 --> 00:27:46,714
+Т.к. Джин тут первый раз выступает, 
+мы решили его поприветсвовать тут. 
+
+520
+00:27:47,000 --> 00:27:49,836
+Даже несмотря на то, что пришлось прервать презентацию.
+
+521
+00:27:49,862 --> 00:27:53,655
+И так! Давайте отметим этот дебют на DefCon!
+
+522
+00:28:00,918 --> 00:28:03,216
+-Доброе утро!
+-Спасибо!
+
+523
+00:28:03,362 --> 00:28:09,651
+
+Так ну вот Собака-Отказака.
+
+524
+00:28:09,781 --> 00:28:10,481
+Отлично!
+
+525
+00:28:11,627 --> 00:28:13,950
+ок! Ээ!
+короче говоя!
+
+526
+00:28:14,021 --> 00:28:14,787
+Так, где я там был.
+
+527
+00:28:15,024 --> 00:28:15,724
+А, да.
+
+528
+00:28:17,025 --> 00:28:17,725
+Играюсь вот.
+
+529
+00:28:17,875 --> 00:28:21,522
+Ох круто было бы ускорить конечно...
+Еще раз придётся посмотреть.
+
+530
+00:28:21,519 --> 00:28:22,219
+Потому что.
+
+531
+00:28:22,227 --> 00:28:23,308
+Ох-фуф! Крутая штука была, мужик!
+
+532
+00:28:25,500 --> 00:28:31,025
+Короче я добавил DefCon
+Karma увидит этот зонд, захватит, скажет
+
+533
+00:28:31,150 --> 00:28:32,415
+Хей, это я!
+
+534
+00:28:32,613 --> 00:28:36,195
+Утянет в WiFi Pineapple
+
+535
+00:28:36,222 --> 00:28:38,353
+И как-то так это всё работает.
+И отлично работает!
+
+536
+00:28:40,213 --> 00:28:40,974
+Скйчас вылезет!
+
+537
+00:28:41,079 --> 00:28:42,370
+Бам!
+Defcon
+
+538
+00:28:43,311 --> 00:28:44,969
+Забавно, что я позже опять пробовал и смотрю, а там
+
+539
+00:28:45,158 --> 00:28:47,486
+Точка доступа DefCon
+
+540
+00:28:47,677 --> 00:28:52,375
 Def Con AP. See, I go up, it is
 like. ¶ [ Music ] ¶ Circus  ‑ ‑
 dot dot Afro. So I'm going to go
 
-510
+541
 00:28:52,375 --> 00:28:58,375
 to CNN and it is come to come
 up, polk‑ a‑ dot polk‑ a‑ dot
 Afro. That's how that things
 
-511
+542
 00:29:08,333 --> 00:29:14,333
 works. Now, we need a volunteer
 dog, to be our denial of service
 dog. If you ever seen a
 
-512
+543
 00:29:17,208 --> 00:29:23,667
 Doberman pinscher service dog.
 Well you have. The denial of
 service dog. He was so happy, he
 
-513
+544
 00:29:23,667 --> 00:29:29,667
 ran the yard. I'm so happy, new
 people, new people. So we dug
 him inside of the house and put
 
-514
+545
 00:29:35,792 --> 00:29:41,792
 the backpack on him, he stood
 like this for 10 minutes. And
 that's good. Because it allowed
 
-515
+546
 00:29:44,208 --> 00:29:50,208
 me to take pictures. There is
 the service dogs in there. And
 that is going on there. The
 
-516
+547
 00:29:52,625 --> 00:29:59,167
 first thing the V dog did when
 he stopped being comatose. What
 we discovered two things. One
 
-517
+548
 00:29:59,167 --> 00:30:06,792
 there is now two ways to deploy
 the TVB Gone, one is the button
 and the other is the dog shakes.
 
-518
+549
 00:30:06,792 --> 00:30:13,000
 The other things I discovered
 and failed to properly secure it
 into the pouch. Every time he
 
-519
+550
 00:30:13,000 --> 00:30:19,375
 did that, it well flying all
 over the place. In the process
 of doing so completely destroyed
 
-520
+551
 00:30:19,375 --> 00:30:24,667
 my TVB Gone to the point even
 with my new soldering abilities
 I was not able to bring it back.
 
-521
+552
 00:30:24,667 --> 00:30:30,667
 So next. So the funny thing is 
 ‑ ‑ if it says service dog on
 your dog's backpack, they will
 
-522
+553
 00:30:34,917 --> 00:30:40,917
 let you in. [ Laughter ] Mine
 very clearly said denial of
 service. But service dog. Yeah.
 
-523
+554
 00:30:43,208 --> 00:30:49,042
 Sure. Here is the part I tell
 you one man's video proof to
 Defcon, is another man's
 
-524
+555
 00:30:49,042 --> 00:30:55,792
 evidence to court. The truth of
 the matter is I, was so focused
 on denial of service dog. I hit
 
-525
+556
 00:30:55,792 --> 00:31:01,000
 the wrong button on go pro. It
 has 2 buttons, I hit the wrong
 one, so I need to go ex KC on
 
-526
+557
 00:31:01,000 --> 00:31:07,000
 you here. I love to play. Do you
 mind if we come in. Sure. Do you
 want something to drink. And
 
-527
+558
 00:31:12,083 --> 00:31:18,083
 then off here. Peanut jelly
 time. Peanut butter jelly time.
 [ Laughter ] I'm taking artistic
 
-528
+559
 00:31:20,500 --> 00:31:26,792
 license here. Still. So the
 third our four  ‑ ‑ or fourth
 time the guy came to our table
 
-529
+560
 00:31:26,792 --> 00:31:32,792
 and said why does it say denial
 of service dog. Props to this
 guy, because he was the only one
 
-530
+561
 00:31:35,125 --> 00:31:41,833
 all day long that asked. We
 didn't answer him, and he went
 away. So you go to the sports
 
-531
+562
 00:31:41,833 --> 00:31:49,125
 bar and hit the bottom. Ball
 play, and it was the world cup
 game, just happens to be the
 
-532
+563
 00:31:49,125 --> 00:31:55,125
 Argentina and you hit the button
 and it goes away. Never going to
 give you up. [ Laughter ] So if
 
-533
+564
 00:32:04,833 --> 00:32:10,833
 you go into a  restaurant that
 has 15 TVs on wall, they are
 controlled by the back. But one
 
-534
+565
 00:32:16,083 --> 00:32:22,083
 or two TVs on the wall. They are
 not. Just saying. So then  ‑ ‑
 yeah. He is happy. Then we go
 
-535
+566
 00:32:25,333 --> 00:32:31,333
 into a  J random box store
 someone. And the V dog is like I
 love you. We're walking around
 
-536
+567
 00:32:33,375 --> 00:32:38,583
 the owner has his leash in one
 hand and his hand on the
 backpack. This is not a service
 
-537
+568
 00:32:38,583 --> 00:32:44,917
 dog. But nobody  ‑ ‑ and the guy
 is like do you mind if we come
 in. Sure. Make sure that he
 
-538
+569
 00:32:44,917 --> 00:32:52,125
 doesn't poop on anything. This
 actually happened. And then we
 go back to the TV section, and,
 
-539
+570
 00:32:52,125 --> 00:32:57,667
 of course, the V dog was like
 squirrel, we hit the button and
 the thing goes up and the
 
-540
+571
 00:32:57,667 --> 00:33:05,125
 television goes away, yeah! We
 did wonderful things. Circus,
 afro circus, Afro. So according
 
-541
+572
 00:33:05,125 --> 00:33:11,125
 to the results several victims
 connected the denial of service
 dog. I cannot definitively proof
 
-542
+573
 00:33:13,917 --> 00:33:19,292
 anyone connected why we are out
 I took artistic license, however
 when giving this presentation to
 
-543
+574
 00:33:19,292 --> 00:33:25,292
 my company, people were hacked
 right and left. It's Gene. Only
 one person asked about the
 
-544
+575
 00:33:32,750 --> 00:33:38,875
 denial of service dog. Most
 people just said nice doggie.
 What have we learned? A  tech
 
-545
+576
 00:33:38,875 --> 00:33:46,000
 hobbyist with no experience can
 create a  war collar in
 relatively short time. You can
 
-546
+577
 00:33:46,000 --> 00:33:50,833
 do this, too. I didn't go a 
 damn thing about this stuff when
 I was started. But I kept at it
 
-547
+578
 00:33:50,833 --> 00:33:56,833
 and in 2014 there are unsecured
 hotspots. And lot of devices
 still probed for stuff. There is
 
-548
+579
 00:34:01,042 --> 00:34:07,042
 no patch for human stupidity and
 cats and dogs really hard to
 work with. I have to give a
 
-549
+580
 00:34:16,917 --> 00:34:22,917
 shout out to all of these
 devices. JK devices they are
 terrible. Don't go there.
 
-550
+581
 00:34:37,042 --> 00:34:43,042
 Reeves, still, Joe, Joey, Nancy,
 Bill, the spark.io guys, the app
 guys, V-dog, Skitzy CoCo,
 
-551
+582
 00:34:57,667 --> 00:35:03,667
 Tenacity, and, of course,
 Defcon, I'm so proud to be here.
