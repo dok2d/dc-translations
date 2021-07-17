@@ -1675,767 +1675,806 @@ If status == WiFi_ON
 
 369
 00:18:42,918 --> 00:18:45,833
-part is getting more monkeys to
-put in the rocket. That is a 
-rocket science joke. That's how
+ООоо!УУУ...бедные обезьянки!?
 
 370
-00:18:48,458 --> 00:18:55,292
-you port libraries. We changed
-our Arduino stuff out with the
-spark stuff, hit compile, listen
+00:18:45,960 --> 00:18:47,303
+Это шутка такая вообще-то.
 
 371
-00:18:55,292 --> 00:18:59,000
-to it scream at you and fix what
-it is screaming about. You keep
-doing that until it doesn't
+00:18:47,379 --> 00:18:50,940
+Короче! Библиотеки портируются примерно так же
 
 372
-00:18:59,000 --> 00:19:03,500
-scream anymore. If you compiling
-is screening at you, and you
-scream back, you succeed at
+00:18:50,975 --> 00:18:54,787
+Заменяем один код другим. Компилируем.
 
 373
-00:19:03,500 --> 00:19:09,500
-scaring your wife. I did that
-for a  couple of hours and BAM,
-it works. I ported libraries. I
+00:18:54,872 --> 00:18:58,147
+Слушаем как оно орёт на тебя.
+И правим причины истошных визгов.
 
 374
-00:19:11,708 --> 00:19:17,708
-was so proud of myself I posted
-them to github. The next problem
-is then power consumption, my
+00:18:58,212 --> 00:19:00,381
+И так один за другим, пока не заткнется.
 
 375
-00:19:21,083 --> 00:19:26,333
-buddy Ricky Hill hooked me up
-with the batteries for model
-airline stuff. 3.7‑ volts,
+00:19:00,473 --> 00:19:03,431
+И если компилятор на вас орёт, то не стоит ему отвечать
+взаимностью.
 
 376
-00:19:26,333 --> 00:19:31,542
-500mAh batteries - enough to get
-a kiddy thing going. So now I'm
-testing for the optimal power
+00:19:03,500 --> 00:19:06,897
+Только жену напугаете!
 
 377
-00:19:31,542 --> 00:19:37,000
-consumption. The first thing you
-think of is I will turn
-everything on, get the stuff,
+00:19:07,126 --> 00:19:08,649
+Несколько часов я это исполнял и...
 
 378
-00:19:37,000 --> 00:19:41,917
-and turn everything off.
-Remember, before I told you it
-can take 2 to 15 minutes to get
+00:19:08,671 --> 00:19:09,713
+Бам! Работает!
 
 379
-00:19:41,917 --> 00:19:46,875
-the GPS lock. If you turn it off
-the GPS, you lose the satellite,
-and you the cat runs into bush
+00:19:09,785 --> 00:19:11,693
+Портировал библиотеки!
 
 380
-00:19:46,875 --> 00:19:53,292
-you burn through without getting
-any data. So the best thing for
-me, you turn the main micro
+00:19:11,708 --> 00:19:17,708
+Так доволен собой был, что на GitHub запостил
 
 381
-00:19:53,292 --> 00:19:58,625
-controller on and keep the GPS
-powered and that worked much,
-much better. Much better,
+00:19:19,245 --> 00:19:20,749
+Следующей задачей было потребление
+батарейки.
 
 382
-00:19:58,625 --> 00:20:03,583
-collections every 30 seconds
-lasted 4 hours, collections
-every 10 minutes lasted 8 hours.
+00:19:20,813 --> 00:19:23,552
+Дружищще Ricky Hill мне подогнал 
+батарейки Eflite
 
 383
-00:20:03,583 --> 00:20:10,750
-So now I have to make a  collar.
-If you thought soldering is fun.
-Desoldering is twice as much fun
+00:19:23,569 --> 00:19:26,278
+Для моделек-самолётов.
+3.7 Вольт
 
 384
+00:19:26,333 --> 00:19:30,046
+500 мА<font color=#555555>·</font>ч! 
+Вполне досточно для моей кошкоштуки.
+
+385
+00:19:30,163 --> 00:19:33,468
+Начал тестировать для оптимизации потребления
+
+386
+00:19:33,661 --> 00:19:35,094
+И первое что приходит в голову
+
+387
+00:19:35,179 --> 00:19:37,937
+Всё включить, получить данные и всё выключить.
+
+388
+00:19:37,985 --> 00:19:40,328
+НО!
+Помните я вам уже говорил, что
+
+389
+00:19:40,383 --> 00:19:42,723
+Для подключения к сети GPS требуется
+от 2 до 15 минут!
+
+390
+00:19:42,733 --> 00:19:45,297
+Выключаешь антенну GPS и теряешь спутники.
+
+391
+00:19:45,308 --> 00:19:49,067
+А если кошка забегает под куст,
+  вся батарейка сливается впустую
+
+392
+00:19:49,146 --> 00:19:55,262
+В итоге - включаем-выключаем микроконтроллер,
+GPS оставляем включенным.
+Ничего лучше не придумал.
+
+393
+00:19:55,280 --> 00:19:57,004
+Но намного лучше чем раньше.
+
+394
+00:19:57,008 --> 00:20:00,231
+Каждые 30 секунд сбор данных.
+Время работы около 4 часов.
+
+395
+00:19:59,268 --> 00:20:07,008
+Теперь надо собирать ошейник.
+
+396
+00:20:00,253 --> 00:20:02,906
+А если каждые 10 минут, то
+8 часов прожила.
+
+397
+00:20:07,256 --> 00:20:10,694
+
+
+398
 00:20:10,750 --> 00:20:16,292
 as soldering. Oh, may God, I
 destroyed so much crap trying to
 desolder things. The Internet
 
-385
+399
 00:20:16,292 --> 00:20:22,125
 was not helpful. YouTube looked
 to easy. I talked to my friend,
 Joey. Head to your lab and they
 
-386
+400
 00:20:22,125 --> 00:20:27,833
 will help out. Shout out to the
 labs in Virginia. Ted, mad
 scientist, and evil genius
 
-387
+401
 00:20:27,833 --> 00:20:34,958
 helped me to do this. Did not
 end up in the final one. And
 Brian my solder tutor. Taught me
 
-388
+402
 00:20:34,958 --> 00:20:42,417
 the right iron and the right
 solder make life a whole hell of
 a lot easier. So now I can to
 
-389
+403
 00:20:42,417 --> 00:20:48,458
 make the collar itself. And hard
 stuff. Man, I don't know how to
 make a  collar. The code thing,
 
-390
+404
 00:20:48,458 --> 00:20:53,167
 I just learned to solder, but
 this is like ribbons. So talking
 to my friend Joe, he said get a
 
-391
+405
 00:20:53,167 --> 00:20:59,167
 couple of ribbons and sew it
 together and put your stuff
 inside of it. So I went down to
 
-392
+406
 00:20:59,167 --> 00:21:05,167
 Michaels and got myself a 
 ribbon, leopard print is just so
 in this year for the cats. Now,
 
-393
+407
 00:21:07,417 --> 00:21:14,333
 I need to sew it together. Who
 knows to sew, it is 2014. We
 don't sew, we buy new stuff. It
 
-394
+408
 00:21:14,333 --> 00:21:20,333
 is a grandmother skill, right?
 So what do you do? You get a 
 grandmother. So my wife's
 
-395
+409
 00:21:22,417 --> 00:21:28,750
 grandmother, her name is Nancy.
 She is very nice to meet you.
 She was very happy to help me
 
-396
+410
 00:21:28,750 --> 00:21:34,625
 and there is a dollar bill
 followed by the battery, the
 actual collar and the components
 
-397
+411
 00:21:34,625 --> 00:21:41,708
 all wrapped up to protect
 things. The spark had flashy
 bits. Now, back to our volunteer
 
-398
+412
 00:21:41,708 --> 00:21:47,708
 cat. This bastard still owes me
 a  cell phone. So we're going to
 send him out with some practice
 
-399
+413
 00:21:50,333 --> 00:21:54,917
 stuff first and see if he comes
 back with it. Then I might let
 him play with the tech. So we
 
-400
+414
 00:21:54,917 --> 00:21:59,292
 put the collar on him to see if
 he tolerated it, he tolerate it,
 and he tolerated marvelously.
 
-401
+415
 00:21:59,292 --> 00:22:05,292
 This is what it looked like
 before and what it looks like
 now. It is all cool, put you can
 
-402
+416
 00:22:08,583 --> 00:22:15,458
 see the bit behind his head.
 That is the name collar it is to
 go on the bottom because the GPS
 
-403
+417
 00:22:15,458 --> 00:22:21,292
 chip is directly opposite. We
 have to put a  weight on it.
 Went down to ranger supply. It
 
-404
+418
 00:22:21,292 --> 00:22:27,042
 is war kit. A  bullet. So the
 cat goes on the collar, and the
 collar goes on the cat. And the
 
-405
+419
 00:22:27,042 --> 00:22:34,250
 cat goes for a  walk and profit.
 And the deployments were,
 nothing. No, no. No. I knew it
 
-406
+420
 00:22:34,250 --> 00:22:38,792
 works. I grabbed my stuff and
 went to my buddy's Reeve's
 house. All of the diagnostics
 
-407
+421
 00:22:38,792 --> 00:22:46,292
 work working fine. We put the
 collar on the cat, and the cat,
 we had a couple beers, the cat
 
-408
+422
 00:22:46,292 --> 00:22:52,292
 went under a  bush and hung out
 there and licked himself for 20
 minutes. He is licking himself.
 
-409
+423
 00:22:54,375 --> 00:23:01,167
 I said, Reeves is that the cat
 under the bush. No, walked up.
 Yes and he grabs the bush and
 
-410
+424
 00:23:01,167 --> 00:23:07,167
 shakes it. The cat was running.
 A  better deployment process was
 let the collar set outside 5 to
 
-411
+425
 00:23:09,208 --> 00:23:15,208
 10 minutes. Bring the cat to the
 collar, put on the cat and let
 the cat go for a  walk about. So
 
-412
+426
 00:23:19,042 --> 00:23:24,833
 does this work? Success,
 bitches. Here is the initial
 results for obvious reasons.
 
-413
+427
 00:23:24,833 --> 00:23:30,542
 Somebody contacted me off of the
 Internet and said I can help you
 out with visualizing this. Check
 
-414
+428
 00:23:30,542 --> 00:23:38,125
 this out. Somebody did this for
 me. It is awesome. I would like
 to point out I have been working
 
-415
+429
 00:23:38,125 --> 00:23:43,833
 on this for a  good number of
 months and the damn cat never
 left the front yard. Yeah.
 
-416
+430
 00:23:43,833 --> 00:23:49,833
 Furthest he went was the car. My
 grandmother was saying I would
 love to know I Coco goes, so we
 
-417
+431
 00:23:57,250 --> 00:24:02,792
 strapped it up to Coco and got
 results. I'd like to printout,
 But we still have WEP and open
 
-418
+432
 00:24:02,792 --> 00:24:08,792
 Wi‑ Fi hotspots in 2014. Oh, my
 God. So but cocoa went a lot
 further as you will see. He
 
-419
+433
 00:24:16,208 --> 00:24:22,208
 wondered all over the
 neighborhood. He's going to take
 a  while. He actually caught a
 
-420
+434
 00:24:28,667 --> 00:24:36,500
 mouse during this deployment
 that was very, very cool. Really
 cool results. The cats tolerated
 
-421
+435
 00:24:36,500 --> 00:24:41,500
 it brilliantly, and it was the
 fruition of a  long bunch of
 work. I cannot tell you how
 
-422
+436
 00:24:41,500 --> 00:24:47,500
 happy I was. So that is the war
 kitty, ladies and gentlemen. [
 Applause ] So now we move onto
 
-423
+437
 00:24:57,083 --> 00:25:03,083
 the Denial of Service Dog
 admittedly is just trolling.
 Nothing socially redeeming about
 
-424
+438
 00:25:09,417 --> 00:25:16,958
 it at all. I have a  pineapple I
 bought at Shmoo, a  TV B Gone at
 Radio Shack, doggie backpack
 
-425
+439
 00:25:16,958 --> 00:25:21,667
 with the service dog patches on
 it. There is the pineapple, you
 know what it is. I had Karma
 
-426
+440
 00:25:21,667 --> 00:25:26,167
 answering probes and DNS spoof
 to redirect to the pineapple.
 And there is a  package you can
 
-427
+441
 00:25:26,167 --> 00:25:32,167
 download that has five or six
 things that it cycles through as
 people connect to it. It is
 
-428
+442
 00:25:34,417 --> 00:25:40,542
 awesome. So he's the TV B Gone.,
 as it comes with my new found
 soldering skills I turned it,
 
-429
+443
 00:25:40,542 --> 00:25:47,750
 what was supposed to be this,
 into this. And the idea being I
 was going puts saddlebags and
 
-430
+444
 00:25:47,750 --> 00:25:51,833
 the T.V. in the saddlebag and
 connect the wires to the outside
 so the LEDs were on the outside
 
-431
+445
 00:25:51,833 --> 00:25:57,917
 of the saddlebag. Now I need
 patches. Holy crap, how hard is
 it to get somebody to make your
 
-432
+446
 00:25:57,917 --> 00:26:04,375
 patches. Except on the Internet,
 500 of them, $5  a  piece. So I
 beat the streets for quite a
 
-433
+447
 00:26:04,375 --> 00:26:10,375
 while, and I found a  JoAnnes in
 Sterling,Virginia and they made
 me a  denial of service dog
 
-434
+448
 00:26:13,042 --> 00:26:20,250
 patch. The Wi‑ Fi thing right
 there. I have a video
 demonstration to proof it works
 
-435
+449
 00:26:20,250 --> 00:26:25,458
 there. There is the denial of
 service dog stuff. And the LED
 sticking outside of the
 
-436
+450
 00:26:25,458 --> 00:26:32,208
 saddlebag. I ran a  wire up the
 leash and have a  button in my
 hand right there. Taped the wire
 
-437
+451
 00:26:32,208 --> 00:26:37,708
 to the leash. You hit the button
 right there, you see the little
 green light, and then they start
 
-438
+452
 00:26:37,708 --> 00:26:45,625
 flashing on the fruit and then
 the T.V. will then just turn on.
 And here's the demonstration
 
-439
+453
 00:26:45,625 --> 00:26:51,625
 video of it working. You've got,
 I'm outside somewhere. You will
 see that the denial of service
 
-440
+454
 00:26:53,875 --> 00:26:59,125
 dog has this ssid is up. Another
 thing I did. I'm going to add a 
 Wi‑ Fi hotspot, it is going to
 
-441
+455
 00:26:59,125 --> 00:27:05,125
 be called Defcon. And I'm
 filming with one hand and doing
 the other, forgive me, it took
 
-442
+456
 00:27:07,958 --> 00:27:15,583
 me a long time. I'm trying to
 connect. That is me over here,
 pop up and connect. And go out
 
-443
+457
 00:27:15,583 --> 00:27:21,583
 to the Internet, excuse us. >> I
 said welcome to Def Con earlier.
 We have a tradition here  ‑ ‑
 
-444
+458
 00:27:26,000 --> 00:27:31,500
 and if you've never seen this
 tradition, it is a wonderful
 tradition where new speakers get
 
-445
+459
 00:27:31,500 --> 00:27:35,292
 welcomed to Def Con with an
 appropriate beverage of choice.
 [ Applause ] So  ‑ ‑ since Gene
 
-446
+460
 00:27:35,292 --> 00:27:41,292
 has never spoken at Def Con
 before, we decided to welcome
 him, even to the extent of
 
-447
+461
 00:27:47,000 --> 00:27:51,792
 interrupting his presentation.
 We would like to welcome him to
 Def Con for the first time
 
-448
+462
 00:27:51,792 --> 00:27:57,792
 speaker. [ Applause ] >> Good
 morning. >> Thank you. >> Wow.
 >> Here is the denial of service
 
-449
+463
 00:28:05,750 --> 00:28:11,750
 dog. Awesome. So the long story 
 ‑ ‑ let's see, where I was? Yes.
 I'm playing with this, I wish
 
-450
+464
 00:28:17,875 --> 00:28:25,500
 there was a  way to speed it up.
 Are we going to go through it
 all again? That is good stuff.
 
-451
+465
 00:28:25,500 --> 00:28:32,167
 So I added Def Con to the whole
 thing. And camera is going to
 see the probe go out, it is me,
 
-452
+466
 00:28:32,167 --> 00:28:38,125
 and pull it back into the Wi‑ Fi
 pineapple. That's how it all
 works and it works brilliantly.
 
-453
+467
 00:28:38,125 --> 00:28:44,125
 So it will pop up, bam, I'm Def
 Con. The funny part I tried to
 do this later and there is the
 
-454
+468
 00:28:46,167 --> 00:28:52,375
 Def Con AP. See, I go up, it is
 like. ¶ [ Music ] ¶ Circus  ‑ ‑
 dot dot Afro. So I'm going to go
 
-455
+469
 00:28:52,375 --> 00:28:58,375
 to CNN and it is come to come
 up, polk‑ a‑ dot polk‑ a‑ dot
 Afro. That's how that things
 
-456
+470
 00:29:08,333 --> 00:29:14,333
 works. Now, we need a volunteer
 dog, to be our denial of service
 dog. If you ever seen a
 
-457
+471
 00:29:17,208 --> 00:29:23,667
 Doberman pinscher service dog.
 Well you have. The denial of
 service dog. He was so happy, he
 
-458
+472
 00:29:23,667 --> 00:29:29,667
 ran the yard. I'm so happy, new
 people, new people. So we dug
 him inside of the house and put
 
-459
+473
 00:29:35,792 --> 00:29:41,792
 the backpack on him, he stood
 like this for 10 minutes. And
 that's good. Because it allowed
 
-460
+474
 00:29:44,208 --> 00:29:50,208
 me to take pictures. There is
 the service dogs in there. And
 that is going on there. The
 
-461
+475
 00:29:52,625 --> 00:29:59,167
 first thing the V dog did when
 he stopped being comatose. What
 we discovered two things. One
 
-462
+476
 00:29:59,167 --> 00:30:06,792
 there is now two ways to deploy
 the TVB Gone, one is the button
 and the other is the dog shakes.
 
-463
+477
 00:30:06,792 --> 00:30:13,000
 The other things I discovered
 and failed to properly secure it
 into the pouch. Every time he
 
-464
+478
 00:30:13,000 --> 00:30:19,375
 did that, it well flying all
 over the place. In the process
 of doing so completely destroyed
 
-465
+479
 00:30:19,375 --> 00:30:24,667
 my TVB Gone to the point even
 with my new soldering abilities
 I was not able to bring it back.
 
-466
+480
 00:30:24,667 --> 00:30:30,667
 So next. So the funny thing is 
 ‑ ‑ if it says service dog on
 your dog's backpack, they will
 
-467
+481
 00:30:34,917 --> 00:30:40,917
 let you in. [ Laughter ] Mine
 very clearly said denial of
 service. But service dog. Yeah.
 
-468
+482
 00:30:43,208 --> 00:30:49,042
 Sure. Here is the part I tell
 you one man's video proof to
 Defcon, is another man's
 
-469
+483
 00:30:49,042 --> 00:30:55,792
 evidence to court. The truth of
 the matter is I, was so focused
 on denial of service dog. I hit
 
-470
+484
 00:30:55,792 --> 00:31:01,000
 the wrong button on go pro. It
 has 2 buttons, I hit the wrong
 one, so I need to go ex KC on
 
-471
+485
 00:31:01,000 --> 00:31:07,000
 you here. I love to play. Do you
 mind if we come in. Sure. Do you
 want something to drink. And
 
-472
+486
 00:31:12,083 --> 00:31:18,083
 then off here. Peanut jelly
 time. Peanut butter jelly time.
 [ Laughter ] I'm taking artistic
 
-473
+487
 00:31:20,500 --> 00:31:26,792
 license here. Still. So the
 third our four  ‑ ‑ or fourth
 time the guy came to our table
 
-474
+488
 00:31:26,792 --> 00:31:32,792
 and said why does it say denial
 of service dog. Props to this
 guy, because he was the only one
 
-475
+489
 00:31:35,125 --> 00:31:41,833
 all day long that asked. We
 didn't answer him, and he went
 away. So you go to the sports
 
-476
+490
 00:31:41,833 --> 00:31:49,125
 bar and hit the bottom. Ball
 play, and it was the world cup
 game, just happens to be the
 
-477
+491
 00:31:49,125 --> 00:31:55,125
 Argentina and you hit the button
 and it goes away. Never going to
 give you up. [ Laughter ] So if
 
-478
+492
 00:32:04,833 --> 00:32:10,833
 you go into a  restaurant that
 has 15 TVs on wall, they are
 controlled by the back. But one
 
-479
+493
 00:32:16,083 --> 00:32:22,083
 or two TVs on the wall. They are
 not. Just saying. So then  ‑ ‑
 yeah. He is happy. Then we go
 
-480
+494
 00:32:25,333 --> 00:32:31,333
 into a  J random box store
 someone. And the V dog is like I
 love you. We're walking around
 
-481
+495
 00:32:33,375 --> 00:32:38,583
 the owner has his leash in one
 hand and his hand on the
 backpack. This is not a service
 
-482
+496
 00:32:38,583 --> 00:32:44,917
 dog. But nobody  ‑ ‑ and the guy
 is like do you mind if we come
 in. Sure. Make sure that he
 
-483
+497
 00:32:44,917 --> 00:32:52,125
 doesn't poop on anything. This
 actually happened. And then we
 go back to the TV section, and,
 
-484
+498
 00:32:52,125 --> 00:32:57,667
 of course, the V dog was like
 squirrel, we hit the button and
 the thing goes up and the
 
-485
+499
 00:32:57,667 --> 00:33:05,125
 television goes away, yeah! We
 did wonderful things. Circus,
 afro circus, Afro. So according
 
-486
+500
 00:33:05,125 --> 00:33:11,125
 to the results several victims
 connected the denial of service
 dog. I cannot definitively proof
 
-487
+501
 00:33:13,917 --> 00:33:19,292
 anyone connected why we are out
 I took artistic license, however
 when giving this presentation to
 
-488
+502
 00:33:19,292 --> 00:33:25,292
 my company, people were hacked
 right and left. It's Gene. Only
 one person asked about the
 
-489
+503
 00:33:32,750 --> 00:33:38,875
 denial of service dog. Most
 people just said nice doggie.
 What have we learned? A  tech
 
-490
+504
 00:33:38,875 --> 00:33:46,000
 hobbyist with no experience can
 create a  war collar in
 relatively short time. You can
 
-491
+505
 00:33:46,000 --> 00:33:50,833
 do this, too. I didn't go a 
 damn thing about this stuff when
 I was started. But I kept at it
 
-492
+506
 00:33:50,833 --> 00:33:56,833
 and in 2014 there are unsecured
 hotspots. And lot of devices
 still probed for stuff. There is
 
-493
+507
 00:34:01,042 --> 00:34:07,042
 no patch for human stupidity and
 cats and dogs really hard to
 work with. I have to give a
 
-494
+508
 00:34:16,917 --> 00:34:22,917
 shout out to all of these
 devices. JK devices they are
 terrible. Don't go there.
 
-495
+509
 00:34:37,042 --> 00:34:43,042
 Reeves, still, Joe, Joey, Nancy,
 Bill, the spark.io guys, the app
 guys, V-dog, Skitzy CoCo,
 
-496
+510
 00:34:57,667 --> 00:35:03,667
 Tenacity, and, of course,
 Defcon, I'm so proud to be here.
